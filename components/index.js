@@ -6,5 +6,5 @@ export {default as BlogLayout} from './BlogLayout'
 
 export { default as PostDetail } from './PostDetail';
 export { default as Author } from './Author';
-
+export { default as Loader } from './Loader';
 export {default as FeaturedPostCard} from './FeaturedPostCard';

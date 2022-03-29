@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { getPosts, getPostDetails } from '../../services'
 import BlogStyle from '../../styles/Blog.module.scss'
 
-import {PostDetail,PostWidget, Author, BlogHeader, Categories} from '../../components'
+import {PostDetail,PostWidget, Author, BlogHeader, Categories, Loader} from '../../components'
 
 
 const PostDetails = ({ post }) => {
