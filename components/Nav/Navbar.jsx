@@ -53,7 +53,7 @@ const  Navbar = () => {
           <div className="flex items-center justify-between h-16">
 
           <Link href="/" class="flex items-center" ><a>
-        <img src="/Photos/Asset16.png" class="mr-3 h-6 sm:h-9" alt="Ariadne Logo" /></a></Link>
+        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
           <Popover.Button className="inline-flex items-center justify-center text-gray-400 
