@@ -13,7 +13,7 @@ const Hero = () => {
                 <Link href ="/company/contact"><a><button className='bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Lets Talk</button></a></Link>
             </div>
             <div className='xl:flex-1 xl:max-w-3xl 2xl:max-w-5xl w-2/3 self-center xl:self-end ' >
-            <video src ="/Videos/Hero2vid.mp4" type="videos/mp4" autoPlay playsinline muted loop  />
+            <video src ="/Videos/Hero2vid.mp4" type="videos/mp4" autoPlay playsInline muted loop  />
             </div>
   </div>
 </div>

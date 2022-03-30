@@ -98,7 +98,7 @@ import Link from 'next/link'
                 </div>
               </div>
               <div className = "flex flex-row justify-center justify-items-center p-4 mb-4">
-            <p className='w-5/6 text-center  text-xl '>Understand what interests your customers, and how much time do they spend to each section in your premises? Take advantage of and cater to your customers' needs.</p>
+            <p className='w-5/6 text-center  text-xl '>Understand what interests your customers, and how much time do they spend to each section in your premises? Take advantage of and cater to your customers needs.</p>
             </div>
             <div className="grid md:grid-cols-3 grid-cols-1 justify-around mb-8  justify-items-center px-2">
                 <div className="w-2/3 ">
