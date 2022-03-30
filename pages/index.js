@@ -18,7 +18,56 @@ export default function Home() {
 
       <main>
         <Hero/>
-<HomeBlogPosts/>
+
+        {/* Main intro */}
+        <div className='min-h-screen'>
+            <h1 className='text-center text-5xl'>Unlock the value of your data and multiply your returns!
+            </h1>
+        </div>
+
+        {/* Video section  */}
+
+        <div className='min-h-screen'>
+            <h1 className='text-center'>See how our customers are succeeding with Ariadne</h1>
+
+        </div>
+
+        {/* Ariadne Platform  */}
+
+        <div className='min-h-screen'>
+            <h1 className='text-center'>The Ariadne Platform</h1>
+
+        </div>
+        {/* Testimonials  */}
+
+        <div className='min-h-screen'>
+            <h1 className='text-center'>Trusted by industry leaders</h1>
+
+        </div>
+        {/* Products section  */}
+        <div className='min-h-screen'>
+            <h1 className='text-center'>Get Started</h1>
+            <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
+
+        </div>
+
+          {/* Spotlight  */}
+
+          <div className='min-h-screen w-full grid place-items-center'>
+          <h1 className='text-center'>Spotlight</h1>
+          <div className=' max-w-6xl justify-center justify-items-center'>
+          {/* <HomeBlogPosts/> */}
+          </div>
+          
+          </div>
+
+          <div className='min-h-screen'>
+          <h1 className='text-center'>Lets Talk</h1>
+          
+          </div>
+
+
+        
         
       </main>
 

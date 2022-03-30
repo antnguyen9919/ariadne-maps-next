@@ -197,8 +197,8 @@ const  Navbar = () => {
                     <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 '>
 
                       {company.map((comp,index)=>(
-                        <Link key = {index} href = {comp.href} className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black ' ><a>
+                        <Link key = {index} href = {comp.href}  ><a className='flex items-start 
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black '>
 <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{comp.title}</p>
                             
