@@ -8,7 +8,7 @@ const TestimonialCard = ({img,quote,person}) => {
     objectFit='contain' />
         </div>
         <div className='row-span-3 self-center'>
-            <p className='text-center text-base'>"{quote}"</p>
+            <p className='text-center text-base'>{quote}</p>
         </div>
         <div className='row-span-1 self-end'>
             <p className='text-center  font-bold'>{person}</p>

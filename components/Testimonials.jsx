@@ -42,7 +42,7 @@ const Testimonials = () => {
                    },
                    {
                     id:3,img:"/Photos/Caros/Grabert.png",
-                    quote:"When they said: \&quot We are the Google Analytics of the physical world\&quot , they were not kidding! Thanks to Ariadne Maps, I have now reliable data and numbers about the visitors on my shopping centre. We can now use this information to make better decisions and optimize the customer experience",
+                    quote:"When they said: -We are the Google Analytics of the physical world-, they were not kidding! Thanks to Ariadne Maps, I have now reliable data and numbers about the visitors on my shopping centre. We can now use this information to make better decisions and optimize the customer experience",
                     person:"Thomas Grabert, Ö-Center Mall, Managing Director"
                        },
         
