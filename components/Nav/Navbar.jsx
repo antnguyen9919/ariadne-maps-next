@@ -227,7 +227,7 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <a href='#' className='text-base font-bold text-white' >Lets talks</a>
+            <Link href='/company/contact'><a className='text-base font-bold text-white' >Lets talks</a></Link>
             
             </div>
 

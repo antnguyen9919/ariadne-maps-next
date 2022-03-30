@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-const Hero = () => {
+const productHero = () => {
   return (
     <div className="xl:h-screen w-full -mt-12" style = {{backgroundColor:'#30303d'}}>
   <div className="flex xl:flex-row xl:min-h-screen flex-col justify-end">
@@ -20,4 +20,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default productHero
