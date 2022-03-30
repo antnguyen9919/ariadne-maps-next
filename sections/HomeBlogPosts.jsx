@@ -21,6 +21,8 @@ const responsive = {
   },
 };
 
+
+
 const HomeBlogPosts = () => {
   const [featuredPosts, setFeaturedPosts] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);

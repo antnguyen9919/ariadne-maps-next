@@ -173,7 +173,7 @@ With Ariadne analytics, you can review your performance in real time.</p>
           
          
           <div className='pt-8'>
-          {/* <HomeBlogPosts/> */}
+          <HomeBlogPosts/>
           </div>
          
           
