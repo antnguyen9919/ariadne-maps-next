@@ -1,4 +1,4 @@
-import React,{useState,useRef} from 'react';
+import React,{useState,useEffect} from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -7,18 +7,15 @@ import TestimonialCard from './TestimonialCard'
 
 
 const responsive = {
-  
   desktop: {
     breakpoint: { max: 4000, min: 768 },
     items: 3,
   },
-  tablet: {
-    breakpoint: { max: 768, min: 640 },
-    items: 2,
-  },
+  
   mobile: {
-    breakpoint: { max: 640, min: 0 },
+    breakpoint: { max: 768, min: 0 },
     items: 1,
+    // partialVisibilityGutter: 30 
   },
 };
 
@@ -48,7 +45,7 @@ const Testimonials = () => {
         
 
 ]
-   
+
   
 
   
@@ -80,9 +77,13 @@ const Testimonials = () => {
       customLeftArrow={customLeftArrow} 
       customRightArrow={customRightArrow} 
       responsive={responsive} 
+      removeArrowOnDeviceType={["tablet", "mobile"]}
+      // partialVisible={true}
+      
+      
       autoPlaySpeed={10000}
       
-      itemClass="px-4"
+      itemClass="px-2"
       >
            {testimonials.map((testi) => (
             <TestimonialCard key={testi.id} img={testi.img} quote = {testi.quote} person={testi.person}   />
@@ -93,7 +94,7 @@ const Testimonials = () => {
       </Carousel>
       
      
-      
+           
      
       </div>
       

@@ -179,8 +179,14 @@ With Ariadne analytics, you can review your performance in real time.</p>
           
           </div>
 
-          <div className='min-h-screen'>
-          <h1 className='text-center'>Lets Talk</h1>
+          <div className='min-h-screen pt-10'>
+          <h1 className=' text-center text-5xl mb-10'>Lets Talk</h1>
+          <p className='text-center'>Schedule a free 30 minute demo call with an expert</p>
+          
+      <div className='min-h-screen' >
+      <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='700px' title = 'calendly'  ></iframe>
+      </div>
+
           
           </div>
 
