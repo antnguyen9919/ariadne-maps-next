@@ -24,7 +24,7 @@ const responsive = {
 const HomeBlogPosts = () => {
   const [featuredPosts, setFeaturedPosts] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
-  const [imageIndex, setImageIndex] = useState(0);
+  
 
   
 
@@ -52,25 +52,17 @@ const HomeBlogPosts = () => {
   );
 
   return (
-    <div className="mb-8">
+    <div className="mb-8 px-8">
+     
       <Carousel infinite 
       customLeftArrow={customLeftArrow} 
       customRightArrow={customRightArrow} 
-      responsive={responsive} 
+      responsive={responsive}
+      autoPlaySpeed={10000}
       itemClass="px-4"
-      
-    
       >
         {dataLoaded && featuredPosts.map((post, index) => (
-            
-          
-         
-          <FeaturedPostCard key={index} post={post} />
-          
-          
-          
-          
-          
+           <FeaturedPostCard key={index} post={post} />
         ))}
       </Carousel>
     </div>

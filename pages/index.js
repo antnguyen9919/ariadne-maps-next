@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Hero } from '../components'
+import Brands from '../components/Brands'
 import HomeBlogPosts from '../sections/HomeBlogPosts'
 import styles from '../styles/Home.module.css'
-
+import CheckIcon from '@mui/icons-material/Check';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import  VideoCarousel  from "../sections/VideoCarousel"
 
 export default function Home() {
   return (
@@ -18,46 +21,72 @@ export default function Home() {
 
       <main>
         <Hero/>
-
+        <Brands/>
         {/* Main intro */}
-        <div className='min-h-screen'>
-            <h1 className='text-center text-5xl'>Unlock the value of your data and multiply your returns!
+        <div className='min-h-screen py-10'>
+            <h1 className='text-center text-4xl'>Unlock the value of your data and multiply your returns!
             </h1>
+          <div className="container py-10 mt-10">
+            <div className="flex lg:flex-row flex-col justify-center justify-items-center gap-10">
+              <div className=' basis-1/2 '>
+                <img src = "/Photos/screens.png" />
+                <h5 className='text-center text-red-500' ><AddCircleOutlineIcon style = {{paddingBottom:'3px'}}/>Enlarge</h5>
+              </div>
+              <div className='xl:basis-1/4 basis-1'>
+                <p>Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors behavior, it consults you on strategies, and provides you with recommendations for the future.</p>
+                <p className= 'mt-4 leading-10'>
+
+      <span style = {{paddingRight: '25px'}}><CheckIcon /></span>Footfall (Total and by area)<br/>
+      <span style = {{paddingRight: '25px'}}><CheckIcon /></span>Dwell Time(Total and by area)<br/>
+      <span style = {{paddingRight: '25px'}}><CheckIcon /></span>Heatmap (2D and 3D)<br/>
+      <span style = {{paddingRight: '25px'}}><CheckIcon /></span>Transitions between areas<br/>
+      <span style = {{paddingRight: '25px'}}><CheckIcon /></span>ERP, BI, POS Integration
+
+      </p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         {/* Video section  */}
 
-        <div className='min-h-screen'>
-            <h1 className='text-center'>See how our customers are succeeding with Ariadne</h1>
+        <div className='min-h-screen '>
+            <h1 className='text-center text-4xl'>See how our customers are succeeding with Ariadne</h1>
+          
 
+          
+          <VideoCarousel/>
+          
+          
         </div>
 
         {/* Ariadne Platform  */}
 
         <div className='min-h-screen'>
-            <h1 className='text-center'>The Ariadne Platform</h1>
+            <h1 className='text-center text-4xl'>The Ariadne Platform</h1>
 
         </div>
         {/* Testimonials  */}
 
         <div className='min-h-screen'>
-            <h1 className='text-center'>Trusted by industry leaders</h1>
+            <h1 className='text-center text-4xl'>Trusted by industry leaders</h1>
 
         </div>
         {/* Products section  */}
         <div className='min-h-screen'>
-            <h1 className='text-center'>Get Started</h1>
+            <h1 className='text-center text-4xl'>Get Started</h1>
             <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in and requires no additional infrastructure.</p>
 
         </div>
 
           {/* Spotlight  */}
 
-          <div className='min-h-screen w-full grid place-items-center'>
-          <h1 className='text-center'>Spotlight</h1>
-          <div className=' max-w-6xl justify-center justify-items-center'>
-          {/* <HomeBlogPosts/> */}
-          </div>
+          <div className='min-h-screen '>
+          <h1 className='text-center text-4xl'>Spotlight</h1>
+          
+          <HomeBlogPosts/>
+         
           
           </div>
 
