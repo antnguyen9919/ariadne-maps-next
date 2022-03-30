@@ -174,7 +174,7 @@ import Link from 'next/link'
                 
               </div>
               <div className = "flex flex-row justify-center justify-items-center p-4 mb-4">
-            <p className='w-5/6 text-center  text-xl '>Study your store's customer flow patterns and concentrate on them to improve your customers Journey and boost your profits.</p>
+            <p className='w-5/6 text-center  text-xl '>Study your stores customer flow patterns and concentrate on them to improve your customers Journey and boost your profits.</p>
             </div>
             <div className="flex md:flex-row flex-col justify-evenly mb-8  justify-items-center px-2">
                 <div className="">
