@@ -15,27 +15,27 @@ import {AiOutlineShopping} from 'react-icons/ai'
 
 
 const solutions=[
-  {title:"Ariadne Analytics",icon:DiGoogleAnalytics, descriptions:"analytics",href:"/analytics"},
-  {title:"Ariadne Mapping",icon:BsMap, descriptions:"mapping",href:"#"},
-  {title:"Ariadne Navigation",icon:BiNavigation, descriptions:"navigation",href:"#"},
-  {title:"Ariadne Engagement",icon:BiNotification, descriptions:"engagement",href:"#"},
+  {title:"Ariadne Analytics",icon:DiGoogleAnalytics, descriptions:"analytics",href:"/solutions/ariadne-analytics"},
+  {title:"Ariadne Mapping",icon:BsMap, descriptions:"mapping",href:"/solutions/ariadne-mapping"},
+  {title:"Ariadne Navigation",icon:BiNavigation, descriptions:"navigation",href:"/solutions/ariadne-navigation"},
+  {title:"Ariadne Engagement",icon:BiNotification, descriptions:"engagement",href:"/solutions/ariadne-engagement"},
   
 ]
 const industries=[
-  {title:"Retail stores",icon:MdStoreMallDirectory, descriptions:"retail",href:"#"},
-  {title:"Shopping centers",icon:AiOutlineShopping, descriptions:"malls",href:"#"},
-  {title:"Airports",icon:MdLocalAirport, descriptions:"airports",href:"#"},
-  {title:"Transportation",icon:MdEmojiTransportation, descriptions:"transports",href:"#"},
-  {title:"Cities",icon:MdLocationCity, descriptions:"cities",href:"#"},
-  {title:"Hospitality",icon:MdRoomService, descriptions:"hospitality",href:"#"},
+  {title:"Retail stores",icon:MdStoreMallDirectory, descriptions:"retail",href:"/industries/retail-stores"},
+  {title:"Shopping centers",icon:AiOutlineShopping, descriptions:"malls",href:"/industries/shopping-centers"},
+  {title:"Airports",icon:MdLocalAirport, descriptions:"airports",href:"/industries/airports"},
+  {title:"Transportation",icon:MdEmojiTransportation, descriptions:"transports",href:"/industries/transportation"},
+  {title:"Cities",icon:MdLocationCity, descriptions:"cities",href:"/industries/cities"},
+  {title:"Hospitality",icon:MdRoomService, descriptions:"hospitality",href:"/industries/hospitality"},
   
 ]
 const company=[
-  {title:"About Us",href:"#"},
+  {title:"About Us",href:"/company/about-us"},
   {title:"Blog",href:"/blog"},
-  {title:"Careers",href:"#"},
-  {title:"Contact",href:"#"},
-  {title:"Privacy",href:"#"}
+  {title:"Careers",href:"/company/careers"},
+  {title:"Contact",href:"/company/contact"},
+  {title:"Privacy",href:"/company/privacy"}
   // {title:"Hospitality",icon:BsInfoSquare, descriptions:"hospitality",href:"#"},
   
 ]
@@ -102,14 +102,15 @@ const  Navbar = () => {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5  ">
                     <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8'>
                       {solutions.map((solution,index)=>(
-                        <a key = {index} href = {solution.href} className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black ' >
-                          <solution.icon className='w-6 h-6 text-slate-500 '/>
-                          <div className='ml-4 '>
-                            <p className='text-md font-semibold'>{solution.title}</p>
-                            <p className='text-base  font-medium'>{solution.descriptions}</p>
-                          </div>
-                        </a>
+                        <Link key = {index} href = {solution.href}><a className='flex items-start 
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black '><solution.icon className='w-6 h-6 text-slate-500 '/>
+                        <div className='ml-4 '>
+                          <p className='text-md font-semibold'>{solution.title}</p>
+                          <p className='text-base  font-medium'>{solution.descriptions}</p>
+                        </div></a>
+
+                          
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -148,14 +149,16 @@ const  Navbar = () => {
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5  ">
                     <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 '>
                       {industries.map((solution,index)=>(
-                        <a key = {index} href = {solution.href} className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black  ' >
-                          <solution.icon className='w-6 h-6 text-slate-500 '/>
+                        <Link key = {index} href = {solution.href}  ><a className='flex items-start 
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black  '>
+<solution.icon className='w-6 h-6 text-slate-500 '/>
                           <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{solution.title}</p>
                             <p className='text-base  font-medium'>{solution.descriptions}</p>
                           </div>
                         </a>
+                          
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -168,7 +171,7 @@ const  Navbar = () => {
                )}
               </Popover>
 
-              <a href='#' className='text-base font-bold text-white hover:underline' >Why Ariadne</a>
+              <Link href='/why-ariadne'><a className='text-base font-bold text-white hover:underline'>Why Ariadne</a></Link>
 
               <Popover>
                {({open,close})=>(
@@ -197,7 +200,7 @@ const  Navbar = () => {
                     <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 '>
 
                       {company.map((comp,index)=>(
-                        <Link key = {index} href = {comp.href}  ><a className='flex items-start 
+                        <Link key = {index} href = {comp.href}><a className='flex items-start 
                         p-2 -m-3 rounded-lg text-gray-500 hover:text-black '>
 <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{comp.title}</p>
