@@ -1,5 +1,5 @@
 import React from 'react'
-import {BlogHeader} from './BlogHeader'
+import BlogHeader from './BlogHeader'
 const BlogLayout = ({children}) => {
   return (
     <>
