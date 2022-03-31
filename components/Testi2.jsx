@@ -93,7 +93,7 @@ const NextArrow = ({ onClick }) => {
   ))} */}
   {testimonials.map((testi,idx) => (
             // <TestimonialCard key={testi.id} img={testi.img} quote = {testi.quote} person={testi.person}   />
-            <div >
+            <div key={testi.id} >
             {idx===imageIndex?
                 <div className = {styles.slideContainer}>
                     <div key={testi.id} className={styles.activeSlide}  >
