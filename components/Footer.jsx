@@ -11,7 +11,7 @@ function Footer() {
 //   const { t, i18n } = useTranslation();
   return (
     
-    <div className="container">
+    <div className="container bg-red-500">
 
 <footer className={styles.footer}>
         <a

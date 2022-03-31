@@ -8,6 +8,7 @@ import {PostDetail,PostWidget, Author, BlogHeader, Categories, Loader} from '../
 
 const PostDetails = ({ post }) => {
   const router = useRouter();
+  
   if (router.isFallback) {
     return <Loader />;
   }
@@ -27,6 +28,7 @@ const PostDetails = ({ post }) => {
           <div className="col-span-1 lg:col-span-4">
             <div className="relative lg:sticky top-8">
               <PostWidget slug={post.slug} categories={post.categories.map((category) => category.slug)} />
+            
               <Categories />
             </div>
           </div>

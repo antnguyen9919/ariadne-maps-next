@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
+import {postStatic} from './postStatic.js'
 import { FeaturedPostCard } from '../components'
-import { getFeaturedPosts } from '../services';
+
+
+
+
+
+
+
 
 const responsive = {
   
@@ -22,20 +28,14 @@ const responsive = {
 };
 
 
-
 const HomeBlogPosts = () => {
-  const [featuredPosts, setFeaturedPosts] = useState([]);
-  const [dataLoaded, setDataLoaded] = useState(false);
+  
+  
+  const featuredPosts = postStatic.data.posts
+  
   
 
   
-
-  useEffect(() => {
-    getFeaturedPosts().then((result) => {
-      setFeaturedPosts(result);
-      setDataLoaded(true);
-    });
-  }, []);
 
   const customLeftArrow = (
     <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
@@ -55,15 +55,15 @@ const HomeBlogPosts = () => {
 
   return (
     <div className="mb-8 px-8">
-     
+     {console.log(featuredPosts)}
       <Carousel infinite 
-      customLeftArrow={customLeftArrow} 
-      customRightArrow={customRightArrow} 
+      // customLeftArrow={customLeftArrow} 
+      // customRightArrow={customRightArrow} 
       responsive={responsive}
       autoPlaySpeed={10000}
       itemClass="px-4"
       >
-        {dataLoaded && featuredPosts.map((post, index) => (
+        {featuredPosts.map((post, index) => (
            <FeaturedPostCard key={index} post={post} />
         ))}
       </Carousel>
