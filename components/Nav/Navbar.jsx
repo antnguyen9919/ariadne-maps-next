@@ -52,8 +52,8 @@ const  Navbar = () => {
       
           <div className="flex items-center justify-between h-16">
 
-          <Link href="/" class="flex items-center" ><a>
-        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9" alt="Ariadne Logo" /></a></Link>
+          <Link href="/" ><a class="flex items-center">
+        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9 hover:scale-105" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
           <Popover.Button className="inline-flex items-center justify-center text-gray-400 
@@ -151,7 +151,7 @@ const  Navbar = () => {
                       {industries.map((solution,index)=>(
                         <Link key = {index} href = {solution.href}  ><a className='flex items-start 
                         p-2 -m-3 rounded-lg text-gray-500 hover:text-black  '>
-<solution.icon className='w-6 h-6 text-slate-500 '/>
+<solution.icon className='w-6 h-6 text-slate-500'/>
                           <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{solution.title}</p>
                             <p className='text-base  font-medium'>{solution.descriptions}</p>
@@ -243,8 +243,8 @@ const  Navbar = () => {
                       {solutions.map((solution,index)=>(
                         <a key = {index} href = {solution.href} className='flex items-start 
                         p-2 -m-3 rounded-lg text-white' >
-                         
-                          <div className='ml-1 '>
+                         <solution.icon className='w-6 h-6 text-slate-500 '/>
+                          <div className='ml-3 '>
                             <p className='text-sm font-normal'>{solution.title}</p>
                             
                           </div>
@@ -257,9 +257,9 @@ const  Navbar = () => {
 
                       {industries.map((solution,index)=>(
                         <a key = {index} href = {solution.href} className='flex items-start 
-                        p-2 -m-3 rounded-lg text-white  ' >
-                         
-                          <div className='ml-1 '>
+                        p-2 -m-3 rounded-lg text-white active:text-amber-200' >
+                          <solution.icon className='w-6 h-6 text-slate-500 '/>
+                          <div className='ml-3 '>
                             <p className='text-sm  font-normal'>{solution.title}</p>
                           
                           </div>

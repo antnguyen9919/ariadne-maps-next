@@ -28,7 +28,7 @@ function Footer() {
     </div>
 
     <div className={styles.footerLinkItems}>
-      <h3>Solutions</h3>
+      <h3 className='text-2xl'>Solutions</h3>
       <Link href='/solutions/ariadne-mapping'>Ariadne Mapping</Link>
       <Link href='/solutions/ariadne-navigation'>Ariadne Navigation</Link>
       <Link href='/solutions/ariadne-analytics'>Ariadne Analytics</Link>
@@ -40,7 +40,7 @@ function Footer() {
   <div className={styles.footerLinkWrapper}>
     
   <div className={styles.footerLinkItems}>
-      <h3>Company</h3>
+      <h3 className='text-2xl' >Company</h3>
       <Link href='/company/about-us'>About Us</Link>
       <Link href='/why-ariadne'>Why Ariadne</Link>
       
@@ -52,8 +52,7 @@ function Footer() {
       <div>
     
     
-      {/* <button id='hero-xxl-button' type="button" className="mb-2"
-						><p className='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Lets Talk</p></button> */}
+      <h3 className='text-2xl'>Solutions</h3>
 
       </div>
       <div className={styles.para}>
@@ -72,10 +71,10 @@ contact@ariadnemaps.com
       </div>
       
 <div style={{fontSize:'20px'}}>
-<a style={{marginRight:'15px'}} href='https://www.facebook.com/ariadnemaps/'><i className='fab fa-facebook-f' /></a>
-      <a className= 'mx-3' href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'><i className='fab fa-youtube' /></a>
-      <a className= 'mx-3' href='https://twitter.com/ariadne_maps'><i className='fab fa-twitter' /></a>
-      <a className= 'mx-3' href='https://www.linkedin.com/company/ariadne-maps'><i className='fab fa-linkedin' /></a>
+<a style={{marginRight:'15px'}} href='https://www.facebook.com/ariadnemaps/'><i className='fab fa-facebook-f hover:scale-125'/></a>
+      <a className= 'mx-3' href='https://www.youtube.com/channel/UCetG3dxFlJrFno0ChaJ5VXQ'><i className='fab fa-youtube hover:scale-125' /></a>
+      <a className= 'mx-3' href='https://twitter.com/ariadne_maps'><i className='fab fa-twitter hover:scale-125' /></a>
+      <a className= 'mx-3' href='https://www.linkedin.com/company/ariadne-maps'><i className='fab fa-linkedin hover:scale-125' /></a>
 </div>
             </div>
 
