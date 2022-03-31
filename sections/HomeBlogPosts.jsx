@@ -55,7 +55,7 @@ const HomeBlogPosts = () => {
 
   return (
     <div className="mb-8 px-8">
-     {console.log(featuredPosts)}
+    
       <Carousel infinite 
       // customLeftArrow={customLeftArrow} 
       // customRightArrow={customRightArrow} 

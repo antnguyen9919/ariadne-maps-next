@@ -5,11 +5,11 @@ export const postStatic = {
           "author": {
             "name": "Georgios Pipelidis",
             "photo": {
-              "url": "https://media.graphcms.com/X6UWwy4SQpiOoQjSNcPe"
+              "url": "/Photos/homeblog/Georgios.jpg"
             }
           },
           "featuredImage": {
-            "url": "https://media.graphcms.com/x9j3juekTa2XgZYOzy3V"
+            "url": "/Photos/homeblog/challenge.jpg"
           },
           "title": "Challenges of Indoor  Location-Based Services",
           "slug": "indoor",
@@ -19,11 +19,11 @@ export const postStatic = {
           "author": {
             "name": "Georgios Pipelidis",
             "photo": {
-              "url": "https://media.graphcms.com/X6UWwy4SQpiOoQjSNcPe"
+              "url": "/Photos/homeblog/Georgios.jpg"
             }
           },
           "featuredImage": {
-            "url": "https://media.graphcms.com/CRYSUBReQJGqZ8ws0ir1"
+            "url": "/Photos/homeblog/map.jpg"
           },
           "title": "Necessity of Indoor Mapping & Localization",
           "slug": "necessity-of-indoor-mapping-and-localization",
@@ -33,11 +33,11 @@ export const postStatic = {
           "author": {
             "name": "Hasim Koc",
             "photo": {
-              "url": "https://media.graphcms.com/DN9UfHRnSOuNCKFcEfhG"
+              "url": "/Photos/homeblog/Hasim.jpg"
             }
           },
           "featuredImage": {
-            "url": "https://media.graphcms.com/XnlkoVbvR4COyRtMJw6j"
+            "url": "/Photos/homeblog/brick.jpg"
           },
           "title": "Can brick-and-mortar become e-commerce?",
           "slug": "can-brick-and-mortar-become-e-commerce",
@@ -47,11 +47,11 @@ export const postStatic = {
           "author": {
             "name": "Georgios Pipelidis",
             "photo": {
-              "url": "https://media.graphcms.com/X6UWwy4SQpiOoQjSNcPe"
+              "url": "/Photos/homeblog/Georgios.jpg"
             }
           },
           "featuredImage": {
-            "url": "https://media.graphcms.com/XUjCnxTbTnybgCrNdHBe"
+            "url": "/Photos/homeblog/indoor.jpg"
           },
           "title": "Indoor Location-Based Systems",
           "slug": "examples-and-use-cases-of-indoor-location-based-systems",
@@ -61,11 +61,11 @@ export const postStatic = {
           "author": {
             "name": "Hasim Koc",
             "photo": {
-              "url": "https://media.graphcms.com/DN9UfHRnSOuNCKFcEfhG"
+              "url": "/Photos/homeblog/Hasim.jpg"
             }
           },
           "featuredImage": {
-            "url": "https://media.graphcms.com/RzovogsATFqkvsdWFk62"
+            "url": "/Photos/homeblog/airport.jpg"
           },
           "title": "Location Data for Regional Airports",
           "slug": "location-data-for-regional-airports",
