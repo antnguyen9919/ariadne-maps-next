@@ -3,7 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import ReactPlayer from 'react-player'
-
+import styles from '../styles/VideoCarousel.module.css'
 
 
 const responsive = {
@@ -48,41 +48,22 @@ const VideoCarousel = () => {
 
     }
   
-
-  
-
-
-  const customLeftArrow = (
-    <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-      </svg>
-    </div>
-  );
-
-  const customRightArrow = (
-    <div className="absolute arrow-btn right-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white w-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-      </svg>
-    </div>
-  );
-
   return (
-    <div className="mb-8 xl:px-8 px">
-        
-                
+    <div>
+               
       <div className='py-8'>
         {videoOpen?<div className='flex flex-col justify-center justify-items-center'>
-        <button onClick={()=>setVideoOpen(false)}>Close</button>
-           <div className="">
-           <ReactPlayer url={current} playing={videoOpen} controls  width='100%' height='85vh' />
+          <div className='flex flex-row justify-end'>
+          <button className='rounded-full mb-3 bg-red-500 px-3 text-white font-semibold' onClick={()=>setVideoOpen(false)}>Close</button>
+          </div>
+       
+           <div className={styles.reactPlayer}>
+           <ReactPlayer  url={current} playing={videoOpen} controls  width='100%' height="100%" />
            </div>
             
 
         </div> :<Carousel infinite 
-      customLeftArrow={customLeftArrow} 
-      customRightArrow={customRightArrow} 
+     
       responsive={responsive} 
       autoPlaySpeed={10000}
       beforeChange={(nextSlide, { currentSlide, onMove }) => {
@@ -91,14 +72,14 @@ const VideoCarousel = () => {
       itemClass="px-4"
       >
            {images.map((image) => (
-            <>
+            <div key = {image.id}>
             <div className='cursor-pointer' onClick={()=>handleClick(image)}>
             <img    src = {image.url} key={image.id} width = "100%"/>
             </div>
 
             
             
-            </>
+            </div>
          
           
         ))}

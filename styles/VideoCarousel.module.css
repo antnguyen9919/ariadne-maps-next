@@ -1,0 +1,12 @@
+.reactPlayer{
+    height: 100vh;
+    border-radius: 6px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 768px){
+    .reactPlayer{
+        height: 40vh
+    }
+}

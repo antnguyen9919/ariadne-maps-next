@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 // import Asset16 from '../../Resources/Photos/Asset16.png';
-import { Link } from 'next/link';
+import Link from 'next/link';
 // import { useTranslation } from 'react-i18next';
 
 
@@ -11,63 +11,52 @@ function Footer() {
 //   const { t, i18n } = useTranslation();
   return (
     
-    <div className="container bg-red-500">
+    
 
 <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-{/* <div className='footer-container'>
+<div className={styles.footerContainer}>
 
 
     
       
  
-<div className='footer-links'>
+<div className={styles.footerLinks}>
       
-  <div className='footer-link-wrapper'>
-    <div className='footer-link-items'>
-    <Link className=' my-2'  href='/' ><a><img src="/Photos/Asset16.png" alt="Ariadne Logo" width="140x"/></a></Link>
+  <div className={styles.footerLinkWrapper}>
+    <div className={styles.footerLinkItems}>
+    <Link  href='/' ><a ><img src="/Photos/Asset16.png" alt="Ariadne Logo" width="140x"/></a></Link>
     </div>
 
-    <div className='footer-link-items'>
+    <div className={styles.footerLinkItems}>
       <h3>Solutions</h3>
-      <Link href='/ariadne-mapping'>Ariadne Mapping</Link>
-      <Link href='/ariadne-navigation'>Ariadne Navigation</Link>
-      <Link href='/ariadne-analytics'>Ariadne Analytics</Link>
-      <Link href='/ariadne-engagement'>Ariadne Engagement</Link>
+      <Link href='/solutions/ariadne-mapping'>Ariadne Mapping</Link>
+      <Link href='/solutions/ariadne-navigation'>Ariadne Navigation</Link>
+      <Link href='/solutions/ariadne-analytics'>Ariadne Analytics</Link>
+      <Link href='/solutions/ariadne-engagement'>Ariadne Engagement</Link>
       
     </div>
   </div>
 
-  <div className='footer-link-wrapper'>
+  <div className={styles.footerLinkWrapper}>
     
-  <div className='footer-link-items'>
+  <div className={styles.footerLinkItems}>
       <h3>Company</h3>
-      <Link href='/about-us'>About Us</Link>
+      <Link href='/company/about-us'>About Us</Link>
       <Link href='/why-ariadne'>Why Ariadne</Link>
       
       <Link href='/blog'>Blog</Link>
-      <Link href='/careers'>Careers</Link>
+      <Link href='/company/careers'>Careers</Link>
     </div>
 
-    <div className='footer-link-items'>
+    <div className={styles.footerLinkItems}>
       <div>
     
     
-      <button id='hero-xxl-button' type="button" className="mb-2"
-						><p className='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Lets Talk</p></button>
+      {/* <button id='hero-xxl-button' type="button" className="mb-2"
+						><p className='my-1 mx-3 text-light fs-5 fw-bold    lh-md' style ={{fontFamily:'Poppins'}}>Lets Talk</p></button> */}
 
       </div>
-      <div className="para">
+      <div className={styles.para}>
 
       <p>Ariadne Maps GmbH
 
@@ -94,31 +83,34 @@ contact@ariadnemaps.com
   </div>
 </div>
 
-<hr className = 'divider'/>
+<hr className = {styles.divider}/>
 
-<section className='social-media'>
-  <div className='social-media-wrap'>
+<section className={styles.socialMedia}>
+  <div className={styles.socialMediaWrap}>
    <div>
-    <small className='website-rights'>© 2019 - 2022 Ariadne Maps GmbH. All rights reserved.</small>
+    <small className={styles.websiteRights}>© 2019 - 2022 Ariadne Maps GmbH. All rights reserved.</small>
 
    </div>
     
-    <div className='social-icons'>
+    <div className={styles.socialIcons}>
       <Link
-        className='social-icon-link facebook'
-        href='/privacy'
+        
+        href='/company/privacy'
        
       >
-        Privacy Policy
+        <a className={styles.socialiconLink}>Privacy Policy</a>
       </Link>
-      <Link className='social-icon-link instagram'
-        href='/'>Impressum</Link>
+      <Link 
+        href='/'><a className={styles.socialiconLink}>Impressum</a></Link>
      
     </div>
   </div>
 </section>
-</div> */}
-    </div>
+</div>
+
+      </footer>
+
+    
   );
 }
 

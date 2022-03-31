@@ -8,8 +8,7 @@ export { default as PostDetail } from './PostDetail';
 export { default as Author } from './Author';
 export { default as Loader } from './Loader';
 export {default as FeaturedPostCard} from './FeaturedPostCard';
+export {default as Testi2} from './Testi2';
 
 
 
-export {default as Hero} from './Hero' 
-export {default as productHero} from './productsHero/productHero' 
