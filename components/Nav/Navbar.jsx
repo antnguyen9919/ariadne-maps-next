@@ -52,7 +52,7 @@ const  Navbar = () => {
       
           <div className="flex items-center justify-between h-16">
 
-          <Link href="/" ><a class="flex items-center">
+          <Link href="/" ><a className="flex items-center">
         <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9 hover:scale-105" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
