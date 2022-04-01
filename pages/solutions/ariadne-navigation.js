@@ -118,7 +118,12 @@ We enable and lead you to hyperlocal marketing.
             
             </div>
 
-            <div className='h-80 py-8 bg-black text-white content-center justify-evenly flex flex-col items-center'>
+            
+
+
+          
+      </main>
+      <div className='h-80 py-8 bg-black text-white content-center justify-evenly flex flex-col items-center'>
                <div>
                <h1>Why Ariadne?</h1>
                </div>
@@ -131,9 +136,6 @@ Needed</h5></div>
                 </div>
             </div>
 
-
-          
-      </main>
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
         <h1 className='text-center text-white'>Work together?</h1>

@@ -76,18 +76,18 @@ Analytics</motion.h1>
           </p>
           <div className={styles.trioContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Total.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Floor2.png" alt="st"  />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor2.png" alt="st"  />
             </div>
           </div>
 
          
-         <img className='w-full mt-2' src = "/Photos/Pages/Analytics/Daily.png"/>
+         <img className = " transition ease-in-out w-full mt-2 "  src = "/Photos/Pages/Analytics/Daily.png"/>
          
 
 
@@ -97,13 +97,13 @@ Analytics</motion.h1>
           <p>Recognize the most visited areas of your establishment and tailor your services there to improve your customer&rsquo;s experience. </p>
           <div className={styles.trioContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h1a.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h1a.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h2.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h2.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img   src="/Photos/Pages/Analytics/BasicAnalytics/h3.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  "   src="/Photos/Pages/Analytics/BasicAnalytics/h3.png" alt="st" />
             </div>
           </div>
            
@@ -111,26 +111,26 @@ Analytics</motion.h1>
           <p>Understand what interests your customers, and how much time do they spend to each section in your premises? Take advantage of and cater to your customers&rsquo; needs.</p>
           <div className={styles.trioContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h4.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h4.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h5.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h5.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h6.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h6.png" alt="st" />
             </div>
           </div>
           <p>Employ our queue management system to get notified when client wait times near the cashier counter are getting longer and reduce the dwell time. </p>
 
           <div className={styles.trioContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h7.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h7.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h8.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h8.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/BasicAnalytics/h9.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/BasicAnalytics/h9.png" alt="st" />
             </div>
           </div>
       </div>
@@ -139,10 +139,10 @@ Analytics</motion.h1>
         <p>Cool graphics and intuitive heat maps for your entire store that you may use to better manage your space.       </p>
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Total.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
             </div>
             
           </div>
@@ -150,10 +150,10 @@ Analytics</motion.h1>
 
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Total.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
             </div>
             
           </div>
@@ -161,10 +161,10 @@ Analytics</motion.h1>
 
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Total.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
             </div>
             
           </div>

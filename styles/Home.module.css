@@ -1,5 +1,6 @@
 
 .hero{
+    
     background-color: #30303d;
     height: 530px;
     color:#fff;
@@ -32,7 +33,7 @@
 }
 .heroScreen{
     width:80vw;
-   
+    
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
