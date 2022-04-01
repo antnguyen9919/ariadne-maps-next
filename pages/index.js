@@ -266,9 +266,9 @@ export default function Home() {
 
           <div className={styles.gifbox} >
             <div className = {styles.giftext}>
-              <h3>Ariadne Analytics</h3>
-              <p>Obtain people counting, heatmaps, loyalty rate and more!</p>
-              <p>With Ariadne analytics, you can review your performance in real time.</p>
+              <h3>Ariadne Navigation</h3>
+              <p>Navigate your visitors and guests for an enhanced experience!</p>
+              <p>Present promotions in your map to engage and enhance your visitors satisfaction.</p>
             </div>
             <div className = {styles.gif}>
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
@@ -277,9 +277,9 @@ export default function Home() {
 
           <div className={styles.gifbox} >
             <div className = {styles.giftext}>
-              <h3>Ariadne Analytics</h3>
-              <p>Obtain people counting, heatmaps, loyalty rate and more!</p>
-              <p>With Ariadne analytics, you can review your performance in real time.</p>
+              <h3>Ariadne Engagement</h3>
+              <p>Ariadne enables your visitors to opt-in to your loyalty program!</p>
+              <p>The opt-in feature enables you to push notifications to your visitors the right moment.</p>
             </div>
             <div className = {styles.gif}>
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
@@ -288,9 +288,9 @@ export default function Home() {
 
           <div className={styles.gifbox} >
             <div className = {styles.giftext}>
-              <h3>Ariadne Analytics</h3>
-              <p>Obtain people counting, heatmaps, loyalty rate and more!</p>
-              <p>With Ariadne analytics, you can review your performance in real time.</p>
+              <h3>Ariadne Mapping</h3>
+              <p>Transform your physical business into a digital landscape!</p>
+              <p>Ariadne boosts your efficiency by enabling you to map and localize your products.</p>
             </div>
             <div className = {styles.gif}>
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
