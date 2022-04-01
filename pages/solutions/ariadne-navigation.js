@@ -111,7 +111,7 @@ We enable and lead you to hyperlocal marketing.
               </h4>
             <p>
  
- Ariadne Navigation allows you to provide seamless customer experience right from visitors&lsquo; entry in your premises. We give the opportunity to learn about your customers' navigation patterns, which you can utilize to optimise your business strategies.
+ Ariadne Navigation allows you to provide seamless customer experience right from visitors&lsquo; entry in your premises. We give the opportunity to learn about your customers&lsquo; navigation patterns, which you can utilize to optimise your business strategies.
  
             </p>
             </div>
