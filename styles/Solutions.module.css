@@ -85,7 +85,118 @@
     border-radius: 10px;
     border: 1px solid rgb(231, 231, 231);
 }
+.sectionA2 h1,.sectionA1 h1,.sectionA3 h1{
+    
+    margin-bottom: 30px;
+}
+.sectionA2 p,.sectionA1 p,.sectionA3 p{
+    
+    margin-top: 60px;
+}
 
+.sectionA1,.sectionA2, .sectionA3{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.trioContainer{
+    padding: 20px 0;
+    /* margin-bottom: 70px; */
+    display: flex;
+    justify-content:space-between;
+}
+.duoContainer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.duoContainer .singleSnap> img{
+
+    width: 30vw;;
+    
+    
+}
+.blackCTA{
+    background-color:black;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerCTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionE1{
+    display: flex;
+    align-items:center;
+    height: 100vh;
+
+}
+.sectionE1 img{
+    width:90%;
+}
+.sectionE2{
+    display: flex;
+    height:80vh;
+    align-items: center;
+    justify-self: space-between;
+
+}
+.E2content{
+    flex:4;
+}
+.E2img{
+    flex:5;
+}
+
+
+.gifbox img,.sectionA1 img,.sectionA2 img,.sectionA3 img  {
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
+-moz-box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
+box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
+}
+
+.sectionN1{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-self: center;
+    width:100%;
+}
+.N1content{
+    width: 50%;
+    height:70%;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    /* align-items: center;
+    align-content: center; */
+}
+.N1img{
+    width: 50%;
+}
+.sectionN2{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-between;
+    width:100%;
+}
+.N2content{
+    width: 50%;
+    
+    padding-left: 70px;
+    
+}
+.N2img{
+    width:40%;
+}
 
 @media only screen and (min-width:1400px){
 
@@ -257,6 +368,231 @@
     .heroEScreen img{
         
         width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    .duoContainer .singleSnap> img{
+       
+        width: 100%;
+        
+        
+    }
+
+    .sectionN2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+        justify-content: center;
+        width:100%;
+    }
+    .N2content{
+        width: 100%;
+        
+        padding-left: 0px;
+        
+    }
+    .N2img{
+        width:100%;
+    }
+
+
+    .sectionN1{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        
+        width:100%;
+    }
+    .N1content{
+        width: 100%;
+        height:70%;
+        padding-right: 0px;
+        display: flex;
+        flex-direction: column;
+        
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .N1img{
+        width: 100%;
+    }
+
+    .trioContainer{
+        height: 100vh;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .duoContainer{
+        height: 100vh;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    .main{
+        padding-left:8px;
+        padding-right:8px;
+
+    }
+
+    .hero{
+        background-color: #30303d;
+        height: 100vh;
+        color:#fff;
+      
+    }
+    .heroContainer{
+        height: 100vh;
+        bottom:0;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-end;
+        
+        
+        
+        
+    }
+    .heroTextContainer{
+        
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        width:100%;
+        height: 50vh;
+    }
+    
+    .heroText{
+       
+        
+        width:81%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: 50vh;
+        
+        flex-wrap: wrap;
+        padding-top: 0;
+
+    }
+    .heroScreen{
+        width:100%;
+        margin-right: 0;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: flex-end;
+        height: 50vh;
+        object-fit: contain;
+        
+    }
+
+    /* 
+    width:80vw;
+        
+        
+        display: flex;
+        
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: center;
+        align-items: center;
+        height: 50vh;
+    */
+
+
+
+    .heroScreen img{
+        
+        width: 100%;
+    }
+    .gifbox{
+        padding: 40px 20px;
+        margin-bottom: 10px;
+        min-height:20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .giftext{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .gif{
+        width: 100%;
+    }
+
+    .heroEScreen{
+        width:80vw;
+        
+        
+        display: flex;
+        
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: center;
+        align-items: center;
+        height: 50vh;
+        
+    }
+    .heroEScreen img{
+        
+        width: 100%;
+    }
+
+
+
+    .sectionE1{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;  
+        height: 100vh;
+        margin: 30px 0;
+    
+    }
+    .sectionE1 img{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .sectionE2{
+        display: flex;
+        flex-direction: column;
+        height:80vh;
+        align-items: center;
+        /* justify-self: space-between; */
+    
+    }
+    .E2content{
+        width: 100%;
+    }
+    .E2img{
+        margin-top: 30px;
     }
     
 }

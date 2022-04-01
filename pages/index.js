@@ -141,7 +141,7 @@ export default function Home() {
             <div className={styles.heroText}>
             <motion.h1 initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3}} >People Flow To Actionable Insights</motion.h1>
               <motion.p initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.2, type: 'easeInOut'}}>Turn your existing customer traffic into an additional source of revenue</motion.p>
-              <Link href ="/company/contact"><a><button className='animate-pulse bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Lets Talk</button></a></Link>
+              <Link href ="/company/contact"><a><button className='animate-pulse bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
             </div>
             </div>
 
@@ -260,7 +260,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -271,7 +271,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -282,7 +282,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -293,7 +293,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
           

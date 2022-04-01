@@ -131,7 +131,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>industriesRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='hover:border text-white font-bold  hover:text-red-600 transition ease-in'>Industries</span>
+                   <span className='text-white font-bold  hover:text-red-600 transition ease-in'>Industries</span>
 
                  </Popover.Button>
                  <Transition

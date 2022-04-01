@@ -66,10 +66,80 @@ Navigation</motion.h1>
               <p>Ariadne Navigation also provides the user with information about his surroundings and reduces the time he invests in searching.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video  playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
+
+          <div className={styles.sectionN1}>
+            <div className={styles.N1content}>
+              <div>
+              <h4>
+              Indoor Positioning Services (IPS)
+              </h4>
+              <p>
+              We offer Indoor GPS, which assists customers and users in determining the most efficient route to their destination. Customers can also customize their routes by adding stops for more efficient planning.
+
+              </p>
+              </div>
+              <div>
+
+              <h4>
+              Efficient Ad Placement
+              </h4>
+              <p>
+              Targeted marketing campaigns connected to customers&rsquo; destination location are achievable using Ariadne Navigation.
+We enable and lead you to hyperlocal marketing.
+              </p>
+              </div>
+
+            </div>
+            <div className={styles.N1img}>
+              <Image src = "/Photos/Pages/Navigation/navigate.png" alt = 'navi' height={420} 
+              width={500} />
+            </div>
+
+          </div>
+
+          <div className={styles.sectionN2}>
+            <div className={styles.N2img}>
+          <Image src = "/Photos/Pages/Navigation/phone3.png" height={332} width={465} />
+            </div>
+            <div className={styles.N2content}>
+              <h4>
+            Seamless Customer Experience
+
+              </h4>
+            <p>
+ 
+ Ariadne Navigation allows you to provide seamless customer experience right from visitors’ entry in your premises. We give the opportunity to learn about your customers' navigation patterns, which you can utilize to optimise your business strategies.
+ 
+            </p>
+            </div>
+            
+            </div>
+
+            <div className='h-80 py-8 bg-black text-white content-center justify-evenly flex flex-col items-center'>
+               <div>
+               <h1>Why Ariadne?</h1>
+               </div>
+                <div className='w-full  grid xl:grid-cols-4 grid-cols-2 content-center items-center justify-around text-xl px-3 gap-3 wrap justify-items-center'>
+                  <div className='w-1/3'><h5>Browser-Based (No-app) Navigation</h5></div>
+                  <div className='w-1/3'><h5>Award Winning Accuracy</h5></div>
+                  <div className='w-1/3'><h5>No Infrastructure
+Needed</h5></div>
+                  <div className='w-1/3'><h5>Multi Storey Differentiation</h5></div>
+                </div>
+            </div>
+
+
+          
       </main>
+      <div className={styles.blackCTA}>
+        <div className={styles.innerCTA}>
+        <h1 className='text-center text-white'>Work together?</h1>
+      <Link href ="/company/contact"><a><button className='animate-pulse bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+      </div>
+        </div>
     </div>
   )
 }

@@ -1,0 +1,3 @@
+&rsquo; is quotation mark
+
+Double quotes 9	“ ”	&#8220; &#8221;
