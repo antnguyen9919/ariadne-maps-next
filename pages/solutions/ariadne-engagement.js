@@ -11,15 +11,15 @@ const variants = {
   exit:{opacity:0,x:0,y:20}
 }
 const herovariants = {
-  hidden:{opacity: 0, x:-200, y:0},
+  hidden:{opacity: 0, x:0, y:0},
   enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:-200}
+  exit:{opacity:0,x:0,y:0}
 
 }
 const heroVvariants = {
-  hidden:{opacity: 0, x:0, y:-200},
+  hidden:{opacity: 0, x:0, y:200},
   enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:-200}
+  exit:{opacity:0,x:0,y:200}
 
 }
 const AriadneEngagement = () => {
@@ -32,7 +32,7 @@ const AriadneEngagement = () => {
        
       </Head>
 
-            <motion.div exit={{opacity:0}}  className={styles.hero} >
+            <motion.div exit={{opacity:0}} variants = {variants}  className={styles.hero} >
           <div className={styles.heroContainer}>
 
             <div className = {styles.heroTextContainer}>
