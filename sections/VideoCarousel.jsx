@@ -66,14 +66,14 @@ const VideoCarousel = () => {
      
       responsive={responsive} 
       autoPlaySpeed={10000}
-      beforeChange={(nextSlide, { currentSlide, onMove }) => {
-        console.log("next:",nextSlide," current: ",currentSlide);
-      }}
+
+      
+
       itemClass="px-4"
       >
            {images.map((image) => (
             <div key = {image.id}>
-            <div className='cursor-pointer' onClick={()=>handleClick(image)}>
+            <div className='cursor-pointer hover:scale-105 transition ease-in-out ' onClick={()=>handleClick(image)}>
             <img    src = {image.url} key={image.id} width = "100%"/>
             </div>
 
