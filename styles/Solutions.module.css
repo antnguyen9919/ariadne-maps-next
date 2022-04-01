@@ -1,0 +1,262 @@
+.hero{
+    background-color: #30303d;
+    height: 530px;
+    color:#fff;
+    overflow: hidden;
+}
+.heroContainer{
+    display: flex;
+    
+    
+}
+
+.heroTextContainer{
+  
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    width:55vw;
+}
+.heroText{
+  
+    height: 50%;
+    width:81%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+.heroScreen{
+    width:80vw;
+    
+    margin-right: -17vw;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-content: flex-end;
+    height: 530px;
+}
+
+
+
+.heroEScreen{
+    width:80vw;
+    
+    
+    display: flex;
+    
+    flex-direction:column;
+    justify-content:flex-end;
+    align-content: flex-end;
+    align-items: center;
+    height: 530px;
+}
+.heroEScreen img{
+    width: 60%;
+}
+
+
+.main{
+    padding: 0 100px;
+}
+
+.gifbox{
+    min-height:30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.giftext{
+    width: 38vw;
+    margin-right: 50px;
+    
+}
+.giftext p{
+   margin-top: 15px;
+}
+
+.gif{
+    width: 35vw;
+}
+.gif video{
+    border-radius: 10px;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+
+@media only screen and (min-width:1400px){
+
+    .hero{
+        background-color: #30303d;
+        min-height: 40vw;
+        color:#fff;
+    }
+    .heroContainer{
+        display: flex;
+        
+        
+    }
+    .heroTextContainer{
+      
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+        width:55vw;
+    }
+    .heroText{
+       
+        height: 50%;
+        width:81%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    .heroScreen{
+        width:80vw;
+        
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: flex-end;
+        min-height: 40vw;
+    }
+
+
+
+
+    .heroEScreen{
+        width:80vw;
+        
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: flex-end;
+        min-height: 40vw;
+    }
+
+}
+
+@media only screen and (max-width:1024px){
+    .main{
+        padding-left:8px;
+        padding-right:8px;
+
+    }
+
+    .hero{
+        background-color: #30303d;
+        height: 100vh;
+        color:#fff;
+      
+    }
+    .heroContainer{
+        height: 100vh;
+        bottom:0;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-end;
+        
+        
+        
+        
+    }
+    .heroTextContainer{
+        
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        width:100%;
+        height: 50vh;
+    }
+    
+    .heroText{
+       
+        
+        width:81%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: 50vh;
+        
+        flex-wrap: wrap;
+        padding-top: 0;
+
+    }
+    .heroScreen{
+        width:100%;
+        margin-right: 0;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: flex-end;
+        height: 50vh;
+        object-fit: contain;
+        
+    }
+
+    /* 
+    width:80vw;
+        
+        
+        display: flex;
+        
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: center;
+        align-items: center;
+        height: 50vh;
+    */
+
+
+
+    .heroScreen img{
+        
+        width: 100%;
+    }
+    .gifbox{
+        padding: 40px 20px;
+        margin-bottom: 10px;
+        min-height:20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .giftext{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .gif{
+        width: 100%;
+    }
+
+    .heroEScreen{
+        width:80vw;
+        
+        
+        display: flex;
+        
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: center;
+        align-items: center;
+        height: 50vh;
+        
+    }
+    .heroEScreen img{
+        
+        width: 100%;
+    }
+    
+}

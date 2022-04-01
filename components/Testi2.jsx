@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Slider from "react-slick";
 import styles from '../styles/Testimonials.module.css'
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
-import TestimonialCard from './TestimonialCard'
+
 
   
 
@@ -60,6 +60,12 @@ const NextArrow = ({ onClick }) => {
           {breakpoint: 1200,
             settings:{
               slidesToShow:1,
+            }
+          },
+          {breakpoint: 768,
+            settings:{
+              slidesToShow:1,
+              arrows:false,
             }
           }
         ],

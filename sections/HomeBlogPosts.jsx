@@ -24,6 +24,7 @@ const responsive = {
   mobile: {
     breakpoint: { max: 640, min: 0 },
     items: 1,
+    
   },
 };
 
@@ -44,6 +45,7 @@ const HomeBlogPosts = () => {
       responsive={responsive}
       autoPlaySpeed={10000}
       itemClass="px-3"
+      removeArrowOnDeviceType={["tablet", "mobile"]}
       >
         {featuredPosts.map((post, index) => (
            <FeaturedPostCard key={index} post={post} />

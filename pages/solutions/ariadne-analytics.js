@@ -2,7 +2,31 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
- const AriadneAnalytics = () => {
+import {motion} from 'framer-motion'
+import styles from '../../styles/Solutions.module.css'
+
+const variants = {
+  hidden:{opacity: 0, x:0, y:20},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:0,x:0,y:20}
+}
+const herovariants = {
+  hidden:{opacity: 0, x:-200, y:0},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:0,x:0,y:-200}
+
+}
+const heroVvariants = {
+  hidden:{opacity: 0, x:0, y:-200},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:0,x:0,y:-200}
+
+}
+
+
+
+
+const AriadneAnalytics = () => {
   return (
     <div>
       <Head>
@@ -11,24 +35,53 @@ import Link from 'next/link'
         <link rel="icon" href="https://www.munich-startup.de/wp-content/uploads/2020/10/Ariadne-Maps-GmbH.jpeg" />
        
       </Head>
-      <div  style = {{backgroundColor:'#30303d'}}>
-  <div className="flex xl:flex-row xl:min-h-screen flex-col justify-end">
-            <div className='xl:w-1/3  xl:ml-10 2xl:ml-10 w-2/3 self-center justify-self-center text-white text-start  py-10'>
-                <h1 className='xl:w-1/2 xl:text-4xl 2xl:text-5xl  xl:text-5xl  mb-4 xl:leading-snug
-                2xl:leading-normal'>Ariadne
-                Analytics</h1>
-                <p className='xl:text-lg 2xl:text-2xl'>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</p>
+      <motion.div exit={{opacity:0}}  className={styles.hero} >
+          <div className={styles.heroContainer}>
 
-                <Link href ="/company/contact"><a><button className='bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Lets Talk</button></a></Link>
+            <div className = {styles.heroTextContainer}>
+            <div className={styles.heroText}>
+            <motion.h1 initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3}} >Ariadne
+Analytics</motion.h1>
+              <motion.p initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.2, type: 'easeInOut'}}>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</motion.p>
+              
             </div>
-            <div className=' xl:flex-1 xl:max-w-3xl 2xl:max-w-5xl w-2/3 self-center xl:self-end ' >
-            <Image src = "/Photos/Pages/Analytics/Laptopwp.png" width={1000} height={600}  />
             </div>
-  </div>
-</div>
 
-      <main>
-        <h1>HELLO</h1>
+            <div className={styles.heroScreen} >
+            
+            <motion.img initial="hidden" animate="enter" exit="exit" variants={heroVvariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3 }} src = "/Photos/Pages/Analytics/Laptopwp.png" />
+            </div>
+
+          </div>
+        </motion.div>
+
+      <main className={styles.main}>
+      <div className={`${styles.gifbox}`} >
+            <div className = {styles.giftext}>
+              
+              <p>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</p>
+            </div>
+            <div className = {styles.gif}>
+            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
+            </div>
+          </div>
+
+      <div className={styles.sectionA1}>
+          <h1>
+          Real-Time Analytics
+          </h1>
+          <p>
+          When do your consumers prefer to shop during the day, and how many people are now in your store and where are they located? We provide answer to those questions with our intuitive dashboard.
+          </p>
+      </div>
+      <div className={styles.sectionA2}>
+
+      </div>
+      <div className={styles.sectionA3}>
+
+      </div>
+
+
       </main>
     </div>
   )

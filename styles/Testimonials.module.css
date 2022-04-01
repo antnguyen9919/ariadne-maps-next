@@ -96,5 +96,22 @@ text-shadow: 2px 2px 4px #000000;
        
         
     }
+    .arrow {
+
+      display: hidden;
+    }
+    .arrow svg {
+      display: hidden;
+    }
+    .arrow svg:hover {
+      display: hidden;
+    }
+    .next {
+      display: hidden;
+    }
+    
+    .prev {
+      display: hidden;
+    }
 
 }  

@@ -66,7 +66,7 @@ const VideoCarousel = () => {
      
       responsive={responsive} 
       autoPlaySpeed={10000}
-
+      removeArrowOnDeviceType={["tablet", "mobile"]}
       
 
       itemClass="px-4"

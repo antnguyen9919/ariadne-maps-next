@@ -53,11 +53,11 @@ const  Navbar = () => {
           <div className="flex items-center justify-between h-16">
 
           <Link href="/" ><a className="flex items-center">
-        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9 hover:scale-105" alt="Ariadne Logo" /></a></Link>
+        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9 hover:scale-105 transition ease-in-out" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
           <Popover.Button className="inline-flex items-center justify-center text-gray-400 
-          bg-white rounded-sm p-2
+          bg-white opacity-95 rounded-sm p-2
           "  >
           <span className='sr-only'>Open Menu</span>
             <MdMenu className='w-6 h-6' aria-hidden="true"   />
@@ -83,7 +83,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>solutionRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold ring-0'>Solutions</span>
+                   <span className='text-white font-bold  hover:text-red-600 transition ease-in'>Solutions</span>
 
                  </Popover.Button>
 
@@ -100,10 +100,10 @@ const  Navbar = () => {
                               className='absolute z-10 w-screen max-w-md px-2 mt-6 -ml-4  transform sm:px-0 lg:ml-0 lg:-translate-x-1/2'
                 >
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5  ">
-                    <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8'>
+                    <div className='relative grid gap-6 px-5 py-6 bg-white opacity-95 sm:gap-8 sm:p-8'>
                       {solutions.map((solution,index)=>(
                         <Link key = {index} href = {solution.href}><a className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black '><solution.icon className='w-6 h-6 text-slate-500 '/>
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black transition ease-in-out '><solution.icon className='w-6 h-6 text-slate-500 '/>
                         <div className='ml-4 '>
                           <p className='text-md font-semibold'>{solution.title}</p>
                           <p className='text-base  font-medium'>{solution.descriptions}</p>
@@ -131,7 +131,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>industriesRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold ring-0'>Industries</span>
+                   <span className='hover:border text-white font-bold  hover:text-red-600 transition ease-in'>Industries</span>
 
                  </Popover.Button>
                  <Transition
@@ -147,10 +147,10 @@ const  Navbar = () => {
                               className='absolute z-10 w-screen max-w-md px-2 mt-6 -ml-4  transform sm:px-0 lg:ml-0 lg:-translate-x-1/2'
                 >
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5  ">
-                    <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 '>
+                    <div className='relative grid gap-6 px-5 py-6 bg-white opacity-95 sm:gap-8 sm:p-8 '>
                       {industries.map((solution,index)=>(
                         <Link key = {index} href = {solution.href}  ><a className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black  '>
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black transition ease-in-out  '>
 <solution.icon className='w-6 h-6 text-slate-500'/>
                           <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{solution.title}</p>
@@ -171,7 +171,7 @@ const  Navbar = () => {
                )}
               </Popover>
 
-              <Link href='/why-ariadne'><a className='text-base font-bold text-white hover:underline'>Why Ariadne</a></Link>
+              <Link href='/why-ariadne'><a className='text-base font-bold text-white hover:text-red-600 transition ease-in'>Why Ariadne</a></Link>
 
               <Popover>
                {({open,close})=>(
@@ -181,7 +181,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>companyRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold ring-0 '>Company</span>
+                   <span className='text-white font-bold  hover:text-red-600 transition ease-in '>Company</span>
 
                  </Popover.Button>
                  <Transition
@@ -197,11 +197,11 @@ const  Navbar = () => {
                               className='absolute z-10 w-screen max-w-md px-2 mt-6 -ml-4  transform sm:px-0 lg:ml-0 lg:-translate-x-1/2'
                 >
                   <div className="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5  ">
-                    <div className='relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 '>
+                    <div className='relative grid gap-6 px-5 py-6 bg-white opacity-95 sm:gap-8 sm:p-8 '>
 
                       {company.map((comp,index)=>(
                         <Link key = {index} href = {comp.href}><a className='flex items-start 
-                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black '>
+                        p-2 -m-3 rounded-lg text-gray-500 hover:text-black transition ease-in-out '>
 <div className='ml-4 '>
                             <p className='text-md  font-semibold'>{comp.title}</p>
                             
@@ -227,7 +227,7 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <Link href='/company/contact'><a className='text-base font-bold text-white' >Lets talks</a></Link>
+            <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-base font-bold text-white' >Lets talks</a></Link>
             
             </div>
 

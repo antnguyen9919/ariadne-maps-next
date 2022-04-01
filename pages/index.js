@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 
 import {motion} from 'framer-motion'
-// import {useInView} from "react-intersection-observer"
+
 
 
 
@@ -260,7 +260,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsinline playsinline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -271,7 +271,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsinline playsinline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -282,7 +282,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsinline playsinline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
 
@@ -293,7 +293,7 @@ export default function Home() {
               <p>With Ariadne analytics, you can review your performance in real time.</p>
             </div>
             <div className = {styles.gif}>
-            <video webkit-playsinline playsinline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
+            <video webkit-playsInline playsInline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
             </div>
           </div>
           
@@ -306,7 +306,15 @@ export default function Home() {
         <Testi2/>
 
         </div>
+        
+        <div className={styles.section6}>
+          <h1 className="text-center">Spotlight</h1>
+          <div className={styles.blogCarousel} >
+          <HomeBlogPosts/>
 
+          </div>
+        </div>
+        
         <div className={styles.section5}>
         <h1 className='text-center'>Get Started</h1>
         <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in 
@@ -348,13 +356,7 @@ and  requires no additional infrastructure.</p>
 
         </div>
 
-        <div className={styles.section6}>
-          <h1 className="text-center">Spotlight</h1>
-          <div className={styles.blogCarousel} >
-          <HomeBlogPosts/>
-
-          </div>
-        </div>
+        
 
         <div className={styles.section7}>
           <h1 className="text-center">Let&rsquo; talk</h1>
