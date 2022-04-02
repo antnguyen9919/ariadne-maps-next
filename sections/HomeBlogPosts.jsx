@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {postStatic} from './postStatic.js'
-import { FeaturedPostCard } from '../components'
+import { HomePostCard } from '../components'
 
 
 
@@ -48,7 +48,7 @@ const HomeBlogPosts = () => {
       removeArrowOnDeviceType={["tablet", "mobile"]}
       >
         {featuredPosts.map((post, index) => (
-           <FeaturedPostCard key={index} post={post} />
+           <HomePostCard key={index} post={post} />
         ))}
       </Carousel>
     </div>

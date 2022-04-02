@@ -117,7 +117,13 @@ text-shadow: 2px 2px 4px #000000;
 }  
 
 
-@media only screen and (min-width:768px){
+@media only screen and (min-width:1400px){
+
+  .slide p, .activeSlide p{
+    font-size: 2.5vh;
+   
+}
+
   .slideContainer{
       /* display: flex;  
       height:70vh;
@@ -133,6 +139,7 @@ text-shadow: 2px 2px 4px #000000;
       color:#fff; */
 
       font-size: 1.3vw;
+      height:50vh;
       
       
   }
@@ -142,9 +149,13 @@ text-shadow: 2px 2px 4px #000000;
       color:rgb(212, 212, 212);
       font-size: 16px; */
       font-size: 1vw;
+      height:45vh;
      
       
   }
+
+
+
   .arrow {
     background:transparent;
     position: absolute;

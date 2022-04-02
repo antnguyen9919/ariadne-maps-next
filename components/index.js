@@ -12,5 +12,7 @@ export {default as Testi2} from './Testi2';
 
 export {default as Calendly }   from './Calendly';
 
+export {default as HomePostCard} from './HomePostCard';
+
 
 

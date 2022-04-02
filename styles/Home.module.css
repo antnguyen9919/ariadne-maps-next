@@ -48,11 +48,14 @@
 .section1{
     min-height:100vh;
     padding-top:40px;
+    
 }
 
 .section1screens{
     padding: 50px 0px;
+    /* align-items: center; */
     
+    height:70vh;
     display: flex;
     justify-content: space-between;
 }
@@ -133,10 +136,14 @@
 .section6{
     min-height: 90vh;
     padding: 40px 0px;
+   
     
 }
 .blogCarousel{
-    margin-top: 40px;
+    margin-top: 20vh;
+    
+    
+    
 }
 
 .section7{
@@ -194,11 +201,12 @@
 
 
     .intro{
-        width: 25vw;
+        width: 28vw;
     }
     #list {
         margin-top: 1.2vw;
     }
+      
 }
 
 @media only screen and (max-width:1025px){

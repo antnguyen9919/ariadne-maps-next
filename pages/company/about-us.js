@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
-   <main>
+   <main className={styles.main} >
         <div>
             <div className='xl:px-10 px-4'>
             <h1 className="text-center">
@@ -42,7 +42,7 @@ Ariadne Maps</h1>
                 <h1 className='text-center' >Ariadne Team</h1>
 
             <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Georgios.png" />
                   <h4>Dipl.-Ing. Georgios Pipelidis
 
@@ -55,7 +55,7 @@ Ariadne Maps</h1>
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Nikos.png" />
                   <h4>Dipl.-Ing. Nikos Tsiamitros
 
@@ -70,7 +70,7 @@ Ariadne Maps</h1>
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Nam.png" />
                   <h4>Nam Le Duc
 
@@ -86,7 +86,7 @@ Ariadne Maps</h1>
                 </div>
             </div>
             <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mustafa.png" />
                   <h4>Mustafa Parlak
 
@@ -102,7 +102,7 @@ Ariadne Maps</h1>
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Hasim.png" />
                   <h4>Hasim Koc
 
@@ -122,7 +122,7 @@ Ariadne Maps</h1>
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Victoria.png" />
                   <h4>Victoria Tsiamitrou
 
@@ -147,7 +147,7 @@ Ariadne Maps</h1>
             </div>
 
             <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                   <img src ="
                   https://ariadnemaps.com/wp-content/uploads/2021/03/Pati.png"
                    />
@@ -157,7 +157,7 @@ Ariadne Maps</h1>
                   <p>Strategic Partnerships, N. America
                       </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
                 https://ariadnemaps.com/wp-content/uploads/2021/03/Francesco.png
                 " />
@@ -168,7 +168,7 @@ Ariadne Maps</h1>
                     Sales Representative
                     </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
                 https://ariadnemaps.com/wp-content/uploads/2021/03/Wasiq.png
                 " />
@@ -184,7 +184,7 @@ Ariadne Maps</h1>
 
                 
                 <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                   <img src ="
 https://ariadnemaps.com/wp-content/uploads/2021/08/Najeeb.png                  "
                    />
@@ -195,7 +195,7 @@ https://ariadnemaps.com/wp-content/uploads/2021/08/Najeeb.png                  "
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2021/03/Kostas.png                " />
                   <h4>
@@ -207,7 +207,7 @@ https://ariadnemaps.com/wp-content/uploads/2021/03/Kostas.png                " /
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Athanasios2.png                " />
                   <h4>
@@ -222,7 +222,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Athanasios2.png              
 
                 </div>
                 <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                   <img src ="
 https://ariadnemaps.com/wp-content/uploads/2021/08/KostasZ.png                  "
                    />
@@ -235,7 +235,7 @@ https://ariadnemaps.com/wp-content/uploads/2021/08/KostasZ.png                  
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2021/08/KostasK.png                " />
                   <h4>
@@ -246,7 +246,7 @@ https://ariadnemaps.com/wp-content/uploads/2021/08/KostasK.png                " 
                     Sales Representative
                     </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2021/08/Shahab.png                " />
                   <h4>
@@ -261,7 +261,7 @@ https://ariadnemaps.com/wp-content/uploads/2021/08/Shahab.png                " /
 
                 </div>
                 <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                   <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Precious.png                  "
                    />
@@ -274,7 +274,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Precious.png                 
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Mahade.png                " />
                   <h4>
@@ -286,7 +286,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Mahade.png                " /
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Karolina.png                " />
                   <h4>
@@ -301,7 +301,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Karolina.png                "
 
                 </div>
                 <div className={styles.row}>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                   <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Elli.png             "
                    />
@@ -316,7 +316,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Elli.png             "
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Roman.png               " />
                   <h4>
@@ -330,7 +330,7 @@ https://ariadnemaps.com/wp-content/uploads/2022/01/Roman.png               " />
 
 </p>
                 </div>
-                <div className={styles.column}>
+                <div className={styles.columnA}>
                 <img src ="
 https://ariadnemaps.com/wp-content/uploads/2022/01/Karolina.png                " />
                   <h4>

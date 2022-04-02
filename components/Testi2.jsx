@@ -88,16 +88,16 @@ const NextArrow = ({ onClick }) => {
             <div key={testi.id} >
             {idx===imageIndex?
                 <div className = {styles.slideContainer}>
-                    <div key={testi.id} className={styles.activeSlide}  >
+                    <div key={testi.id} className={`${styles.activeSlide} brightness-125`}  >
                         <div className={styles.imgholder} >
-                            <img src={testi.img} alt="" className="brightness-150 "  />
+                            <img src={testi.img} alt=""  />
                         </div>
 
-                        <div>
+                        <div className='italic'>
                         &ldquo;{testi.quote}&rdquo;
                         </div>
                         <div>
-                           <p>
+                           <p className='text-yellow-200'>
                            {testi.person}
                                </p> 
                         </div>
@@ -113,11 +113,11 @@ const NextArrow = ({ onClick }) => {
                             <img src={testi.img} alt={testi.person} className="brightness-100 drop-shadow" />
                         </div>
 
-                        <div>
+                        <div className='italic' >
                         &ldquo;{testi.quote}&rdquo;
                         </div>
                         <div>
-                           <p>
+                           <p className='text-yellow-200' >
                            {testi.person}
                                </p> 
                         </div>
