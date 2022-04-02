@@ -316,7 +316,7 @@ variants = {variants} animate = {controls2}>
               <motion.div
               transition={{duration: 0.4, type: 'easeInOut'}} 
               initial="hidden"  exit="exit"
-              variants = {variants} animate = {controls3}>>
+              variants = {variants} animate = {controls3}>
           <h1 className='text-center'>The Ariadne Platform</h1>
 
               </motion.div>
