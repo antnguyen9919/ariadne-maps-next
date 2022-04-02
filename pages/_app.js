@@ -3,6 +3,7 @@ import 'tailwindcss/tailwind.css'
 import Layout from '../components/Layout'
 import {AnimatePresence} from "framer-motion"
 
+// import "../config/firebase"
 
 
 function MyApp({ Component, pageProps }) {

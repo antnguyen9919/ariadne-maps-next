@@ -2,7 +2,7 @@
 import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
-
+import { variant1,transition } from '../../sections/animations';
 const variants = {
   hidden:{opacity: 0, x:0, y:20},
   enter:{opacity:1, x:0, y:0},
@@ -10,7 +10,7 @@ const variants = {
 }
 const transportation = () => {
   return (
-    <motion.div initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.2, type: 'easeInOut'}}  >
+    <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
       <main>
         <div>
@@ -29,7 +29,7 @@ operators, become more data-driven, understand their passengers and abandon cost
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ticket.png" />
                   <h4>Ticket Pricing
 
 
@@ -40,7 +40,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/share.png" />
                   <h4>Revenue Sharing
 
 
@@ -54,7 +54,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/train.png" />
                   <h4>Train Scheduling
 
 
@@ -70,7 +70,7 @@ operators, become more data-driven, understand their passengers and abandon cost
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" />
                   <h4>Retail Hubs
 
 
@@ -82,7 +82,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png" />
                   <h4>Leverages
 
 
@@ -98,7 +98,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/areas.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/more.png" />
                   <h4>More
 
 </h4>

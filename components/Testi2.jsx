@@ -82,23 +82,9 @@ const NextArrow = ({ onClick }) => {
     <div>
         
       <Slider {...settings}> 
-                {/* {articles.map((article,idx)=>(
-                    <div key={idx} id={idx === imageIndex ? "sm-active" : "spot-m"} className={idx=== imageIndex? "container text-light  border rounded w-65 pb-4": "container text-light  border rounded w-75 pb-4 my-3"} >
-<div id='spot-card' className="container   py-4"  >
-                            <h5>{article.title}</h5>
-                            
-                        
-                        
-                    </div>  
-                    
-                    
-                    
-
-                    </div>
-                    
-  ))} */}
+                
   {testimonials.map((testi,idx) => (
-            // <TestimonialCard key={testi.id} img={testi.img} quote = {testi.quote} person={testi.person}   />
+           
             <div key={testi.id} >
             {idx===imageIndex?
                 <div className = {styles.slideContainer}>

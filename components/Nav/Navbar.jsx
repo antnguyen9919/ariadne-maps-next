@@ -2,12 +2,13 @@ import React,{useRef} from 'react'
 import Link from 'next/link' 
 import {Popover,Transition} from '@headlessui/react'
 
+// import {useAuth} from '../../context/AuthContext'
 
 
 import {DiGoogleAnalytics} from 'react-icons/di'
-import {BiNavigation,BiNotification} from 'react-icons/bi'
+import {BiNavigation,BiNotification,BiUser} from 'react-icons/bi'
 import {BsMap} from 'react-icons/bs'
-
+import {FaUserCircle} from 'react-icons/fa'
 
 import {MdLocalAirport,MdStoreMallDirectory,
   MdEmojiTransportation,MdLocationCity,MdRoomService, MdMenu} from 'react-icons/md'
@@ -44,6 +45,7 @@ const  Navbar = () => {
   let solutionRef = useRef(null)
   let industriesRef = useRef(null)
   let companyRef = useRef(null)
+  // const {user} = useAuth()
   
   return (
     <Popover className='sticky top-0 w-full bg-black z-50'>
@@ -228,13 +230,16 @@ const  Navbar = () => {
             
             <div className='items-center justify-end hidden md:flex'>
             <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-base font-bold text-white' >Lets talks</a></Link>
+            <Link href='/login'><a className=' text-base ' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a></Link>
             
             </div>
+            
 
             
           </div>
           
         </div>
+        
         <div className='md:hidden '>
         {/* <h1 className='text-white'>sas</h1> */}
         <Popover.Panel className="absolute z-10 bg-black w-full text-white">

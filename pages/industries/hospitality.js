@@ -2,15 +2,12 @@
 import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
+import { variant1,transition } from '../../sections/animations';
 
-const variants = {
-  hidden:{opacity: 0, x:0, y:20},
-  enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:20}
-}
+
 const hospitality = () => {
   return (
-    <motion.div initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.2, type: 'easeInOut'}}  >
+    <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
    <main>
         <div>
@@ -33,7 +30,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ring.png" />
                   <h4>Push notifications
 
 </h4>
@@ -42,7 +39,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/review.png" />
                   <h4>Review and Feedback
 
 </h4>
@@ -55,14 +52,14 @@ identify their unnecessary costs and increase their revenues
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png" />
                   <h4>Strategy Optimization
 
 </h4>
                   <p>Identify which of your actions, services or promotions bring you the best return, dwell time and loyalty, and work on the most reasonable one</p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Pool.png" />
                   <h4>Guest Familiarity
 
 </h4>
@@ -73,7 +70,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/areas.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Funnel.png" />
                   <h4>Conversion Funnel
 
 

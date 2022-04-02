@@ -1,22 +1,20 @@
-// import '../../App.css';
-// import { Link } from "react-router-dom";
+import { variant1,transition } from '../../sections/animations';
+
 import React from 'react';
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import Image from 'next/image';
 
-const variants = {
-  hidden:{opacity: 0, x:0, y:20},
-  enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:20}
-}
-function Airport() {
-  return <motion.div initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.2, type: 'easeInOut'}}    className ={styles.all}>
-    {/* <img src = {airport} width="100%" height="500vh"  alt = "transportation"/> */}
 
-   <main>
-        <div>
-            <div>
+function Airport() {
+  return <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
+    
+
+   <main >
+        <div >
+            <div >
+              
+              
             <h1 className="text-center">AIRPORTS</h1>
           <p className='text-center'>Ariadne Maps helps airports understand and serve their passengers better, provide useful services, and do more targeted marketing campaigns
 

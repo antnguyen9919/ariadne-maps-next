@@ -2,6 +2,7 @@
 
 Double quotes 9	“ ”	&#8220; &#8221;
 
+&#8211; dash
 
 
  <main className ={styles.main}>

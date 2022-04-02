@@ -24,7 +24,7 @@ import Carousel from 'react-multi-carousel';
 import { useState } from 'react'
 
 import styles from '../styles/Home.module.css'
-import { Testi2 } from '../components'
+import { Calendly, Testi2 } from '../components'
 
 
 
@@ -356,9 +356,7 @@ and  requires no additional infrastructure.</p>
           <h1 className="text-center">Let&rsquo; talk</h1>
           
 
-      <Script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" />
-
-          <div className="calendly-inline-widget" id ={styles.calendly} data-url="https://calendly.com/georgios-ariadnemaps/30min"  ></div>
+      <Calendly/>
           
         </div>
 

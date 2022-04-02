@@ -2,15 +2,12 @@
 import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
+import { variant1,transition } from '../../sections/animations';
 
-const variants = {
-  hidden:{opacity: 0, x:0, y:20},
-  enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:20}
-}
+
 const cities = () => {
   return (
-    <motion.div initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.2, type: 'easeInOut'}}  >
+    <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       <main>
         <div>
             <div>
@@ -26,14 +23,14 @@ Ariadne Maps helps them better serve their residents and improve their experienc
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Retail.svg" />
                   <h4>Shopping Streets
 
 </h4>
                   <p>How many people visit a shopping street, how much time they spend, which stores they visit and much more data is provided by Ariadne Maps solutions </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/queue.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/public.png" />
                   <h4>Service Buildings</h4>
                   <p>Let your visitors have a better experience in your entities with faster processing and minimum queue time, e.g., in foreigners office, by using our indoor analytics 
 
@@ -42,7 +39,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ad.png" />
                   <h4>Public Advertising
 
 </h4>
@@ -55,7 +52,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/routes-and-x.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/personas.png" />
                   <h4>Identify Personas
 
 </h4>
@@ -64,7 +61,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png" />
+                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/contract.png" />
                   <h4>Rent Prices
 
 </h4>
