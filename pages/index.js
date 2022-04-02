@@ -178,22 +178,37 @@ export default function Home() {
       <main className={styles.main}>
         <Brands/>
         
-        <div className={styles.section1} id = "screens" ref = {element}>
+        <div className={styles.section1} id = "screens" ref = {element}
+       
+
+        >
          
+          <motion.div
+           transition={{duration: 0.4, type: 'easeInOut'}} 
+           initial="hidden"  exit="exit"
+           variants = {variants} animate = {controls}
+          >
           <h1 className='text-center'>Unlock the value of your data and multiply your returns!</h1>
+          </motion.div>
+          
           <motion.div className={styles.section1screens}
-          transition={{duration: 0.5, type: 'easeInOut'}} 
-          initial="hidden"  exit="exit"
-          variants = {DUvariants} animate = {controls}
+          
            >
-              <div className={styles.screens}>
+              <motion.div className={styles.screens}
+              transition={{duration: 0.5, type: 'easeInOut'}} 
+              initial="hidden"  exit="exit"
+              variants = {LRvariants} animate = {controls}
+              >
               <img 
             
 
               src = "/Photos/screens.png" />
+              <div
+               >
               <p
               
               className='text-center text-red-500 animate-bounce' ><button className=' hover:scale-105'  onClick={openModal} ><AddCircleOutlineIcon />&nbsp;Enlarge</button></p>
+              </div>
 
               <Modal
         isOpen={modalIsOpen}
@@ -256,8 +271,12 @@ export default function Home() {
         
       </div>
       </Modal>
-              </div>
-              <div className={styles.intro}>
+              </motion.div>
+              <motion.div className={styles.intro}
+              transition={{duration: 0.5, type: 'easeInOut'}} 
+              initial="hidden"  exit="exit"
+              variants = {RLvariants} animate = {controls}
+              >
                 <p>
                 Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors&rsquo; behavior, it consults you on strategies, and provides you with recommendations for the future.
                 </p>
@@ -271,13 +290,18 @@ export default function Home() {
       <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;ERP, BI, POS Integration
 
       </p>
-              </div>
+              </motion.div>
           </motion.div>
         </div>
 
         <div className={styles.section2} ref = {element2}>
-          <h1 className='text-center'>See how our customers are succeeding with Ariadne</h1>
-
+          
+<motion.div
+transition={{duration: 0.4, type: 'easeInOut'}} 
+initial="hidden"  exit="exit"
+variants = {variants} animate = {controls2}>
+<h1 className='text-center'>See how our customers are succeeding with Ariadne</h1>
+</motion.div>
           <motion.div
            transition={{duration: 0.5, type: 'easeInOut'}} 
            initial="hidden"  exit="exit"
@@ -289,8 +313,13 @@ export default function Home() {
           </motion.div>
         </div>
         <div className={styles.section3} >
-
+              <motion.div
+              transition={{duration: 0.4, type: 'easeInOut'}} 
+              initial="hidden"  exit="exit"
+              variants = {variants} animate = {controls3}>>
           <h1 className='text-center'>The Ariadne Platform</h1>
+
+              </motion.div>
 
           <div className={`${styles.gifbox}`} ref = {element3}>
             <motion.div className = {styles.giftext}
@@ -376,7 +405,14 @@ export default function Home() {
         </div>
 
         <div className={styles.section4} ref={element7}>
+          <motion.div
+          transition={{duration: 0.4, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {variants} animate = {controls7}
+          >
         <h1 className='text-center'>Trusted by industry leaders</h1>
+
+          </motion.div>
 
         <motion.div
         transition={{duration: 0.5, type: 'easeInOut'}} 
@@ -391,7 +427,15 @@ export default function Home() {
         </div>
         
         <div className={styles.section6} ref ={element8}>
+          <motion.div
+          
+          transition={{duration: 0.4, type: 'easeInOut'}} 
+initial="hidden"  exit="exit"
+variants = {variants} animate = {controls8}>
           <h1 className="text-center">Spotlight</h1>
+
+
+          </motion.div>
           <motion.div className={styles.blogCarousel}
           transition={{duration: 0.5, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
@@ -404,13 +448,24 @@ export default function Home() {
           </motion.div>
         </div>
         
-        <div className={styles.section5}>
+        <div className={styles.section5} ref = {element9} >
+        <motion.div
+           transition={{duration: 0.5, type: 'easeInOut'}} 
+           initial="hidden"  exit="exit"
+           variants = {DUvariants} animate = {controls9}
+        >
         <h1 className='text-center'>Get Started</h1>
         <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in 
 and  requires no additional infrastructure.</p>
+        </motion.div>
           <div className={styles.products}>
 
-          <div className = {styles.product}>
+          <motion.div className = {styles.product}
+          transition={{duration: 0.5, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {DUvariants} animate = {controls9}
+          
+          >
           <div className={styles.productImg}>
           <Image src="/Photos/floor.png" height={260} width={350}/>
 
@@ -418,18 +473,25 @@ and  requires no additional infrastructure.</p>
           
                   <h4 className='my-3'>Configuration</h4>
                   <p>Let our team design a project based on your floor plan and industry.</p>
-          </div>
+          </motion.div>
 
-          <div className = {styles.product}>
+          <motion.div className = {styles.product}
+          transition={{duration: 0.6, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {DUvariants} animate = {controls9}>
             <div className={styles.productImg}>
           <Image src="/Photos/device2.png" height={260} width={350} />
 
             </div>
                   <h4 className='my-3'>Installation</h4>
                   <p>Simply plug the devices in the predetermined sockets.</p>
-          </div>
+          </motion.div>
 
-          <div className = {styles.product}>
+          <motion.div className = {styles.product}
+          transition={{duration: 0.9, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {DUvariants} animate = {controls9}
+          >
           <div className={styles.productImg}>
           <Image src="/Photos/screen.png" height={260} width={350}/>
 
@@ -437,7 +499,7 @@ and  requires no additional infrastructure.</p>
           
                   <h4 className='my-3'>The Dashboard</h4>
                   <p>Voila! Now you can make the most out of your existing traffic.</p>
-          </div>
+          </motion.div>
 
 
           </div>
