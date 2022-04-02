@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
+
 
 import {motion} from 'framer-motion'
 
 
-
+import { useScroll } from '../components/useScroll'
 
 import Brands from '../components/Brands'
 import HomeBlogPosts from '../sections/HomeBlogPosts'
@@ -14,7 +14,7 @@ import HomeBlogPosts from '../sections/HomeBlogPosts'
 import CheckIcon from '@mui/icons-material/Check';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import  VideoCarousel  from "../sections/VideoCarousel"
-import Testimonials from '../components/Testimonials'
+
 
 
 import Modal from 'react-modal';
@@ -38,6 +38,24 @@ const Vvariants = {
   enter:{opacity:1, x:0, y:0},
   exit:{opacity:0,x:0,y:0}
 }
+const DUvariants= {
+  hidden:{opacity: 0, x:0, y:200},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:1,x:0,y:0}
+
+}
+const LRvariants ={
+  hidden:{opacity: 0, x:-200, y:0},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:0,x:-200,y:0}
+
+}
+const RLvariants ={
+  hidden:{opacity: 0, x:200, y:0},
+  enter:{opacity:1, x:0, y:0},
+  exit:{opacity:0,x:200,y:0}
+
+}
 
 
 
@@ -45,7 +63,16 @@ const Vvariants = {
 
 
 export default function Home() {
+  const [element,controls] = useScroll();
  
+  const [element2,controls2] = useScroll();
+  const [element3,controls3] = useScroll();
+  const [element4,controls4] = useScroll();
+  const [element5,controls5] = useScroll();
+  const [element6,controls6] = useScroll();
+  const [element7,controls7] = useScroll();
+  const [element8,controls8] = useScroll();
+  const [element9,controls9] = useScroll();
 
 
 
@@ -150,13 +177,23 @@ export default function Home() {
 
       <main className={styles.main}>
         <Brands/>
-        <div className={styles.section1} id = "screens">
+        
+        <div className={styles.section1} id = "screens" ref = {element}>
          
           <h1 className='text-center'>Unlock the value of your data and multiply your returns!</h1>
-          <div className={styles.section1screens}>
+          <motion.div className={styles.section1screens}
+          transition={{duration: 0.5, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {DUvariants} animate = {controls}
+           >
               <div className={styles.screens}>
-              <img src = "/Photos/screens.png" />
-              <p className='text-center text-red-500 animate-bounce' ><button className=' hover:scale-105'  onClick={openModal} ><AddCircleOutlineIcon />&nbsp;Enlarge</button></p>
+              <img 
+            
+
+              src = "/Photos/screens.png" />
+              <p
+              
+              className='text-center text-red-500 animate-bounce' ><button className=' hover:scale-105'  onClick={openModal} ><AddCircleOutlineIcon />&nbsp;Enlarge</button></p>
 
               <Modal
         isOpen={modalIsOpen}
@@ -235,78 +272,136 @@ export default function Home() {
 
       </p>
               </div>
-          </div>
+          </motion.div>
         </div>
 
-        <div className={styles.section2}>
+        <div className={styles.section2} ref = {element2}>
           <h1 className='text-center'>See how our customers are succeeding with Ariadne</h1>
 
+          <motion.div
+           transition={{duration: 0.5, type: 'easeInOut'}} 
+           initial="hidden"  exit="exit"
+           variants = {variants} animate = {controls2}
+
+          
+          >
           <VideoCarousel/>
+          </motion.div>
         </div>
-        <div className={styles.section3}>
+        <div className={styles.section3} >
 
           <h1 className='text-center'>The Ariadne Platform</h1>
 
-          <div className={`${styles.gifbox}`} >
-            <div className = {styles.giftext}>
+          <div className={`${styles.gifbox}`} ref = {element3}>
+            <motion.div className = {styles.giftext}
+             transition={{duration: 0.5, type: 'easeInOut'}} 
+             initial="hidden"  exit="exit"
+             variants = {LRvariants} animate = {controls3}>
               <h3>Ariadne Analytics</h3>
               <p>Obtain people counting, heatmaps, loyalty rate and more!</p>
               <p>With Ariadne analytics, you can review your performance in real time.</p>
-            </div>
-            <div className = {styles.gif}>
+            </motion.div>
+
+            <motion.div className = {styles.gif}
+             transition={{duration: 0.5, type: 'easeInOut'}} 
+             initial="hidden"  exit="exit"
+             variants = {RLvariants} animate = {controls3}
+            >
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h1.mp4" autoPlay loop muted type = "videos/mp4"/>
-            </div>
+            </motion.div>
+
           </div>
 
-          <div className={styles.gifbox} >
-            <div className = {styles.giftext}>
+          <div className={styles.gifbox} ref = {element4}>
+            <motion.div className = {styles.giftext}
+            transition={{duration: 0.5, type: 'easeInOut'}} 
+            initial="hidden"  exit="exit"
+            variants = {LRvariants} animate = {controls4}
+            
+            >
               <h3>Ariadne Navigation</h3>
               <p>Navigate your visitors and guests for an enhanced experience!</p>
               <p>Present promotions in your map to engage and enhance your visitors satisfaction.</p>
-            </div>
-            <div className = {styles.gif}>
+            </motion.div>
+            <motion.div className = {styles.gif}
+            transition={{duration: 0.5, type: 'easeInOut'}} 
+            initial="hidden"  exit="exit"
+            variants = {RLvariants} animate = {controls4}
+            
+            >
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h2.mp4" autoPlay loop muted type = "videos/mp4"/>
-            </div>
+            </motion.div>
           </div>
 
-          <div className={styles.gifbox} >
-            <div className = {styles.giftext}>
+          <div className={styles.gifbox} ref = {element5}>
+            <motion.div className = {styles.giftext}
+            transition={{duration: 0.5, type: 'easeInOut'}} 
+            initial="hidden"  exit="exit"
+            variants = {LRvariants} animate = {controls5}
+            >
               <h3>Ariadne Engagement</h3>
               <p>Ariadne enables your visitors to opt-in to your loyalty program!</p>
               <p>The opt-in feature enables you to push notifications to your visitors the right moment.</p>
-            </div>
-            <div className = {styles.gif}>
+            </motion.div>
+            <motion.div className = {styles.gif}
+             transition={{duration: 0.5, type: 'easeInOut'}} 
+             initial="hidden"  exit="exit"
+             variants = {RLvariants} animate = {controls5}
+            >
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h3.mp4" autoPlay loop muted type = "videos/mp4"/>
-            </div>
+            </motion.div>
           </div>
 
-          <div className={styles.gifbox} >
-            <div className = {styles.giftext}>
+          <div className={styles.gifbox} ref = {element6}>
+            <motion.div className = {styles.giftext}
+            transition={{duration: 0.5, type: 'easeInOut'}} 
+            initial="hidden"  exit="exit"
+            variants = {LRvariants} animate = {controls6}
+            
+            >
               <h3>Ariadne Mapping</h3>
               <p>Transform your physical business into a digital landscape!</p>
               <p>Ariadne boosts your efficiency by enabling you to map and localize your products.</p>
-            </div>
-            <div className = {styles.gif}>
+            </motion.div>
+            <motion.div className = {styles.gif}
+            transition={{duration: 0.5, type: 'easeInOut'}} 
+            initial="hidden"  exit="exit"
+            variants = {RLvariants} animate = {controls6}
+            >
             <video   playsInline className='pointer-events-none' width="100%" src="/Videos/h4.mp4" autoPlay loop muted type = "videos/mp4"/>
-            </div>
+            </motion.div>
           </div>
           
 
         </div>
 
-        <div className={styles.section4}>
+        <div className={styles.section4} ref={element7}>
         <h1 className='text-center'>Trusted by industry leaders</h1>
 
+        <motion.div
+        transition={{duration: 0.5, type: 'easeInOut'}} 
+        initial="hidden"  exit="exit"
+        variants = {variants} animate = {controls7}
+
+        
+        >
         <Testi2/>
+        </motion.div>
 
         </div>
         
-        <div className={styles.section6}>
+        <div className={styles.section6} ref ={element8}>
           <h1 className="text-center">Spotlight</h1>
-          <div className={styles.blogCarousel} >
+          <motion.div className={styles.blogCarousel}
+          transition={{duration: 0.5, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {variants} animate = {controls8}
+  
+          
+          >
           <HomeBlogPosts/>
 
-          </div>
+          </motion.div>
         </div>
         
         <div className={styles.section5}>
