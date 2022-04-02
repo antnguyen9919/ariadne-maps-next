@@ -4,15 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
 import styles from '../../styles/Solutions.module.css'
-const variants = {
-  hidden:{opacity: 0, x:0, y:20},
-  enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:20}
-}
+import {variant1} from '../../sections/animations'
+
 const herovariants = {
-  hidden:{opacity: 0, x:-200, y:0},
+  hidden:{opacity: 0, x:0, y:0},
   enter:{opacity:1, x:0, y:0},
-  exit:{opacity:0,x:0,y:-200}
+  exit:{opacity:0,x:0,y:0}
 
 }
 const heroVvariants = {
@@ -32,7 +29,7 @@ const ariadneNavigation = () => {
         <link rel="icon" href="https://www.munich-startup.de/wp-content/uploads/2020/10/Ariadne-Maps-GmbH.jpeg" />
        
       </Head>
-      <motion.div exit={{opacity:0}}  className={styles.hero} >
+      <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1}  className={styles.hero}  >
           <div className={styles.heroContainer}>
 
             <div className = {styles.heroTextContainer}>
@@ -94,7 +91,7 @@ We enable and lead you to hyperlocal marketing.
 
             </div>
             <div className={styles.N1img}>
-              <Image src = "/Photos/Pages/Navigation/navigate.png" alt = 'navi' height={420} 
+              <Image className='rounded-lg' src = "/Photos/Pages/Navigation/navigate.png" alt = 'navi' height={420} 
               width={500} />
             </div>
 

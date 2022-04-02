@@ -133,7 +133,7 @@ Engagement</motion.h1>
           <div className={home.products}>
 
           <div className = {home.product}>
-          <div className={home.productImg}>
+          <div className={`${home.productImg} ${styles.productImg}`}>
           <Image src="/Photos/Pages/Engagement/scan.png" height={260} width={350}/>
 
             </div>
@@ -143,7 +143,7 @@ Engagement</motion.h1>
           </div>
 
           <div className = {home.product}>
-            <div className={home.productImg}>
+            <div className={`${home.productImg} ${styles.productImg}`}>
           <Image src="/Photos/Pages/Engagement/somescreen.png" height={260} width={350} />
 
             </div>
@@ -152,7 +152,7 @@ Engagement</motion.h1>
           </div>
 
           <div className = {home.product}>
-          <div className={home.productImg}>
+          <div className={`${home.productImg} ${styles.productImg}`}>
           <Image src="/Photos/Pages/Engagement/phone2.jpg" height={260} width={350}/>
 
             </div>
