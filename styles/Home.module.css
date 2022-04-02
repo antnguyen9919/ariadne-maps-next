@@ -43,6 +43,7 @@
 
 .main{
     padding: 0 100px;
+    overflow: hidden;
 }
 
 .section1{
@@ -50,6 +51,10 @@
     padding-top:40px;
     
 }
+.section3{
+    overflow: hidden;
+}
+
 
 .section1screens{
     padding: 50px 0px;
@@ -366,6 +371,11 @@
         padding-right:8px;
 
     }
+    .section7{
+        overflow-x: hidden;
+        
+        width:95%;
+    }
 
     .hero{
         background-color: #30303d;
@@ -422,7 +432,10 @@
         display: none;
     }
 
-
+    .section1{
+        height: 120vh;
+    }
+    
 
 
 
@@ -694,6 +707,7 @@
 }
     .section7{
         overflow-x: hidden;
+        height: 190vh;
         width:95%;
     }
 

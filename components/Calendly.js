@@ -3,33 +3,16 @@ import {InlineWidget} from 'react-calendly'
 
 
 const styles={
-    height: '110vh'
+    height: '150vh'
   }
 const pageSettings={
     backgroundColor: 'ffffff',
     hideEventTypeDetails: false,
-    hideLandingPageDetails: true,
+    hideLandingPageDetails: false,
     primaryColor: '00a2ff',
     textColor: '4d5055'
   }
-  const prefill={
-    email: 'test@test.com',
-    firstName: 'Jon',
-    lastName: 'Snow',
-    name: 'Jon Snow',
-    customAnswers: {
-      a1: 'a1',
-      a2: 'a2',
-      a3: 'a3',
-      a4: 'a4',
-      a5: 'a5',
-      a6: 'a6',
-      a7: 'a7',
-      a8: 'a8',
-      a9: 'a9',
-      a10: 'a10'   
-    }
-  }
+  
 const utm={
     utmCampaign: 'Spring Sale 2019',
     utmContent: 'Shoe and Shirts',
@@ -41,12 +24,12 @@ const utm={
 
 const Calendly = () => {
   return (
-    <div>
+    <div className='h-screen'>
         <InlineWidget
         styles={styles}
         pageSettings = {pageSettings}
-        prefill = {prefill}
-        utm = {utm}
+       
+        // utm = {utm}
         
         url="https://calendly.com/georgios-ariadnemaps/30min" />
         </div>

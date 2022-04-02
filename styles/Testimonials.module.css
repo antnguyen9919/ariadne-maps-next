@@ -180,3 +180,49 @@ text-shadow: 2px 2px 4px #000000;
   }
 
 }  
+
+@media only screen and (max-width:500px){
+  .slideContainer{
+      display: flex;  
+      height:70vh;
+      align-items: center;
+      
+      align-content: center;
+      justify-content: center;
+  }
+
+  .activeSlide {
+      transition: ease-in 0.2s;
+      height:47vh;
+      color:#fff;
+      font-size: 14px;
+      
+      
+  }
+  .slide{
+      transition: ease-in 0.1s;
+      height:47vh;
+      color:rgb(212, 212, 212);
+      font-size: 14px;
+     
+      
+  }
+  .arrow {
+
+    display: hidden;
+  }
+  .arrow svg {
+    display: hidden;
+  }
+  .arrow svg:hover {
+    display: hidden;
+  }
+  .next {
+    display: hidden;
+  }
+  
+  .prev {
+    display: hidden;
+  }
+
+} 
