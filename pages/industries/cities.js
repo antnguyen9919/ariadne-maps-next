@@ -3,23 +3,31 @@ import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import { variant1,transition } from '../../sections/animations';
-
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
 
 const cities = () => {
   return (
     <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       <main>
-        <div>
-            <div>
-            <h1 className="text-center">Cities
-
-</h1>
-          <p className='text-center'>Cities and government entities are flooded with people throughout the whole year.
+      <ParallaxProvider>
+      <Parallaximg imgsrc="/Photos/Pages/cities.jpg" height="110vh" opacity=".5" >
+      <div className={styles.banner} >
+              
+              
+              <h1 className="text-center font-6xl font-extrabold ">CITIES</h1>
+            <h3 className='text-center'>Cities and government entities are flooded with people throughout the whole year.
 
 Ariadne Maps helps them better serve their residents and improve their experience
+  
+  </h3>
+              </div>
 
-</p>
-            </div>
+      </Parallaximg>
+
+   </ParallaxProvider>
+        <div>
+            
             
             <div className={styles.row}>
                 <div className={styles.column}>

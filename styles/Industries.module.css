@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
 
+.banner {
+    position:absolute;
+    padding: 0 2vw;
+    
+}
+.banner h1, .banner h3{
+
+    text-shadow: 2px 2px #222;
+}
+.banner h1{
+    font-size:3.5vw;
+}
 .column img{
     width: 9vw;
     height:15vh;

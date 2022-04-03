@@ -3,24 +3,32 @@ import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import { variant1,transition } from '../../sections/animations';
-
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
 
 const Retails = () => {
   return (
     <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
    <main>
-        <div>
-            <div>
-            <h1 className="text-center">Retail
-
-Stores</h1>
-          <p className='text-center'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
+   <ParallaxProvider>
+      <Parallaximg imgsrc="/Photos/Pages/retail2.jpeg" height="110vh" opacity=".5" >
+      <div className={styles.banner}>
+              
+              
+              <h1  className="text-center font-6xl font-extrabold ">RETAIL STORES</h1>
+            <h3  className='text-center'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
 
 identify their unnecessary costs and increase their revenues
+  
+  </h3>
+              </div>
 
-</p>
-            </div>
+      </Parallaximg>
+
+   </ParallaxProvider>
+        <div>
+            
             
             <div className={styles.row}>
                 <div className={styles.column}>

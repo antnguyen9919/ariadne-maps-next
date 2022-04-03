@@ -4,22 +4,31 @@ import React from 'react';
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import Image from 'next/image';
-
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
 
 function Airport() {
   return <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
     
 
    <main >
-        <div >
-            <div >
+   <ParallaxProvider>
+      <Parallaximg imgsrc="/Photos/Pages/airport.jpg" height="110vh" opacity=".5" >
+      <div className={styles.banner} >
               
               
-            <h1 className="text-center">AIRPORTS</h1>
-          <p className='text-center'>Ariadne Maps helps airports understand and serve their passengers better, provide useful services, and do more targeted marketing campaigns
+              <h1 className="text-center font-6xl font-extrabold ">AIRPORTS</h1>
+            <h3 className='text-center'>Ariadne Maps helps airports understand and serve their passengers better, provide useful services, and do more targeted marketing campaigns
+  
+  </h3>
+              </div>
 
-</p>
-            </div>
+      </Parallaximg>
+
+   </ParallaxProvider>
+
+        <div >
+            
             
             <div className={styles.row}>
                 <div className={styles.column}>

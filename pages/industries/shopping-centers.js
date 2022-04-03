@@ -3,6 +3,8 @@ import React from 'react'
 import styles from '../../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import { variant1,transition } from '../../sections/animations';
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
 const variants = {
   hidden:{opacity: 0, x:0, y:20},
   enter:{opacity:1, x:0, y:0},
@@ -12,15 +14,22 @@ const Shopping = () => {
   return (
     <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       <main>
+      <ParallaxProvider>
+      <Parallaximg imgsrc="/Photos/Pages/mall.jpg" height="110vh" opacity=".5" >
+      <div className={styles.banner} >
+              
+              
+              <h1 className="text-center font-6xl font-extrabold ">SHOPPING CENTERS</h1>
+            <h3 className='text-center'>Ariadne Maps works with the leading mall management companies worldwide and enables them to take data-based, strategic decisions
+  
+  </h3>
+              </div>
+
+      </Parallaximg>
+
+   </ParallaxProvider>
         <div>
-            <div>
-            <h1 className="text-center">Shopping Centers</h1>
-          <p className='text-center'>Ariadne Maps works with the leading mall management companies worldwide and enables them to take data-based, strategic decisions
-
-
-
-</p>
-            </div>
+            
             
             <div className={styles.row}>
                 <div className={styles.column}>

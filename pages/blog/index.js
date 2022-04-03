@@ -5,7 +5,7 @@ import BlogStyle from '../../styles/Blog.module.scss'
 import { getPosts } from '../../services'
 import {FeaturedPosts} from '../../sections';
 import { BlogHeader } from '../../components'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 // Fetch data at build time
 
 export async function getStaticProps() {
@@ -15,16 +15,12 @@ export async function getStaticProps() {
     };
   }
 
-  const variants = {
-    hidden:{opacity: 0, x:0, y:0},
-    enter:{opacity:1, x:0, y:0},
-    exit:{opacity:0,x:0,y:0}
-  }
+ 
 
   export default function Home({ posts }) {
 
 return (
-  <motion.div initial="hidden" animate="enter" exit="exit" variants={variants} transition={{duration: 0.1, type: 'easeInOut'}}  >
+  <div  >
     <BlogHeader/>
   <div className={BlogStyle.blogBody}>
         <div className='container mx-auto px-10 mb-8'>
@@ -54,7 +50,7 @@ return (
 
         </div>
     </div>
-  </motion.div>
+  </div>
     
   )
 }
