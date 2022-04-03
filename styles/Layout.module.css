@@ -16,11 +16,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 .imageContainer img{
     display: block;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     width:50%;
 }
 
