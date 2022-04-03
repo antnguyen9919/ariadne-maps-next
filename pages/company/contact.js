@@ -1,12 +1,12 @@
-// import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo } from 'react'
 
 
-// import {db} from '../../config/firebase'
-// import {collection, addDoc} from "firebase/firestore"
+import {db} from '../../config/firebase'
+import {collection, addDoc} from "firebase/firestore"
 
-// // import style from '../../styles/Contact.module.css'
+// import style from '../../styles/Contact.module.css'
 
-// const contact = () => {
+const contact = () => {
 //   const [firstName,setFirstName] = useState('')
 //   const [lastName,setLastName] = useState('')
 //   const [email, setEmail]= useState('')
@@ -57,7 +57,7 @@
 //       alert('Invalid form')
 //     } else {
 //       createMessage(firstName,lastName,email,country.label,subject, message)
-//       // alert('sent successful')
+//       alert('sent successful')
 //     }
   
  
@@ -65,12 +65,12 @@
 // } 
 
 
-//   return (
-//     <div className='min-h-screen w-full'>
+  return (
+    <div className='min-h-screen w-full'>
 
-//     </div>
-//   )
-// }
+    </div>
+  )
+}
 
-// export default contact
+export default contact
 
