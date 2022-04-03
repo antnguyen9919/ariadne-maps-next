@@ -165,7 +165,7 @@ export default function Home() {
 
             <div className={styles.heroScreen} >
             <motion.video className={styles.bgVid} 
-            
+            poster = "/Photos/smallScreen.png"
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
             src ="/Videos/Hero2vid.mp4" type="videos/mp4" autoPlay playsInline muted loop  />
