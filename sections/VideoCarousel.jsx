@@ -1,7 +1,7 @@
 import React,{useState,useRef} from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
+
 import ReactPlayer from 'react-player'
 import styles from '../styles/VideoCarousel.module.css'
 
@@ -21,22 +21,6 @@ const responsive = {
     items: 1,
   },
 };
-
-   
-
-
-const NextArrow = (
-  <div className={`${styles.arrow} ${styles.next}`} >
-      <FaAngleRight />
-    </div>
-);
-
-const PrevArrow = (
-<div className= {`${styles.arrow} ${styles.prev}`}>
-      <FaAngleLeft />
-    </div>
-
-)
 
 const VideoCarousel = () => {
  const images =[
@@ -83,8 +67,7 @@ const VideoCarousel = () => {
       responsive={responsive} 
       autoPlaySpeed={10000}
       removeArrowOnDeviceType={["tablet", "mobile"]}
-       customLeftArrow={PrevArrow} 
-      customRightArrow={NextArrow} 
+      
 
       itemClass="px-4"
       >
