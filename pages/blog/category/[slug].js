@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 const CategoryPost = ({ posts }) => {
   const router = useRouter();
-  const mainCategory1 = posts[0]?.node.categories[0]?.name
+  // const mainCategory1 = posts[0]?.node.categories[0]?.name
   console.log(posts)
   const mainCategory = "Category"
   if (router.isFallback) {
