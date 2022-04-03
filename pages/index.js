@@ -28,6 +28,8 @@ import { Calendly, Testi2 } from '../components'
 
 
 
+
+
 const variants = {
   hidden:{opacity: 0, x:0, y:0},
   enter:{opacity:1, x:0, y:0},
@@ -142,12 +144,12 @@ export default function Home() {
   rel="stylesheet"
   type="text/css"
   charSet="UTF-8"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
 />
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
 />
         
        
