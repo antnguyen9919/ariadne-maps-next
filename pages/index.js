@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import firebase from '../config/firebase'
 
 import {motion} from 'framer-motion'
 
@@ -170,7 +171,8 @@ export default function Home() {
             poster = "/Photos/smallScreen.png"
             // initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
-            src ="/Videos/Hero2vid.mp4" type="videos/mp4" autoPlay playsInline muted loop  />
+            src ="/Videos/Hero2vid.mp4" 
+            type="videos/mp4" autoPlay playsInline muted loop  />
             <img src = "/Photos/smallScreen.png" />
             </div>
 

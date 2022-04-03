@@ -1,8 +1,8 @@
-import React,{useRef} from 'react'
+import React,{useContext, useRef} from 'react'
 import Link from 'next/link' 
 import {Popover,Transition} from '@headlessui/react'
 
-// import {useAuth} from '../../context/AuthContext'
+import AuthContext from '../../context/authContext'
 
 
 import {DiGoogleAnalytics} from 'react-icons/di'
@@ -46,6 +46,8 @@ const  Navbar = () => {
   let industriesRef = useRef(null)
   let companyRef = useRef(null)
   // const {user} = useAuth()
+  const user = useContext(AuthContext)
+  
   
   return (
     <Popover className='sticky top-0 w-full bg-black z-50'>

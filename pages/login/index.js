@@ -1,5 +1,8 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import AuthContext from '../../context/authContext';
+import '../../config/firebase'
 
 
 const Login = () => {
@@ -9,14 +12,18 @@ const Login = () => {
             email: '',
             password: '',
         })
+
+        const val = useContext(AuthContext)
+        const login = val.login()
+        // console.log("Name: ", val)
 const handleLogin = async (e) =>{
     e.preventDefault()
-    console.log(user)
-    // try{
-    //     await login(data.email, data.password)
-    // } catch(err){
-    //     console.log(err)
-    // }
+        try{
+            await login(data.email,data.password)
+        } catch(err){
+            console.log(err)
+        }
+
 
 }        
 
