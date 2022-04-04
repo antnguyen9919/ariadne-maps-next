@@ -347,7 +347,10 @@
     }
     .section1{
         padding:0 1vw;
-        height: 900px;
+        padding-top: 50px;
+        min-height: 130vh;
+        
+
         /* background: #000; */
         margin-bottom: 30px;
     }
@@ -356,6 +359,10 @@
         padding: 3vh 1vw;
         /* min-height: 100vh; */
         min-height: 500px;
+    }
+    .section3{
+        overflow: hidden;
+        padding: 0 2vw;
     }
 .section4{
     width:100%;
@@ -480,6 +487,7 @@
         margin-right: 0px;
     }
     .gif{
+        margin-top: 5vh;
         width: 100%;
     }
 

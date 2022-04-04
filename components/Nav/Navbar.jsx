@@ -3,11 +3,11 @@ import Link from 'next/link'
 import {Popover,Transition} from '@headlessui/react'
 
 import AuthContext from '../../context/authContext'
-import styles from '../../styles/Nav.module.css'
+
 
 import {DiGoogleAnalytics} from 'react-icons/di'
 import {BiNavigation,BiNotification,BiUser} from 'react-icons/bi'
-// import {BsMap} from 'react-icons/bs'
+
 import {FaUserCircle} from 'react-icons/fa'
 
 import {MdLocalAirport,MdStoreMallDirectory,
@@ -50,7 +50,7 @@ const  Navbar = () => {
   
   return (
 
-    <div className = {styles.whole}>
+    <div >
       <Popover className='sticky top-0 w-full bg-black z-50'>
       
       <div className="2xl:max-w-5xl max-w-4xl  px-4 mx-auto md:px-6">
