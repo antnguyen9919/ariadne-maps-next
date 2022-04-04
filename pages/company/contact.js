@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react'
 import {db} from '../../config/firebase'
 import {collection, addDoc} from "firebase/firestore"
 
-// import style from '../../styles/Contact.module.css'
+import style from '../../styles/Contact.module.css'
 
 const contact = () => {
 //   const [firstName,setFirstName] = useState('')
@@ -66,7 +66,24 @@ const contact = () => {
 
 
   return (
-    <div className='min-h-screen w-full'>
+    <div className='h-full p-8'>
+            <div className='h-1/2 ' >
+              <h3>Contact Us</h3>
+              <h4>Ariadne Maps GmbH</h4>
+              <p>
+              Brecherspitzstraße 8<br/>
+
+81541 München<br/>
+
++49 174 4079675 <br/>
+
+contact@ariadnemaps.com 
+              </p>
+
+            </div>
+            <div className='h-1/2'>
+
+            </div>
 
     </div>
   )

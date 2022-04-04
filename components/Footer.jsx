@@ -29,7 +29,7 @@ function Footer() {
 
     <div className={styles.footerLinkItems}>
       <h3 className='text-2xl'>Solutions</h3>
-      <Link href='/solutions/ariadne-mapping'>Ariadne Mapping</Link>
+      {/* <Link href='/solutions/ariadne-mapping'>Ariadne Mapping</Link> */}
       <Link href='/solutions/ariadne-navigation'>Ariadne Navigation</Link>
       <Link href='/solutions/ariadne-analytics'>Ariadne Analytics</Link>
       <Link href='/solutions/ariadne-engagement'>Ariadne Engagement</Link>

@@ -17,8 +17,7 @@ import {AiOutlineShopping} from 'react-icons/ai'
 
 const solutions=[
   {title:"Ariadne Analytics",icon:DiGoogleAnalytics, descriptions:"analytics",href:"/solutions/ariadne-analytics"},
-  {title:"Ariadne Mapping",icon:BsMap, descriptions:"mapping",href:"/solutions/ariadne-mapping"},
-  {title:"Ariadne Navigation",icon:BiNavigation, descriptions:"navigation",href:"/solutions/ariadne-navigation"},
+{title:"Ariadne Navigation",icon:BiNavigation, descriptions:"navigation",href:"/solutions/ariadne-navigation"},
   {title:"Ariadne Engagement",icon:BiNotification, descriptions:"engagement",href:"/solutions/ariadne-engagement"},
   
 ]
