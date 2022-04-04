@@ -3,11 +3,11 @@ import Link from 'next/link'
 import {Popover,Transition} from '@headlessui/react'
 
 import AuthContext from '../../context/authContext'
-
+import styles from '../../styles/Nav.module.css'
 
 import {DiGoogleAnalytics} from 'react-icons/di'
 import {BiNavigation,BiNotification,BiUser} from 'react-icons/bi'
-import {BsMap} from 'react-icons/bs'
+// import {BsMap} from 'react-icons/bs'
 import {FaUserCircle} from 'react-icons/fa'
 
 import {MdLocalAirport,MdStoreMallDirectory,
@@ -49,14 +49,16 @@ const  Navbar = () => {
   
   
   return (
-    <Popover className='sticky top-0 w-full bg-black z-50'>
+
+    <div className = {styles.whole}>
+      <Popover className='sticky top-0 w-full bg-black z-50'>
       
       <div className="2xl:max-w-5xl max-w-4xl  px-4 mx-auto md:px-6">
       
           <div className="flex items-center justify-between h-16">
 
           <Link href="/" ><a className="flex items-center">
-        <img src="/Photos/Asset16.png" className="mr-3 h-6 sm:h-9 hover:scale-105 transition ease-in-out" alt="Ariadne Logo" /></a></Link>
+        <img src="/Photos/Asset16.png" className="mr-3 h-6 scale-125 sm:h-9" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
           <Popover.Button className="inline-flex items-center justify-center text-gray-400 
@@ -86,7 +88,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>solutionRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold  hover:text-red-600 transition ease-in'>Solutions</span>
+                   <span className='text-white font-light text-lg  hover:text-red-600 transition ease-in'>Solutions</span>
 
                  </Popover.Button>
 
@@ -134,7 +136,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>industriesRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold  hover:text-red-600 transition ease-in'>Industries</span>
+                   <span className='text-white font-light text-lg hover:text-red-600 transition ease-in'>Industries</span>
 
                  </Popover.Button>
                  <Transition
@@ -174,7 +176,7 @@ const  Navbar = () => {
                )}
               </Popover>
 
-              <Link href='/why-ariadne'><a className='text-base font-bold text-white hover:text-red-600 transition ease-in'>Why Ariadne</a></Link>
+              <Link href='/why-ariadne'><a className='text-lg font-light  text-white hover:text-red-600 transition ease-in'>Why Ariadne</a></Link>
 
               <Popover>
                {({open,close})=>(
@@ -184,7 +186,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>companyRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-bold  hover:text-red-600 transition ease-in '>Company</span>
+                   <span className='text-white font-light text-lg hover:text-red-600 transition ease-in '>Company</span>
 
                  </Popover.Button>
                  <Transition
@@ -230,7 +232,7 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-base font-bold text-white' >Lets talks</a></Link>
+            <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-lg font-light text-white' >Let&rsquo;s talk</a></Link>
             <Link href='/login'><a className=' text-base ' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a></Link>
             
             </div>
@@ -275,7 +277,7 @@ const  Navbar = () => {
 
                     <h1 className='text-center'>Company</h1>
                             <div className='relative grid grid-cols-2 gap-6 px-5 py-6 sm:gap-8 sm:p-8'>
-                                  <a href='#' className='text-sm p-2 -m-3 font-normal text-white' >Why Ariadne?</a>
+                                  <a href='#' className='text-sm p-2 -m-3 text-lg font-light text-white' >Why Ariadne?</a>
                             {company.map((comp,index)=>(
                         <a key = {index} href = {comp.href} className='flex items-start 
                         p-2 -m-3 rounded-lg text-white ' >
@@ -295,6 +297,7 @@ const  Navbar = () => {
       
         
     </Popover>
+    </div>
   )
 }
 

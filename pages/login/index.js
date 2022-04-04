@@ -14,15 +14,15 @@ const Login = () => {
         })
 
         const val = useContext(AuthContext)
-        const login = val.login()
+        // const login = val.login()
         // console.log("Name: ", val)
 const handleLogin = async (e) =>{
     e.preventDefault()
-        try{
-            await login(data.email,data.password)
-        } catch(err){
-            console.log(err)
-        }
+        // try{
+        //     await login(data.email,data.password)
+        // } catch(err){
+        //     console.log(err)
+        // }
 
 
 }        
