@@ -66,7 +66,7 @@ Engagement</motion.h1>
 
 
           <div className={styles.sectionE1}>
-            <div>
+            <div >
               <img src = "/Photos/Pages/Engagement/Phone.jpg"/>
             </div>
             <div className={styles.E1content}>

@@ -52,12 +52,16 @@ text-shadow: 2px 2px 4px #000000;
     transition: ease-in 0.2s;
     height:67vh;
     color:#fff;
+    font-size: 0.8rem;
     
     
 }
+.activeSlide p, .slide p{
+  font-size: 1rem;
+}
 .slide{
     transition: ease-in 0.2s;
-    height:60vh;
+    height:64vh;
     color:rgb(212, 212, 212);
     font-size: 13px;
    
@@ -71,7 +75,7 @@ text-shadow: 2px 2px 4px #000000;
 
 
       
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1023px){
     .slideContainer{
         display: flex;  
         height:70vh;
@@ -85,6 +89,7 @@ text-shadow: 2px 2px 4px #000000;
         transition: ease-in 0.2s;
         height:47vh;
         color:#fff;
+        font-size: 1.3rem;
         
         
     }
@@ -117,20 +122,15 @@ text-shadow: 2px 2px 4px #000000;
 }  
 
 
-@media only screen and (min-width:1400px){
+@media only screen and (min-width:1536px){
 
   .slide p, .activeSlide p{
-    font-size: 2.5vh;
+    font-size: 2vh;
    
 }
 
   .slideContainer{
-      /* display: flex;  
-      height:70vh;
-      align-items: center;
-      
-      align-content: center;
-      justify-content: center; */
+     
   }
 
   .activeSlide {
@@ -138,7 +138,7 @@ text-shadow: 2px 2px 4px #000000;
       height:47vh;
       color:#fff; */
 
-      font-size: 1.3vw;
+      font-size: 1.2rem;
       height:50vh;
       
       
@@ -148,8 +148,8 @@ text-shadow: 2px 2px 4px #000000;
       height:47vh;
       color:rgb(212, 212, 212);
       font-size: 16px; */
-      font-size: 1vw;
-      height:45vh;
+      font-size: 1.2rem;
+      height:47vh;
      
       
   }
@@ -181,7 +181,7 @@ text-shadow: 2px 2px 4px #000000;
 
 }  
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:576px){
   .slideContainer{
       display: flex;  
       height:70vh;
@@ -195,15 +195,18 @@ text-shadow: 2px 2px 4px #000000;
       transition: ease-in 0.2s;
       height:47vh;
       color:#fff;
-      font-size: 14px;
+      font-size: 0.6rem;
       
       
+  }
+  .activeSlide p , .slide p {
+    font-size: 0.7rem;
   }
   .slide{
       transition: ease-in 0.1s;
       height:47vh;
       color:rgb(212, 212, 212);
-      font-size: 14px;
+      font-size: 0.6rem;
      
       
   }

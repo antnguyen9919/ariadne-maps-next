@@ -9,11 +9,11 @@ import styles from '../styles/VideoCarousel.module.css'
 const responsive = {
   
   desktop: {
-    breakpoint: { max: 4000, min: 768 },
+    breakpoint: { max: 4000, min: 1024 },
     items: 3,
   },
   tablet: {
-    breakpoint: { max: 768, min: 640 },
+    breakpoint: { max: 1023, min: 640 },
     items: 2,
   },
   mobile: {

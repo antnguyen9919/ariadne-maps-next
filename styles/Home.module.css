@@ -2,7 +2,7 @@
 .hero{
     
     background-color: #30303d;
-    height: 530px;
+    min-height: 77vh;
     color:#fff;
 }
 .heroContainer{
@@ -11,10 +11,10 @@
     
 }
 .heroScreen img{
-    display: none;
+    width: 95%;
 }
 .heroTextContainer{
-  
+    
     display: flex;
     align-items: center;
     justify-content:flex-end;
@@ -22,8 +22,8 @@
     width:55vw;
 }
 .heroText{
-  
-    height: 50%;
+   
+    min-height: 50%;
     width:81%;
     display: flex;
     flex-direction: column;
@@ -38,22 +38,21 @@
     flex-direction:column;
     justify-content:flex-end;
     align-content: flex-end;
-    height: 530px;
+    min-height: 77vh;
 }
 
 .main{
-    padding: 0 100px;
+    /* padding: 0 100px; */
     overflow: hidden;
 }
 
 .section1{
     min-height:100vh;
     padding-top:40px;
+    padding: 0 7vw;
     
 }
-.section3{
-    overflow: hidden;
-}
+
 
 
 .section1screens{
@@ -68,34 +67,42 @@
     margin-top: 20px;
 }
 .screens{
-    width: 55vw;
+    width: 50vw;
 }
 .intro{
-    width: 26vw;
+    width: 30vw;
 }
 
 
 
 .section2{
-    min-height:80vh;
-    padding-top:40px;
+
+    min-height:60vh;
+    margin-top: 3vh;
+    padding-top:4vh;
+    padding: 0 7vw;
 }
 .section2 h1{
-    padding-bottom: 50px;
+    padding-bottom: 1vh;
 }
 
 /* ariadne platform  */
 
+.section3{
+    overflow: hidden;
+    padding: 0 7vw;
+}
+
 .gifbox{
     min-height:30vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 60px 0;
 }
 .giftext{
     width: 38vw;
-    margin-right: 50px;
+    /* margin-right: 50px; */
     
 }
 .giftext p{
@@ -112,14 +119,18 @@
 .section4{
     min-height: 100vh;
     padding: 50px 0;
+    padding: 0 7vw;
 }
 .section4 h1{
     margin-bottom: 50px;
 }
 
 .section5{
-    min-height: 70vh;
+    min-height: 80vh;
     padding: 50px 0;
+    margin-top: 40px;
+    padding: 0 7vw;
+    font-weight: 300;
 }
 .section5 h1{
     margin-bottom: 40px;
@@ -141,6 +152,7 @@
 .section6{
     min-height: 90vh;
     padding: 40px 0px;
+    padding: 0 7vw;
    
     
 }
@@ -152,14 +164,22 @@
 }
 
 .section7{
-    /* min-height: 200vh; */
+    min-height: 200vh;
     
 }
 #calendly{
     min-width:320px; 
     height: 120vh;
 }
-@media only screen and (min-width:1400px){
+ @media only screen and (min-width:1536px){
+     
+
+
+
+
+
+
+
 
     .hero{
         background-color: #30303d;
@@ -180,12 +200,12 @@
         width:55vw;
     }
     .heroText{
-       
+       /* border: 1px red solid; */
         height: 50%;
         width:81%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         padding-top: 0;
     }
@@ -212,237 +232,27 @@
         margin-top: 1.2vw;
     }
       
-}
+} 
 
-@media only screen and (max-width:1025px){
+@media only screen and (max-width:1024px){
     .main{
         padding-left:8px;
         padding-right:8px;
 
     }
 
-    .hero{
-        background-color: #30303d;
-        height: 120vh;
-        color:#fff;
-    }
-    .heroContainer{
-        display: flex;
-        flex-direction: column;
-        height: 120vh;
-        
-        
-    }
-    .heroTextContainer{
-       
-        display: flex;
-        flex-direction: column;
-        
-        align-items: center;
-        justify-content:center;
-        flex-wrap: wrap;
-        width:100%;
-        height: 60vh;
-        
-    }
-    .heroText{
-       
-        /* height: 40%; */
-        width:81%;
-        display: flex;
-        flex-direction: column;
-        justify-content:flex-end;
-        flex-wrap: wrap;
-        padding-top: 0;
-    }
-    .heroScreen{
-        width:100%;
-        align-items: center;
-        display: flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        align-content: flex-end;
-        height: 60vh;
-        object-fit: contain;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .heroScreen img{
-        display:block;
-        width: 60%;
-    }
-    .heroScreen video{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .section1screens{
-        flex-direction:column;
-        padding: 50px 20px;
-    }
-    .screens{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .intro{
-        width: 100%;
-    }
-    .giftext p{
-        margin-top: 1px;
-     }
-     
-
-
-    .gifbox{
-        padding: 40px 20px;
-        margin-bottom: 10px;
-        min-height:20vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .giftext{
-        width: 100%;
-        margin-right: 0px;
-    }
-    .gif{
-        width: 100%;
-    }
-
-
-    .section5{
-        min-height: 100vh;
-        padding: 50px 15px;
-
-    }
     
-    .products{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .product{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content:center;
-        margin: 20px 0;
-        text-align: center;
-    }
-    .product img{
-        
-    }
-   
-    .product h4{
-        margin-top: 25px;
-        margin-bottom: 18px;
-    }
-    #calendly{
-        min-width:320px; 
-        min-height: 150vh;
-    }
-
-    .section6{
-        min-height: 90vh;
-        padding: 40px 10px;
-        
-    }
 
 
-}
 
 
-@media only screen and (max-width:768px){
-    .main{
-        padding-left:8px;
-        padding-right:8px;
 
-    }
-    .section7{
-        overflow-x: hidden;
-        
-        width:95%;
-    }
 
-    .hero{
-        background-color: #30303d;
-        height: 80vh;
-        color:#fff;
-    }
-    .heroContainer{
-        height: 80vh;
-        bottom:0;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:flex-end;
-        
-        
-    }
-    .heroTextContainer{
-       
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        flex-wrap: wrap;
-        width:100%;
-        height:30vh;
-    }
-    .heroText{
-       
-        /* height: 40%; */
-        width:81%;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        flex-wrap: wrap;
-        padding-top: 0;
-    }
-    .heroScreen{
-        width:100%;
-        
-        display: flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        align-content: flex-end;
-        height: 50vh;
-        object-fit: contain;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .heroScreen img{
-        display:block;
-        width: 100%;
-    }
-    .heroScreen video{
-        display: none;
-    }
+
 
     .section1{
-        height: 120vh;
+        min-height: 1100px;
     }
-    
-
-
-
-
-
-
-
 
 
 
@@ -523,183 +333,29 @@
 
 
 }
+
+
+
+
+
+
 
 @media only screen and (max-width:576px){
     #calendly{
         width:200px; 
         height: 120vh;
     }
-.section4{
-    width:100%;
-    overflow-x: hidden;
-}
-    .section7{
-        overflow-x: hidden;
-        width:95%;
-    }
-
-
-    .main{
-        padding-left:1px;
-        padding-right:1px;
-
-    }
-
-
-    .hero{
-        background-color: #30303d;
-        height: 100vh;
-        color:#fff;
-    }
-    .heroContainer{
-        
-       
-        height: 100vh;
-        bottom:0;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:flex-end;
-        
-        
-        
-    }
-
-    .heroTextContainer{
-        display: flex;
-        flex-direction: column;
-        
-        align-items: center;
-        justify-content:flex-start;
-        flex-wrap: wrap;
-        width:100%;
-        height: 50vh;
-    }
-    .heroText{
-       
-        width:81%;
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        height: 50vh;
-        
-        flex-wrap: wrap;
-        padding-top: 0;
-    }
-    .heroScreen{
-        width:100%;
-        margin-right: 0;
-        display: flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        align-content: flex-end;
-        height: 50vh;
-        object-fit: contain;
-        
-        
-        
-    }
-    .heroScreen img{
-        display:block;
-        width: 100%;
-    }
-    .heroScreen video{
-        display: none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .section1screens{
-        flex-direction:column;
-        padding: 50px 20px;
-    }
-    .screens{
-        width: 100%;
+    .section1{
+        padding:0 1vw;
+        height: 900px;
+        /* background: #000; */
         margin-bottom: 30px;
     }
-    .intro{
-        width: 100%;
-    }
-    .giftext p{
-        margin-top: 1px;
-     }
-     
+    .section2{
 
-
-    .gifbox{
-        padding: 40px 20px;
-        margin-bottom: 10px;
-        min-height:20vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .giftext{
-        width: 100%;
-        margin-right: 0px;
-    }
-    .gif{
-        width: 100%;
-    }
-
-
-    .section5{
-        min-height: 100vh;
-        padding: 50px 15px;
-
-    }
-    
-    .products{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .product{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        justify-content:center;
-        margin: 20px 0;
-        text-align: center;
-    }
-    .product img{
-        
-    }
-   
-    .product h4{
-        margin-top: 25px;
-        margin-bottom: 18px;
-    }
-   
-
-    .section6{
-        min-height: 90vh;
-        padding: 40px 10px;
-        
-    }
-
-
-}
-
-
-
-@media only screen and (max-width:420px){
-    #calendly{
-        width:200px; 
-        height: 120vh;
+        padding: 3vh 1vw;
+        /* min-height: 100vh; */
+        min-height: 500px;
     }
 .section4{
     width:100%;
@@ -830,7 +486,7 @@
 
     .section5{
         min-height: 100vh;
-        padding: 50px 15px;
+        padding: 50px 1vw;
 
     }
     
