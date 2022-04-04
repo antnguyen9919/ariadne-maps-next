@@ -164,7 +164,7 @@
 }
 
 .section7{
-    min-height: 200vh;
+    min-height: 100vh;
     
 }
 #calendly{
@@ -346,7 +346,7 @@
         height: 120vh;
     }
     .section1{
-        padding:0 1vw;
+        padding:0 2vw;
         padding-top: 50px;
         min-height: 130vh;
         
@@ -356,7 +356,7 @@
     }
     .section2{
 
-        padding: 3vh 1vw;
+        padding: 3vh 2vw;
         /* min-height: 100vh; */
         min-height: 500px;
     }
@@ -367,6 +367,11 @@
 .section4{
     width:100%;
     overflow-x: hidden;
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+.section5{
+
 }
     .section7{
         overflow-x: hidden;

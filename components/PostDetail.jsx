@@ -33,11 +33,11 @@ const PostDetail = ({ post }) => {
               <span className="align-middle">{moment(post.createdAt).format('MMM DD, YYYY')}</span>
             </div>
           </div>
-          <h1 className="mb-8 text-3xl font-semibold">{post.title}</h1>
+          <h1 className="mb-8  font-semibold">{post.title}</h1>
 
           <div className={style.postBody} dangerouslySetInnerHTML={createMarkup()} />
           
-          {console.log(post.content.html)}
+          {/* {console.log(post.content.html)} */}
         </div>
       </div>
 
