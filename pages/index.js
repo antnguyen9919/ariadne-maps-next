@@ -177,11 +177,8 @@ export default function Home() {
             
             src ="/Videos/Hero2vid.mp4" 
             type="videos/mp4" autoPlay playsInline muted loop  /> */}
-            <motion.img
-                initial="hidden"
-                transition={{duration: 0.2, type: 'easeInOut'}} 
-                variants = {variants}
-                animate="enter"
+            <img
+               
             
             src = "/Photos/smallScreen.png" />
             </div>
