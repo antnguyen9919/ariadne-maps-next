@@ -5,7 +5,7 @@ import React from 'react'
 
 const Brands = () => {
   return (
-    <div className='w-full  mb-10 mt-2 flex justify-center  justify-items-center  content-center items-center'>
+    <div className='w-full  mb-10 mt-8 flex justify-center  justify-items-center  content-center items-center'>
         <div className='w-full  flex justify-center flex-wrap justify-items-center gap-5 content-center items-center'>
         <div className='w-40'>
         <img src="/Photos/brands/s1.png" alt="" width="200%" />

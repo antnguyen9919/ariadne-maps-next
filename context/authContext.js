@@ -1,20 +1,22 @@
-import { createContext, useEffect, useState } from "react";
-
+import { createContext, useEffect, useState,useContext } from "react";
+import useFirebaseAuth from './useFirebaseAuth'
 import { getAuth, onAuthStateChanged, signInWithEmailAndPassword,signOut } from "firebase/auth";
 
-import '../config/firebase'
+import { auth } from "../config/firebase";
+
 const AuthContext = createContext({
     user: null,
-    login:()=>{},
-    logout:()=>{},
-    authReady: false,
-
+    loading: true,
+  
 });
-const auth = getAuth();
 
 
-export const AuthContextProvider =({children})=>{
+
+export const AuthContextProvider =({children})=>{ 
     const [user,setUser] =useState(null)
+    const [loading,setLoading] = useState(true)
+   
+     
     useEffect(()=>{
             const unsubscribe= onAuthStateChanged(auth,(user)=>{
                 if(user){
@@ -25,13 +27,16 @@ export const AuthContextProvider =({children})=>{
                     })
                 } else {setUser(null)
                 }
+                setLoading(false)
             })
+
             return ()=>unsubscribe()
     },[])
+
     const login=(email,password)=>{
         return signInWithEmailAndPassword(auth,email,password)
     }
-    const logout= async()=>{
+    const logout= async ()=>{
         setUser(null)
         await signOut(auth)
     }
@@ -45,4 +50,5 @@ export const AuthContextProvider =({children})=>{
         </AuthContext.Provider>
     )
 }
-export default AuthContext
+// custom hook to use the authUserContext and access authUser and loading
+export const useAuth = () => useContext(AuthContext);

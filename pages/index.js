@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import smallScreen from "../public/Photos/smallScreen.png"
+
 import firebase from '../config/firebase'
 
 import {motion} from 'framer-motion'
@@ -25,7 +27,7 @@ import Carousel from 'react-multi-carousel';
 import { useState } from 'react'
 
 import styles from '../styles/Home.module.css'
-import { Calendly, Testi2 } from '../components'
+import { Calendly, Testi2, Testimonials } from '../components'
 
 
 
@@ -170,17 +172,19 @@ export default function Home() {
             </div>
             </div>
 
-            <div className={styles.heroScreen} >
+            <div className={`${styles.heroScreen} brightness-90`} >
             {/* <video className={styles.bgVid} 
             poster = "/Photos/smallScreen.png"
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
             src ="/Videos/Hero2vid.mp4" 
             type="videos/mp4" autoPlay playsInline muted loop  /> */}
-            <img
+            <Image
+            
+            layout="responsive"
                
             
-            src = "/Photos/smallScreen.png" />
+            src = {smallScreen} />
             </div>
 
           </div>
@@ -449,6 +453,7 @@ variants = {variants} animate = {controls2}>
         
         >
         {/* <Testi2/> */}
+        <Testimonials/>
         </motion.div>
 
         </div>

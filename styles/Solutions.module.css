@@ -120,8 +120,8 @@
     
 }
 .blackCTA{
-    background-color:black;
-    height:30vh;
+    background-color: #2f303a;
+    height:40vh;
     display: flex;
     justify-content: center;
     align-items: center;

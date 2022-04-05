@@ -11,7 +11,7 @@
     
 }
 .heroScreen img{
-    width: 95%;
+    /* width: 95%; */
 }
 .heroTextContainer{
     
@@ -32,13 +32,13 @@
     padding-top: 0;
 }
 .heroScreen{
-    width:80vw;
+    width:70vw;
     
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
     align-content: flex-end;
-    min-height: 77vh;
+    height: 77vh;
 }
 
 .main{
@@ -110,11 +110,11 @@
 }
 
 .gif{
-    width: 35vw;
+    width: 35vw; 
 }
 .gif video{
     border-radius: 10px;
-    border: 1px solid rgb(231, 231, 231);
+    /* border: 1px solid rgb(231, 231, 231); */
 }
 .section4{
     min-height: 100vh;
@@ -172,10 +172,15 @@
     height: 120vh;
 }
  @media only screen and (min-width:1540px){
-     
+        
+        .section1{
+            margin-top: 80px;
+        }
 
 
-
+        .section2{
+            min-height: 70vh;
+        }
 
 
 
