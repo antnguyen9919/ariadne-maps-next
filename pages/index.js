@@ -145,7 +145,7 @@ export default function Home() {
         <title>Ariadne Maps</title>
         <meta name="description" content="Ariadne Maps GmbH" />
         <link rel="icon" href="https://www.munich-startup.de/wp-content/uploads/2020/10/Ariadne-Maps-GmbH.jpeg" />
-        {/* <link
+        <link
   rel="stylesheet"
   type="text/css"
   charSet="UTF-8"
@@ -155,7 +155,7 @@ export default function Home() {
   rel="stylesheet"
   type="text/css"
   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-/> */}
+/>
         
        
       </Head>
@@ -452,8 +452,8 @@ variants = {variants} animate = {controls2}>
 
         
         >
-        {/* <Testi2/> */}
-        <Testimonials/>
+        <Testi2/>
+        {/* <Testimonials/> */}
         </motion.div>
 
         </div>
