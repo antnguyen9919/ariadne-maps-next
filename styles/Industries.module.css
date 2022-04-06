@@ -13,7 +13,7 @@
     font-size:3.5vw;
 }
 .column img{
-    width: 9vw;
+    width: 7vw;
     height:15vh;
     margin-bottom: 10px;
    
@@ -55,8 +55,9 @@
     display: flex;
     flex-direction: column;
    
-    align-items: center;
-
+    align-items: flex-start;
+    
+   
 
 }
 .column h4{

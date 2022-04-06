@@ -2,7 +2,7 @@ import React,{useRef} from 'react'
 import Link from 'next/link' 
 import {Popover,Transition} from '@headlessui/react'
 
-// import Asset16 from  '../../public/Photos/Asset16.png'
+
 
 import {DiGoogleAnalytics} from 'react-icons/di'
 import {BiNavigation,BiNotification,BiUser} from 'react-icons/bi'
@@ -50,8 +50,8 @@ const  Navbar = () => {
   
   return (
 
-    <div >
-      <Popover className='sticky top-0 w-full bg-black z-50'>
+    <div  >
+      <Popover className='fixed top-0 w-full bg-black z-50'>
       
       <div className="2xl:max-w-5xl max-w-4xl  px-4 mx-auto md:px-6">
       
@@ -232,7 +232,7 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-lg font-light text-white' >Let&rsquo;s talk</a></Link>
+            <Link href='/letstalk'><a className='transition ease-in hover:text-red-600 text-lg font-light text-white' >Let&rsquo;s talk</a></Link>
             {/* <Link href={!user? '/login':'/dashboard'}></Link> */}
             <a className=' text-base ' href ='https://app.seulet.com' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a>
             

@@ -160,7 +160,7 @@ export default function Home() {
             <div className={styles.heroText}>
             <h1  >People Flow To Actionable Insights</h1>
               <p>Turn your existing customer traffic into an additional source of revenue</p>
-              <Link href ="/company/contact"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg'>Let&rsquo;s Talk</button></a></Link>
+              <Link href ="/letstalk"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg'>Let&rsquo;s Talk</button></a></Link>
             </div>
             </div>
 
@@ -185,7 +185,7 @@ export default function Home() {
         <div className=' my-auto mx-auto w-5/6' >
             <h1  >People Flow To Actionable Insights</h1>
               <p>Turn your existing customer traffic into an additional source of revenue</p>
-              <Link href ="/company/contact"><a ><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg mt-4'>Let&rsquo;s Talk</button></a></Link>
+              <Link href ="/letstalk"><a ><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg mt-4'>Let&rsquo;s Talk</button></a></Link>
             </div>
         </div>
 
@@ -537,7 +537,7 @@ and  requires no additional infrastructure.</p>
           <h1 className="text-center">Let&rsquo; talk</h1>
           
 
-          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox='' ></iframe>
+          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox="allow-same-origin allow-scripts allow-popups allow-forms" ></iframe>
           
         </div>
 

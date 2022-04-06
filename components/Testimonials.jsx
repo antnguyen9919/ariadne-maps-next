@@ -7,11 +7,11 @@ import Atlantis2 from '../public/Photos/Caros/Atlantis2.png'
 const Testimonials = () => {
   return (
     <div className='min-h-screen mb-10 py-8 ' >
-      <div className='w-full my-8 py-6 flex xl:flex-row 2xl:flex-row flex-col flex-md-row items-center flex-sm-col justify-between ' >
+      <div className='w-full   my-8 py-6 flex xl:flex-row 2xl:flex-row flex-col flex-md-row items-center flex-sm-col justify-between ' >
         <div className='w-1/6'>
           <Image src={DB} layout='responsive' />
         </div>
-        <div className='w-2/3 mt-4 xl:mt-0'>
+        <div className='w-2/3 mt-4 xl:mt-0 xl:text-right 2xl:text-right'>
           <p className='italic' >&#8220;
           You presented to us what we were expecting to see in at least 7 years          &#8221;</p>
           <p className='font-semibold mt-2'>Janis Diekmann, Deutsche Bahn, Innovation Manager</p>
@@ -35,11 +35,11 @@ const Testimonials = () => {
 
       </div>
 
-      <div className='w-full my-8 py-6 flex xl:flex-row 2xl:flex-row flex-col flex-md-row items-center flex-sm-col justify-between' >
+      <div className='w-full   my-8 py-6 flex xl:flex-row 2xl:flex-row flex-col flex-md-row items-center flex-sm-col justify-between' >
         <div className='w-1/6'>
           <Image src={Glasgow} layout='responsive' />
         </div>
-        <div className='w-2/3 mt-4 xl:mt-0'>
+        <div className='w-2/3 xl:text-right 2xl:text-right mt-4 xl:mt-0'>
           <p>&#8220;
           I cannot think of anyone who does not need your devices          &#8221;</p>
           <p className='font-semibold mt-2'>Gordon Bain, Glasgow Airport, Head of Project Delivery</p>

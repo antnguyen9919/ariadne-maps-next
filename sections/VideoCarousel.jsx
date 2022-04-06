@@ -61,7 +61,7 @@ const VideoCarousel = () => {
     <div>
                
       <div className='py-8'>
-        {videoOpen?<div className=' bg-white flex flex-col justify-center justify-items-center' style={{position:'fixed',top:0, left:0,bottom:0,right:0,border:'none',margin:0,paddding:0,overflow:'hidden', width:'100%',height:'100%' }}>
+        {videoOpen?<div className=' bg-white flex flex-col justify-center justify-items-center' style={{position:'fixed',top:0, left:0,bottom:0,right:0,border:'none',margin:0,paddding:0,overflow:'hidden', width:'100%',height:'100%', zIndex:999999 }}>
           <div style={{position:'relative'}}  className='flex flex-row justify-end'  >
           <button className='rounded-full mb-1 mx-auto bg-red-500 px-3 text-white font-semibold' onClick={()=>setVideoOpen(false)}>Close</button>
           </div>

@@ -2,7 +2,7 @@
 .hero{
     
     background-color: hsl(240, 12%, 21%);
-    height: 90vh;
+    height: 584px;
     color:#fff;
 }
 .heroContainer{
@@ -42,7 +42,7 @@
     flex-direction:column;
     justify-content:flex-end;
     align-content: flex-end;
-    height: 90vh;
+    height: 584px;
 }
 
 .main{
@@ -175,6 +175,7 @@
     min-width:320px; 
     height: 120vh;
 }
+
  @media only screen and (min-width:1540px){
         
         .section1{
@@ -191,7 +192,7 @@
         .hero{
     
             background-color: hsl(240, 12%, 21%);
-            height: 70vh;
+            height: 750px;
             color:#fff;
             /* border: 1px solid red; */
         }
@@ -233,7 +234,7 @@
             flex-direction:column;
             justify-content:flex-end;
             align-content: flex-end;
-            height: 70vh;
+            height: 750px;
         }
         
     #calendly{
