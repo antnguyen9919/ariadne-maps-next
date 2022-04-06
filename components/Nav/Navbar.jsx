@@ -1,8 +1,7 @@
-import React,{useContext, useRef} from 'react'
+import React,{useRef} from 'react'
 import Link from 'next/link' 
 import {Popover,Transition} from '@headlessui/react'
 
-import { useAuth } from '../../context/authContext'
 
 
 import {DiGoogleAnalytics} from 'react-icons/di'
@@ -44,7 +43,7 @@ const  Navbar = () => {
   let solutionRef = useRef(null)
   let industriesRef = useRef(null)
   let companyRef = useRef(null)
-  const {user} = useAuth()
+  
 
 
   
@@ -234,7 +233,8 @@ const  Navbar = () => {
             
             <div className='items-center justify-end hidden md:flex'>
             <Link href='/company/contact'><a className='transition ease-in hover:text-red-600 text-lg font-light text-white' >Let&rsquo;s talk</a></Link>
-            <Link href={!user? '/login':'/dashboard'}><a className=' text-base ' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a></Link>
+            {/* <Link href={!user? '/login':'/dashboard'}></Link> */}
+            <a className=' text-base ' href ='https://app.seulet.com' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a>
             
             </div>
             

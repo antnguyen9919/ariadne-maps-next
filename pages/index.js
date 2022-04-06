@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import smallScreen from "../public/Photos/smallScreen.png"
 
-import firebase from '../config/firebase'
+
 
 import {motion} from 'framer-motion'
 
@@ -27,7 +27,7 @@ import Carousel from 'react-multi-carousel';
 import { useState } from 'react'
 
 import styles from '../styles/Home.module.css'
-import { Calendly, Testi2, Testimonials } from '../components'
+import { Calendly, Testi2} from '../components'
 
 
 
@@ -144,7 +144,7 @@ export default function Home() {
       <Head>
         <title>Ariadne Maps</title>
         <meta name="description" content="Ariadne Maps GmbH" />
-        <link rel="icon" href="https://www.munich-startup.de/wp-content/uploads/2020/10/Ariadne-Maps-GmbH.jpeg" />
+        <link rel="icon" href="/ariadneicon.jpeg" />
         <link
   rel="stylesheet"
   type="text/css"
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
             </div>
 
-            <div className={`${styles.heroScreen} brightness-90`} >
+            <div className={`${styles.heroScreen} brightness-100`} >
             {/* <video className={styles.bgVid} 
             poster = "/Photos/smallScreen.png"
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
