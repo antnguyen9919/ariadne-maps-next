@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react'
 
 
-import {db} from '../../config/firebase'
-import {collection, addDoc} from "firebase/firestore"
+// import {db} from '../../config/firebase'
+// import {collection, addDoc} from "firebase/firestore"
 
 import style from '../../styles/Contact.module.css'
 
