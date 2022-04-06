@@ -2,9 +2,14 @@ import React,{useState,useRef} from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import Image from 'next/image'
 import ReactPlayer from 'react-player'
 import styles from '../styles/VideoCarousel.module.css'
 
+import Weko from '../public/Photos/Weko.jpg'
+import Praktiker from '../public/Photos/Praktiker.jpg'
+import Explainer from '../public/Photos/Explainer.jpg'
+import Marien from '../public/Photos/Marien.jpg'
 
 const responsive = {
   
@@ -24,17 +29,21 @@ const responsive = {
 
 const VideoCarousel = () => {
  const images =[
+
+  {
+    id:0, url:Weko, vid:"https://youtu.be/xFkPAAUrFAA"
+        },
      {
-     id:0,url:"/Photos/Praktiker.jpg",vid:"https://youtu.be/UObhsmW9RgM"
+
+     id:1,url:Praktiker,vid:"https://youtu.be/UObhsmW9RgM"
         },
+        
         {
-            id:1,url:"/Photos/Explainer.jpg",vid:"https://www.youtube.com/watch?v=LarUhK6GAmI"
+            id:2,url:Explainer,vid:"https://www.youtube.com/watch?v=LarUhK6GAmI"
         },
+        
         {
-            id:2,url:"/Photos/Weko.jpg",vid:"https://youtu.be/xFkPAAUrFAA"
-        },
-        {
-            id:3,url:"/Photos/Marien.jpg",vid:"https://youtu.be/tWzIRapoac8"
+            id:3,url:Marien,vid:"https://youtu.be/tWzIRapoac8"
         }
 
 ]
@@ -73,8 +82,8 @@ const VideoCarousel = () => {
       >
            {images.map((image) => (
             <div key = {image.id}>
-            <div className='cursor-pointer hover:scale-105 transition ease-in-out ' onClick={()=>handleClick(image)}>
-            <img    src = {image.url} key={image.id} width = "100%"/>
+            <div className='cursor-pointer' onClick={()=>handleClick(image)}>
+            <Image layout='responsive'   src = {image.url} key={image.id} />
             </div>
 
             

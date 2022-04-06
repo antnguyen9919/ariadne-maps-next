@@ -2,7 +2,7 @@ import React,{useRef} from 'react'
 import Link from 'next/link' 
 import {Popover,Transition} from '@headlessui/react'
 
-
+// import Asset16 from  '../../public/Photos/Asset16.png'
 
 import {DiGoogleAnalytics} from 'react-icons/di'
 import {BiNavigation,BiNotification,BiUser} from 'react-icons/bi'

@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import smallScreen from "../public/Photos/smallScreen.png"
-
-
+import screens from '../public/Photos/screens.png'
+import eAnalytics from '../public/Photos/enlarge/eAnalytics.png'
+import ERP from '../public/Photos/enlarge/ERP.png'
+import eCRM from '../public/Photos/enlarge/eCRM.png'
 
 import {motion} from 'framer-motion'
 
@@ -27,7 +29,7 @@ import Carousel from 'react-multi-carousel';
 import { useState } from 'react'
 
 import styles from '../styles/Home.module.css'
-import { Calendly, Testi2} from '../components'
+import { Calendly, Testimonials} from '../components'
 
 
 
@@ -102,7 +104,7 @@ export default function Home() {
       right: 'auto',
       bottom: 'auto',
       marginRight: '-50%',
-      height: '90vh',
+      height: '100vh',
       width: '100%',
       zIndex:'9999',
       transform: 'translate(-50%, -50%)',
@@ -145,17 +147,7 @@ export default function Home() {
         <title>Ariadne Maps</title>
         <meta name="description" content="Ariadne Maps GmbH" />
         <link rel="icon" href="/ariadneicon.jpeg" />
-        <link
-  rel="stylesheet"
-  type="text/css"
-  charSet="UTF-8"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-/>
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-/>
+       
         
        
       </Head>
@@ -223,10 +215,10 @@ export default function Home() {
               initial="hidden"  exit="exit"
               variants = {LRvariants} animate = {controls}
               >
-              <img 
+              <Image
             
 
-              src = "/Photos/screens.png" />
+              src = {screens} layout='responsive'  />
               <div
                >
               <p
@@ -266,7 +258,7 @@ export default function Home() {
       >
         <div className="flex flex-col items-center justify-center content-center align-center " >
             <div className='w-full' >
-            <img src="/Photos/enlarge/eAnalytics.png" alt = 'eanalytics' />
+            <Image layout='responsive' src={eAnalytics} alt = 'eanalytics' />
             </div>
             <h1 className='text-3xl text-center' >Ariadne Analytics</h1>
             <p>People Counting, Dwell Time, Heat Map, Alerts, Transitions…</p>
@@ -274,7 +266,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center justify-center content-center align-center " >
             <div className='w-full' >
-            <img src="/Photos/enlarge/eCRM.png" alt ='ecrm' />
+            <Image layout='responsive' src={eCRM} alt ='ecrm' />
             </div>
             <h1 className='text-3xl text-center' >CRM Optin Tool</h1>
             <p>Customers opt-in and you can see the contact info store by store</p>
@@ -282,7 +274,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center justify-center content-center align-center " >
             <div className='w-full ' >
-            <img src="/Photos/enlarge/ERP.png" alt ='erp' />
+            <Image layout='responsive' src={ERP} alt ='erp' />
             </div>
             <h1 className='text-3xl text-center' >ERP Data Integration</h1>
             <p>Measure the conversion rate of each product</p>
@@ -435,7 +427,7 @@ variants = {variants} animate = {controls2}>
 
         </div>
 
-        <div className={styles.section4} ref={element7}>
+        <div className={`${styles.section4} bg-gradient-to-b from-white to-slate-100`} ref={element7}>
           <motion.div
           transition={{duration: 0.4, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
@@ -449,11 +441,11 @@ variants = {variants} animate = {controls2}>
         transition={{duration: 0.5, type: 'easeInOut'}} 
         initial="hidden"  exit="exit"
         variants = {variants} animate = {controls7}
-
-        
+           
+       
         >
-        <Testi2/>
-        {/* <Testimonials/> */}
+       
+        <Testimonials/>
         </motion.div>
 
         </div>
@@ -545,7 +537,7 @@ and  requires no additional infrastructure.</p>
           <h1 className="text-center">Let&rsquo; talk</h1>
           
 
-      <Calendly/>
+          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly'  ></iframe>
           
         </div>
 
