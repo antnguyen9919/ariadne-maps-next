@@ -20,7 +20,9 @@
 .main p{
     font-size: 1.125rem;
 }
-
+.main{
+    margin-top: 60px;
+}
 
 .imageContainer{
     display: flex;

@@ -2,7 +2,7 @@
 .hero{
     
     background-color: hsl(240, 12%, 21%);
-    height: 584px;
+    height: 530px;
     color:#fff;
 }
 .heroContainer{
@@ -42,7 +42,7 @@
     flex-direction:column;
     justify-content:flex-end;
     align-content: flex-end;
-    height: 584px;
+    height: 530px;
 }
 
 .main{
@@ -192,14 +192,14 @@
         .hero{
     
             background-color: hsl(240, 12%, 21%);
-            height: 750px;
+            height: 700px;
             color:#fff;
-            /* border: 1px solid red; */
+            
         }
         .heroContainer{
             display: flex;
             justify-content: center;
-            /* border: 1px solid blue; */
+           
             
             
             
@@ -208,7 +208,7 @@
             /* width: 55%; */
         }
         .heroTextContainer{
-            /* border:2px solid blue; */
+         
             display: flex;
             align-items: center;
             justify-content:flex-end;
@@ -234,7 +234,7 @@
             flex-direction:column;
             justify-content:flex-end;
             align-content: flex-end;
-            height: 750px;
+            height: 700px;
         }
         
     #calendly{
