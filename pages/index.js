@@ -105,7 +105,7 @@ export default function Home() {
       bottom: 'auto',
       marginRight: '-50%',
       height: '100vh',
-      width: '100%',
+      width: '99%',
       zIndex:'9999',
       transform: 'translate(-50%, -50%)',
     },
@@ -256,7 +256,7 @@ export default function Home() {
       autoPlaySpeed={10000}
       itemClass="px-3"
       >
-        <div className="flex flex-col items-center justify-center content-center align-center " >
+        <div className="flex flex-col items-center justify-center content-center align-center" >
             <div className='w-full' >
             <Image layout='responsive' src={eAnalytics} alt = 'eanalytics' />
             </div>
