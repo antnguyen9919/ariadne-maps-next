@@ -36,8 +36,9 @@ const PostDetail = ({ post }) => {
           <h1 className="mb-8  font-semibold">{post.title}</h1>
 
           <div className={style.postBody} dangerouslySetInnerHTML={createMarkup()} />
+
           
-          {/* {console.log(post.content.html)} */}
+         
         </div>
       </div>
 

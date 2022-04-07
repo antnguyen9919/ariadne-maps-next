@@ -3,9 +3,19 @@ import Link from 'next/link'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../../components/Parallaximg';
 import styles from '../../../styles/Industries.module.css'
+import Head from 'next/head'
 const careers = () => {
   return (
     <div>
+
+<Head>
+        <title>Jobs</title>
+        <meta name="description" content="Ariadne Maps GmbH" />
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+       
+      </Head>
        <main>
        
        <ParallaxProvider>

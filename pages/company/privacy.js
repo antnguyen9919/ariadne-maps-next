@@ -1,7 +1,16 @@
 import React from 'react'
-
+import Head from 'next/head'
 const privacy = () => {
   return (
+   <>
+    <Head>
+        <title>Privacy Policy</title>
+        <meta name="description" content="Ariadne Maps GmbH" />
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+       
+      </Head>
     <div className='p-10'>
       <h1>Privacy Policy</h1>
 
@@ -127,7 +136,7 @@ Visitor comments may be checked through an automated spam detection service.
         
       </p>
       </div>
-    </div>
+    </div></>
   )
 }
 

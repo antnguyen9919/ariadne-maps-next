@@ -1,8 +1,16 @@
 import React from 'react'
-
+import Head from 'next/head'
 const DataScience = () => {
   return (
     <div>
+       <Head>
+        <title>Data Science Career</title>
+        <meta name="description" content="Ariadne Maps GmbH" />
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+       
+      </Head>
         <div className='container w-full' >
         <img className='object-fill h-fill w-full'   src = "/Photos/Pages/jobs.jpg" />
         </div>

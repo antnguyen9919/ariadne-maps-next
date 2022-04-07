@@ -4,7 +4,13 @@
     margin-bottom: 4rem;
 
 } */
+.postBody p{
+  margin: 15px 0;
+  /* text-align: justify; */
+  /* font-size: 18px; */
+  /* font-family:'Roboto', sans-serif; */
 
+}
 
 
 /* return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;

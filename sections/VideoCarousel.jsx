@@ -29,18 +29,21 @@ const responsive = {
 
 const VideoCarousel = () => {
  const images =[
-
   {
-    id:0, url:Weko, vid:"https://youtu.be/xFkPAAUrFAA"
-        },
+    id:0,url:Explainer,vid:"https://www.youtube.com/watch?v=LarUhK6GAmI"
+},
+
+
+  
      {
 
      id:1,url:Praktiker,vid:"https://youtu.be/UObhsmW9RgM"
         },
-        
+
         {
-            id:2,url:Explainer,vid:"https://www.youtube.com/watch?v=LarUhK6GAmI"
-        },
+          id:2, url:Weko, vid:"https://youtu.be/xFkPAAUrFAA"
+              },
+        
         
         {
             id:3,url:Marien,vid:"https://youtu.be/tWzIRapoac8"

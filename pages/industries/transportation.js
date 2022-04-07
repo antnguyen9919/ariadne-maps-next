@@ -5,6 +5,7 @@ import {motion } from "framer-motion"
 import { variant1,transition } from '../../sections/animations';
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../components/Parallaximg';
+import Head from 'next/head'
 const variants = {
   hidden:{opacity: 0, x:0, y:20},
   enter:{opacity:1, x:0, y:0},
@@ -12,7 +13,18 @@ const variants = {
 }
 const transportation = () => {
   return (
-    <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
+   <>
+    <Head>
+        <title>Transportation</title>
+        <meta name="description" content="Ariadne Maps GmbH" />
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+       
+      </Head>
+   
+   
+   <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
       <main>
       <ParallaxProvider>
@@ -128,7 +140,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 
    </main>
 
-    </motion.div>
+    </motion.div></>
   )
 }
 

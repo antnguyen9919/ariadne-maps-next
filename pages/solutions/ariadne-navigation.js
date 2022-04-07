@@ -26,7 +26,8 @@ const ariadneNavigation = () => {
       <Head>
         <title>Ariadne Navigation</title>
         <meta name="description" content="Ariadne Navigation" />
-        <link rel="icon" href="https://www.munich-startup.de/wp-content/uploads/2020/10/Ariadne-Maps-GmbH.jpeg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="icon" href="/ariadneicon.png" />
        
       </Head>
       <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1}  className={styles.hero}  >

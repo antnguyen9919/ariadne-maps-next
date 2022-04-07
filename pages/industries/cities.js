@@ -5,9 +5,19 @@ import {motion } from "framer-motion"
 import { variant1,transition } from '../../sections/animations';
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../components/Parallaximg';
-
+import Head from 'next/head'
 const cities = () => {
   return (
+    <>
+    <Head>
+        <title>Cities</title>
+        <meta name="description" content="Ariadne Maps GmbH" />
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+       
+      </Head>
+    
     <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       <main>
       <ParallaxProvider>
@@ -91,6 +101,9 @@ Ariadne Maps helps them better serve their residents and improve their experienc
 
    </main>
     </motion.div>
+    
+    </>
+    
   )
 }
 

@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import smallScreen from "../public/Photos/smallScreen.png"
 import screens from '../public/Photos/screens.png'
+
 import eAnalytics from '../public/Photos/enlarge/eAnalytics.png'
 import ERP from '../public/Photos/enlarge/ERP.png'
 import eCRM from '../public/Photos/enlarge/eCRM.png'
@@ -146,8 +147,8 @@ export default function Home() {
       <Head>
         <title>Ariadne Maps</title>
         <meta name="description" content="Ariadne Maps GmbH" />
-        <link rel="icon" href="/ariadneicon.jpeg" />
-       
+        <link rel="icon" href="/ariadneicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         
        
       </Head>
@@ -296,7 +297,7 @@ export default function Home() {
               initial="hidden"  exit="exit"
               variants = {RLvariants} animate = {controls}
               >
-                <p className= ' 2xl:leading-loose'>
+                <p className= ' 2xl:leading-loose '>
                 Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors&rsquo; behavior, it consults you on strategies, and provides you with recommendations for the future.
                 </p>
 
@@ -433,6 +434,7 @@ variants = {variants} animate = {controls2}>
           initial="hidden"  exit="exit"
           variants = {variants} animate = {controls7}
           >
+
         <h1 className='text-center'>Trusted by industry leaders</h1>
 
           </motion.div>
@@ -449,6 +451,7 @@ variants = {variants} animate = {controls2}>
         </motion.div>
 
         </div>
+
         
         <div className={styles.section6} ref ={element8}>
           <motion.div
@@ -456,10 +459,12 @@ variants = {variants} animate = {controls2}>
           transition={{duration: 0.4, type: 'easeInOut'}} 
 initial="hidden"  exit="exit"
 variants = {variants} animate = {controls8}>
-          <h1 className="text-center">Spotlight</h1>
+
+          <h1 className="text-center ">Spotlight</h1>
 
 
           </motion.div>
+
           <motion.div className={styles.blogCarousel}
           transition={{duration: 0.5, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
@@ -472,6 +477,7 @@ variants = {variants} animate = {controls8}>
           </motion.div>
         </div>
         
+
         <div className={styles.section5} ref = {element9} >
         <motion.div
            transition={{duration: 0.5, type: 'easeInOut'}} 
@@ -534,10 +540,11 @@ and  requires no additional infrastructure.</p>
           
 
         <div className={styles.section7}>
+
           <h1 className="text-center">Let&rsquo; talk</h1>
           
 
-          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox="allow-same-origin allow-scripts allow-popups allow-forms" ></iframe>
+          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox="allow-same-origin allow-scripts" ></iframe>
           
         </div>
 

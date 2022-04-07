@@ -53,7 +53,8 @@
 .section1{
     min-height:100vh;
     padding-top:40px;
-    padding: 0 7vw;
+    padding: 5vh 7vw;
+    ;
     
 }
 
@@ -80,11 +81,11 @@
 
 
 .section2{
-
-    min-height:60vh;
+   
+    height:90vh;
     margin-top: 3vh;
-    padding-top:4vh;
-    padding: 0 7vw;
+    
+    padding: 7vh 7vw;
 }
 .section2 h1{
     padding-bottom: 1vh;
@@ -122,15 +123,16 @@
 }
 .section4{
     min-height: 100vh;
-    padding: 50px 0;
-    padding: 0 7vw;
+    padding: 50px 9vw;
+    /* padding-top: 80px; */
+    
 }
 .section4 h1{
     margin-bottom: 50px;
 }
 
 .section5{
-    min-height: 80vh;
+    min-height: 120vh;
     padding: 50px 0;
     margin-top: 40px;
     padding: 0 7vw;
@@ -154,20 +156,24 @@
 
 
 .section6{
-    min-height: 90vh;
+  
+    min-height: 100vh;
     padding: 40px 0px;
     padding: 0 7vw;
+    padding-top: 50px;
+    
    
     
 }
 .blogCarousel{
-    margin-top: 20vh;
+    margin-top: 15vh;
     
     
     
 }
 
 .section7{
+    
     min-height: 100vh;
     
 }
@@ -180,11 +186,37 @@
         
         .section1{
             margin-top: 80px;
+            
         }
 
 
         .section2{
+           
+            padding-top:10vh;
             min-height: 70vh;
+        }
+        .section3{
+            
+
+        }
+        .section4{
+            
+            min-height: 100vh;
+            padding: 50px 11vw;
+            /* padding-top: 80px; */
+            
+        }
+        .section5{
+           
+            padding-top: 13vh;
+        }
+        .section6{
+           
+            /* max-height: 300px; */
+            padding-top: 13vh;
+        }
+        .section7{
+            height:1000px;
         }
 
 
@@ -250,6 +282,7 @@
     #list {
         margin-top: 1.2vw;
     }
+
       
 } 
 
@@ -345,7 +378,7 @@
     }
 
     .section6{
-        min-height: 90vh;
+        height: 90vh;
         padding: 40px 10px;
         
     }

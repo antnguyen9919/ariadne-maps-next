@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react'
-
+import Head from 'next/head'
 
 // import {db} from '../../config/firebase'
 // import {collection, addDoc} from "firebase/firestore"
@@ -66,6 +66,15 @@ const contact = () => {
 
 
   return (
+    <> <Head>
+    <title>Contact</title>
+    <meta name="description" content="Ariadne Maps GmbH" />
+    <link rel="icon" href="/ariadneicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+   
+  </Head>
+    
     <div className='h-full p-8'>
             <div className='h-1/2 ' >
               <h3>Contact Us</h3>
@@ -85,7 +94,8 @@ contact@ariadnemaps.com
 
             </div>
 
-    </div>
+    </div></>
+   
   )
 }
 
