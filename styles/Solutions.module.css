@@ -10,6 +10,10 @@
     
 }
 
+.navB{
+    height: 60vh;
+}
+
 .heroTextContainer{
   
     display: flex;
@@ -242,6 +246,10 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
 }
 
 @media only screen and (min-width:1540px){
+
+    .navB{
+        height: 80vh;
+    }
     
 .gifbox{
     
@@ -249,13 +257,13 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border:1px solid red;
+   
     
     align-items: center;
     padding: 60px 6vw;
 }
 .giftext{
-    border:1px solid red;
+ 
     width: 38vw;
     margin-right: 50px;
     
@@ -265,7 +273,7 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
 }
 
 .gif{
-    border:1px solid red;
+    
     width: 35vw;
 }
 .gif video{

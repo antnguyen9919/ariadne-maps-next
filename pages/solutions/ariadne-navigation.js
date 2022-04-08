@@ -122,15 +122,15 @@ We enable and lead you to hyperlocal marketing.
 
           
       </main>
-      <div className=' min-h-screen xl:h-80 md:h-80 lg:h-80 sm:h-80  py-8   bg-black text-white content-center justify-evenly flex flex-col items-center'>
+      <div className={`  py-8   bg-black text-white content-center justify-evenly flex flex-col items-center ${styles.navB} `}>
                <div>
                <h1>Why Ariadne?</h1>
                </div>
-                <div className='w-full  grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1  content-center items-center justify-around text-xl 2xl:text-3xl px-3 gap-3 wrap xl:justify-items-center '>
+                <div className='w-full  grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1  content-center items-center justify-around text-xl 2xl:text-3xl px-6 gap-3 wrap xl:justify-items-center '>
                   <div className='xl:w-1/3 2xl:w-2/3'><h5>Browser-Based (No-app) Navigation</h5></div>
-                  <div className='xl:w-1/3 2xl:w-2/3'><h5>Award Winning Accuracy</h5></div>
-                  <div className='xl:w-1/3 2xl:w-2/3'><h5>No Infrastructure Needed</h5></div>
-                  <div className='xl:w-1/3 2xl:w-2/3'><h5>Multi Storey Differentiation</h5></div>
+                  <div className='xl:w-1/3 2xl:w-1/4'><h5>Award Winning Accuracy</h5></div>
+                  <div className='xl:w-1/3 2xl:w-1/4'><h5>No Infrastructure Needed</h5></div>
+                  <div className='xl:w-1/3 2xl:w-1/4'><h5>Multi Storey Differentiation</h5></div>
                 </div>
             </div>
 

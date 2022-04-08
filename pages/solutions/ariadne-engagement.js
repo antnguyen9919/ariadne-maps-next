@@ -106,7 +106,7 @@ Engagement</motion.h1>
             
           </div>
 
-          <div className='xl:min-h-96 2xl:h-80 h-screen  bg-black text-white content-center justify-center flex items-center'>
+          <div className={`${styles.navB} mb-8 bg-black text-white content-center justify-center flex items-center`}>
               <div className='text-justify w-3/4' >
               <h1 className='text-center mb-6'>Here is an example</h1>
               <p>A customer walks into the store and spends the most time in the shirts section. In the end, she walks away without buying an item. About the exit, she receives a text saying &#8220;Get a 20% discount on shirts with the code DISC20, today only!&#8221; and walks back in to make a discounted purchase, which benefits both the customer and the business.</p>
@@ -116,7 +116,7 @@ Engagement</motion.h1>
            <div className={styles.sectionE2}>
                 <div className={styles.E2content}>
                   <h4>All-in-One Platform</h4>
-                  <p className='text-justify'>Ariadne connects the data from your store to your CRM system, allowing you to run targeted marketing campaigns. Ariadne also assists for a complete perspective of consumer behavior that includes both online and on-premises activity.</p>
+                  <p className='text-justify mb-4'>Ariadne connects the data from your store to your CRM system, allowing you to run targeted marketing campaigns. Ariadne also assists for a complete perspective of consumer behavior that includes both online and on-premises activity.</p>
                   <h4>Design Efficient Campaigns </h4>
                   <p className='text-justify'>Measure the success of your campaigns, e.g., a temporary theme park, and compare results</p>
 
@@ -128,7 +128,7 @@ Engagement</motion.h1>
                 </div>
              </div> 
 
-             <div className='h-80 bg-black text-white content-center justify-center flex items-center'>
+             <div className={`${styles.navB} my-8 bg-black text-white content-center justify-center flex items-center`}>
               <div className='text-justify w-3/4' >
               <h1 className='text-center mb-6'>Privacy First!</h1>
               <p>Our experience shows that most customers are happy to opt-in and share information to benefit from the promotions and the additional services. At Ariadne Maps, we put the privacy of customers first and establish a reliable relationship between the customers and the businesses.</p>
