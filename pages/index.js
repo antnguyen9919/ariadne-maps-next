@@ -175,7 +175,7 @@ export default function Home() {
             <Image
             
             layout="responsive"
-               
+            alt='homepageScreen'
             priority
             src = {smallScreen} />
             </div>
@@ -218,7 +218,7 @@ export default function Home() {
               >
               <Image
             
-
+              alt ='section1Screen'
               src = {screens} layout='responsive'  />
               <div
                >
@@ -259,7 +259,9 @@ export default function Home() {
       >
         <div className="flex flex-col items-center justify-center content-center align-center" >
             <div className='w-full' >
-            <Image layout='responsive' src={eAnalytics} alt = 'eanalytics' />
+            <Image layout='responsive'
+            
+            src={eAnalytics} alt = 'eanalytics' />
             </div>
             <h1 className='text-3xl text-center' >Ariadne Analytics</h1>
             <p>People Counting, Dwell Time, Heat Map, Alerts, Transitions…</p>
@@ -497,7 +499,9 @@ and  requires no additional infrastructure.</p>
           
           >
           <div className={styles.productImg}>
-          <Image src="/Photos/floor.png" height={260} width={350}/>
+          <Image
+          alt='floor'
+          src="/Photos/floor.png" height={260} width={350}/>
 
             </div>
           
@@ -510,7 +514,9 @@ and  requires no additional infrastructure.</p>
           initial="hidden"  exit="exit"
           variants = {DUvariants} animate = {controls9}>
             <div className={styles.productImg}>
-          <Image src="/Photos/device2.png" height={260} width={350} />
+          <Image
+          alt='device'
+          src="/Photos/device2.png" height={260} width={350} />
 
             </div>
                   <h4 className='my-3'>Installation</h4>
@@ -523,7 +529,9 @@ and  requires no additional infrastructure.</p>
           variants = {DUvariants} animate = {controls9}
           >
           <div className={styles.productImg}>
-          <Image src="/Photos/screen.png" height={260} width={350}/>
+          <Image
+          alt='screen'
+          src="/Photos/screen.png" height={260} width={350}/>
 
             </div>
           

@@ -34,7 +34,7 @@ const WhyAriadne = () => {
                
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/wifi-no.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/wifi-no.png" />
                      <h4>No Network Connection
    
    
@@ -47,7 +47,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/app-no-1.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/app-no-1.png" />
                      <h4>No Application Installation
    
    
@@ -62,7 +62,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/gdpr.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/gdpr.png" />
                      <h4>GDPR Compliance
    
    
@@ -78,7 +78,7 @@ const WhyAriadne = () => {
                </div>
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/technology.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/technology.png" />
                      <h4>Patented Technology
    
    
@@ -94,7 +94,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chart.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chart.png" />
                      <h4>Vertical Differentiation
    
    
@@ -114,7 +114,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/precise.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/precise.png" />
                      <h4>Great Localization Accuracy
    
    
@@ -139,7 +139,7 @@ const WhyAriadne = () => {
    
                <div className={styles.row}>
                    <div className={styles.column}>
-                     <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/plug.png" />
+                     <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/plug.png" />
                      <h4>Easy and Quick Installation
    
    
@@ -152,7 +152,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/people.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/people.png" />
                      <h4>Expert Team
    
    
@@ -167,7 +167,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/inexpensive.png" />
+                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/inexpensive.png" />
                      <h4>Inexpensive Solution
    
    

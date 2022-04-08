@@ -50,7 +50,9 @@ Analytics</motion.h1>
 
             <div className={styles.heroScreen} >
             
-            <motion.img initial="hidden" animate="enter" exit="exit" variants={heroVvariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3 }} src = "/Photos/Pages/Analytics/Laptopwp.png" />
+            <motion.img
+            alt="xa"
+            initial="hidden" animate="enter" exit="exit" variants={heroVvariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3 }} src = "/Photos/Pages/Analytics/Laptopwp.png" />
             </div>
 
           </div>
@@ -88,7 +90,7 @@ Analytics</motion.h1>
           </div>
 
          
-         <img className = " transition ease-in-out w-full mt-2 "  src = "/Photos/Pages/Analytics/Daily.png"/>
+         <img alt='xas' className = " transition ease-in-out w-full mt-2 "  src = "/Photos/Pages/Analytics/Daily.png"/>
          
 
 
