@@ -544,7 +544,9 @@ and  requires no additional infrastructure.</p>
           <h1 className="text-center">Let&rsquo; talk</h1>
           
 
-          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03" frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox="allow-same-origin allow-scripts" ></iframe>
+          <iframe src="https://calendly.com/georgios-ariadnemaps/30min?month=2022-03"
+          loading='lazy'          
+          frameBorder="0" width='100%' height='1000px' title = 'calendly' sandbox="allow-same-origin allow-scripts" ></iframe>
           
         </div>
 

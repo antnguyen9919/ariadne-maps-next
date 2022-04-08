@@ -12,6 +12,8 @@
     
     
 }
+
+
 .heroScreen Image{
     /* width: 55%; */
 }
@@ -293,6 +295,8 @@
 
     }
 
+   
+
     
 
 
@@ -393,9 +397,8 @@
 
 
 @media only screen and (max-width:576px){
-    #calendly{
-        width:200px; 
-        height: 120vh;
+    .calendly{
+        height: 1000px;
     }
     .section1{
         padding:0 2vw;
@@ -427,7 +430,7 @@
 }
     .section7{
         overflow-x: hidden;
-        height: 190vh;
+        /* height: 10vh; */
         width:95%;
     }
 
