@@ -53,7 +53,7 @@ const  Navbar = () => {
     <div  >
       <Popover className='fixed top-0 w-full bg-black z-50'>
       
-      <div className="2xl:max-w-5xl max-w-4xl  px-4 mx-auto md:px-6">
+      <div className="2xl:max-w-5xl max-w-4xl  px-4 2xl:ml-56 ml-40  md:px-6">
       
           <div className="flex items-center justify-between h-16">
 

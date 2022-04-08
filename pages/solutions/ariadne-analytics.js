@@ -140,10 +140,10 @@ Analytics</motion.h1>
         <p>Cool graphics and intuitive heat maps for your entire store that you may use to better manage your space.       </p>
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
+              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h10.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+            <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h11.png" alt="st" />
             </div>
             
           </div>
@@ -151,10 +151,10 @@ Analytics</motion.h1>
 
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
+            <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h12.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+            <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h13.png" alt="st" />
             </div>
             
           </div>
@@ -162,10 +162,10 @@ Analytics</motion.h1>
 
         <div className={styles.duoContainer} >
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Total.png" alt="st" />
+            <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h14.png" alt="st" />
             </div>
             <div className={styles.singleSnap}>
-              <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/Floor1.png" alt="st" />
+            <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h15.png" alt="st" />
             </div>
             
           </div>

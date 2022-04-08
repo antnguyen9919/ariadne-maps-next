@@ -176,7 +176,7 @@ export default function Home() {
             
             layout="responsive"
                
-            
+            priority
             src = {smallScreen} />
             </div>
 

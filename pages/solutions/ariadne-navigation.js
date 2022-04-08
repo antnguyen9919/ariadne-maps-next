@@ -6,6 +6,8 @@ import {motion} from 'framer-motion'
 import styles from '../../styles/Solutions.module.css'
 import {variant1} from '../../sections/animations'
 
+import nagivate from  "../../public/Photos/Pages/Navigation/navigate.png"
+
 const herovariants = {
   hidden:{opacity: 0, x:0, y:0},
   enter:{opacity:1, x:0, y:0},
@@ -55,7 +57,7 @@ Navigation</motion.h1>
           </div>
         </motion.div>
 
-      <main className={styles.main}>
+      <main>
       <div className={`${styles.gifbox}`} >
             <div className = {styles.giftext}>
               
@@ -92,15 +94,14 @@ We enable and lead you to hyperlocal marketing.
 
             </div>
             <div className={styles.N1img}>
-              <Image className='rounded-lg' src = "/Photos/Pages/Navigation/navigate.png" alt = 'navi' height={420} 
-              width={500} />
+              <Image className='rounded-lg' src = {nagivate}  alt = 'navi'  height={560} width={700} />
             </div>
 
           </div>
 
           <div className={styles.sectionN2}>
             <div className={styles.N2img}>
-          <Image src = "/Photos/Pages/Navigation/phone3.png" height={332} width={465} />
+          <Image src = "/Photos/Pages/Navigation/phone3.png" height={550} width={700} />
             </div>
             <div className={styles.N2content}>
               <h4>
@@ -121,16 +122,15 @@ We enable and lead you to hyperlocal marketing.
 
           
       </main>
-      <div className='h-80 py-8 bg-black text-white content-center justify-evenly flex flex-col items-center'>
+      <div className=' min-h-screen xl:h-80 md:h-80 lg:h-80 sm:h-80  py-8   bg-black text-white content-center justify-evenly flex flex-col items-center'>
                <div>
                <h1>Why Ariadne?</h1>
                </div>
-                <div className='w-full  grid xl:grid-cols-4 grid-cols-2 content-center items-center justify-around text-xl px-3 gap-3 wrap justify-items-center'>
-                  <div className='w-1/3'><h5>Browser-Based (No-app) Navigation</h5></div>
-                  <div className='w-1/3'><h5>Award Winning Accuracy</h5></div>
-                  <div className='w-1/3'><h5>No Infrastructure
-Needed</h5></div>
-                  <div className='w-1/3'><h5>Multi Storey Differentiation</h5></div>
+                <div className='w-full  grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1  content-center items-center justify-around text-xl 2xl:text-3xl px-3 gap-3 wrap xl:justify-items-center '>
+                  <div className='xl:w-1/3 2xl:w-2/3'><h5>Browser-Based (No-app) Navigation</h5></div>
+                  <div className='xl:w-1/3 2xl:w-2/3'><h5>Award Winning Accuracy</h5></div>
+                  <div className='xl:w-1/3 2xl:w-2/3'><h5>No Infrastructure Needed</h5></div>
+                  <div className='xl:w-1/3 2xl:w-2/3'><h5>Multi Storey Differentiation</h5></div>
                 </div>
             </div>
 

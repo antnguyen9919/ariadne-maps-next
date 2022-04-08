@@ -59,7 +59,7 @@ Engagement</motion.h1>
           </div>
         </motion.div>
 
-      <main className={styles.main}>
+      <main>
       <div className={`${styles.gifbox}`} >
             <div className = {styles.giftext}>
               
@@ -105,7 +105,8 @@ Engagement</motion.h1>
 
             
           </div>
-          <div className='h-80 bg-black text-white content-center justify-center flex items-center'>
+
+          <div className='xl:min-h-96 2xl:h-80 h-screen  bg-black text-white content-center justify-center flex items-center'>
               <div className='text-justify w-3/4' >
               <h1 className='text-center mb-6'>Here is an example</h1>
               <p>A customer walks into the store and spends the most time in the shirts section. In the end, she walks away without buying an item. About the exit, she receives a text saying &#8220;Get a 20% discount on shirts with the code DISC20, today only!&#8221; and walks back in to make a discounted purchase, which benefits both the customer and the business.</p>
@@ -134,7 +135,7 @@ Engagement</motion.h1>
               </div>
             </div>
 
-            <div className="my-8">
+            <div className={`${styles.products}  mt-10 mb-16`}>
         <h1 className='text-center'>Get Started</h1>
         
           <div className={home.products}>
