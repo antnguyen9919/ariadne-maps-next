@@ -97,7 +97,7 @@
 }
 
 .sectionA1,.sectionA2, .sectionA3{
-    padding: 40px 0;
+    padding: 40px 6vw;
     text-align: center;
 }
 
@@ -107,17 +107,18 @@
     display: flex;
     justify-content:space-between;
 }
-.trioContainer .singleSnap> img{
 
-    width: 22vw;;
-    
-    
-}
 
 .duoContainer{
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
+}
+.trioContainer .singleSnap> img{
+
+    width: 22vw;;
+    
+    
 }
 
 .duoContainer .singleSnap> img{
@@ -717,7 +718,8 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
     .heroText p{
         font-size: 0.9rem;
     }
-    .heroScreen{
+    
+    /* .heroScreen{
         width:100%;
         margin-right: 0;
         display: flex;
@@ -727,7 +729,7 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
         height: 50vh;
         object-fit: contain;
         
-    }
+    } */
 
 
 
@@ -736,6 +738,20 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
         
         width: 100%;
     }
+    .heroEScreen{
+        width:80vw;
+        
+        
+        display: flex;
+        
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: center;
+        align-items: center;
+        height: 50vh;
+        
+    }
+  
     .gifbox{
         padding: 40px 20px;
         margin-bottom: 10px;
@@ -754,23 +770,7 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
         margin-top: 2rem;
     }
 
-    .heroEScreen{
-        width:80vw;
-        
-        
-        display: flex;
-        
-        flex-direction:column;
-        justify-content:flex-end;
-        align-content: center;
-        align-items: center;
-        height: 50vh;
-        
-    }
-    .heroEScreen img{
-        
-        width: 100%;
-    }
+    
     
     .trioContainer{
         padding: 20px 0;
@@ -791,12 +791,12 @@ box-shadow: 10px 10px 5px -6px rgba(158,158,158,1);
         gap: 2rem;
     }
     .trioContainer .singleSnap>img{
-        width: 50vw;
+        width: 80vw;
     }
     
     .duoContainer .singleSnap> img{
     
-        width: 60vw;;
+        width: 80vw;;
         
         
     }

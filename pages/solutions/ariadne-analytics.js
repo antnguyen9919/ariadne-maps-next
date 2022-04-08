@@ -56,7 +56,7 @@ Analytics</motion.h1>
           </div>
         </motion.div>
 
-      <main className={styles.main}>
+      <main>
         
       <div className={styles.gifbox} >
             <div className = {styles.giftext}>
