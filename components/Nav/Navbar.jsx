@@ -53,12 +53,12 @@ const  Navbar = () => {
     <div  >
       <Popover className='fixed top-0 w-full bg-black z-50'>
       
-      <div className="2xl:max-w-5xl max-w-4xl  px-4 2xl:ml-56 ml-40  md:px-6">
+      <div className="2xl:max-w-7xl max-w-4xl  px-4 mx-auto md:px-6">
       
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-16 2xl:h-20">
 
           <Link href="/" ><a className="flex items-center">
-        <img src="/Photos/Asset16.png" className="mr-3 h-6 scale-125 sm:h-9" alt="Ariadne Logo" /></a></Link>
+        <img src="/Photos/Asset16.png" className="mr-3 h-6 scale-125 sm:h-9 2xl:scale-150" alt="Ariadne Logo" /></a></Link>
             <div className='-my-2 -mr-2 md:hidden'>
               
           <Popover.Button className="inline-flex items-center justify-center text-gray-400 
@@ -88,7 +88,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>solutionRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-light text-lg  hover:text-red-600 transition ease-in'>Solutions</span>
+                   <span className='text-white font-light text-lg 2xl:text-2xl  hover:text-red-600 transition ease-in'>Solutions</span>
 
                  </Popover.Button>
 
@@ -136,7 +136,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>industriesRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-light text-lg hover:text-red-600 transition ease-in'>Industries</span>
+                   <span className='text-white font-light text-lg 2xl:text-2xl hover:text-red-600 transition ease-in'>Industries</span>
 
                  </Popover.Button>
                  <Transition
@@ -176,7 +176,7 @@ const  Navbar = () => {
                )}
               </Popover>
 
-              <Link href='/why-ariadne'><a className='text-lg font-light  text-white hover:text-red-600 transition ease-in'>Why Ariadne</a></Link>
+              <Link href='/why-ariadne'><a className='text-lg 2xl:text-2xl font-light  text-white hover:text-red-600 transition ease-in'>Why Ariadne</a></Link>
 
               <Popover>
                {({open,close})=>(
@@ -186,7 +186,7 @@ const  Navbar = () => {
                  onMouseEnter={()=>companyRef.current.click()}
                  className='inline-flex items-center text-base font-medium rounded-ms'
                  >
-                   <span className='text-white font-light text-lg hover:text-red-600 transition ease-in '>Company</span>
+                   <span className='text-white font-light text-lg 2xl:text-2xl hover:text-red-600 transition ease-in '>Company</span>
 
                  </Popover.Button>
                  <Transition
@@ -232,9 +232,9 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <Link href='/letstalk'><a className='transition ease-in hover:text-red-600 text-lg font-light text-white' >Let&rsquo;s talk</a></Link>
+            <Link href='/letstalk'><a className='transition ease-in hover:text-red-600 text-lg 2xl:text-2xl font-light text-white' >Let&rsquo;s talk</a></Link>
             {/* <Link href={!user? '/login':'/dashboard'}></Link> */}
-            <a className=' text-base ' href ='https://app.seulet.com' ><FaUserCircle className=' w-6 h-5 ml-4 text-white transition ease-in hover:scale-110' /></a>
+            <a className=' text-base 2xl:text-2xl' href ='https://app.seulet.com' ><FaUserCircle className=' w-6 h-5 2xl:h-9 ml-7 text-white transition ease-in hover:scale-110' /></a>
             
             </div>
             

@@ -224,7 +224,7 @@
         .hero{
     
             background-color: hsl(240, 12%, 21%);
-            height: 700px;
+            height: 800px;
             color:#fff;
             
         }
@@ -258,7 +258,7 @@
             padding-top: 0;
         }
         .heroScreen{
-            width:75vw;
+            width:73vw;
             padding-right: 20px;
             
          
@@ -266,7 +266,7 @@
             flex-direction:column;
             justify-content:flex-end;
             align-content: flex-end;
-            height: 700px;
+            height: 800px;
         }
         
     #calendly{
