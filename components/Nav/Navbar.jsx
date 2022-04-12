@@ -86,7 +86,7 @@ const  Navbar = () => {
                  <Popover.Button 
                  ref={solutionRef}
                  onMouseEnter={()=>solutionRef.current.click()}
-                 className='inline-flex items-center text-base font-medium rounded-ms'
+                 className='inline-flex items-center text-base font-medium rounded-ms  focus:outline-none'
                  >
                    <span className='text-white font-light text-lg 2xl:text-2xl  hover:text-red-600 transition ease-in'>Solutions</span>
 
@@ -134,7 +134,7 @@ const  Navbar = () => {
                  <Popover.Button 
                  ref={industriesRef}
                  onMouseEnter={()=>industriesRef.current.click()}
-                 className='inline-flex items-center text-base font-medium rounded-ms'
+                 className='inline-flex items-center text-base font-medium rounded-ms  focus:outline-none'
                  >
                    <span className='text-white font-light text-lg 2xl:text-2xl hover:text-red-600 transition ease-in'>Industries</span>
 
@@ -184,7 +184,7 @@ const  Navbar = () => {
                  <Popover.Button 
                  ref={companyRef}
                  onMouseEnter={()=>companyRef.current.click()}
-                 className='inline-flex items-center text-base font-medium rounded-ms'
+                 className='inline-flex items-center text-base font-medium rounded-ms  focus:outline-none '
                  >
                    <span className='text-white font-light text-lg 2xl:text-2xl hover:text-red-600 transition ease-in '>Company</span>
 

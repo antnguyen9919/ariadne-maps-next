@@ -1,6 +1,11 @@
 import React, { useState, useMemo } from 'react'
 import Head from 'next/head'
 
+
+import styles from '../../styles/Industries.module.css'
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
+
 // import {db} from '../../config/firebase'
 // import {collection, addDoc} from "firebase/firestore"
 
@@ -74,6 +79,18 @@ const contact = () => {
     
    
   </Head>
+  <ParallaxProvider>
+       <Parallaximg imgsrc="/Photos/Pages/Contact.jpg" height="80vh" opacity=".5" >
+       <div className={styles.banner}>
+               
+               
+               {/* <h1 className="text-left font-6xl font-extrabold ">Privacy Policy</h1> */}
+            
+               </div>
+ 
+       </Parallaximg>
+ 
+    </ParallaxProvider>
     
     <div className='h-full p-8'>
             <div className='h-1/2 ' >

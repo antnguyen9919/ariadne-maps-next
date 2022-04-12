@@ -22,16 +22,16 @@ const Retails = () => {
       
    <main>
    <ParallaxProvider>
-      <Parallaximg imgsrc="/Photos/Pages/retail2.jpeg" height="110vh" opacity=".5" >
+      <Parallaximg imgsrc="/Photos/Pages/retail2.jpg" height="110vh" opacity=".5" >
       <div className={styles.banner}>
               
               
-              <h1  className="text-center font-6xl font-extrabold ">RETAIL STORES</h1>
-            <h3  className='text-center'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
+              <h1  className="text-left font-6xl font-extrabold ">RETAIL STORES</h1>
+            <h4  className='text-left'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
 
 identify their unnecessary costs and increase their revenues
   
-  </h3>
+  </h4>
               </div>
 
       </Parallaximg>
@@ -42,7 +42,7 @@ identify their unnecessary costs and increase their revenues
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/employee-1.png" />
+                <img src ="/Photos/Pages/retail/Staff.svg"  />
                   <h4>Labour Allocation
 
 </h4>
@@ -51,7 +51,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/staff.png" />
+                <img src ="/Photos/Pages/retail/Conversion.svg" />
                   <h4>Conversion Rate
 
 
@@ -63,7 +63,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Product-search.png" />
+                <img src ="/Photos/Pages/retail/Product.svg" />
                   <h4>Product Success
 
 
@@ -75,7 +75,7 @@ identify their unnecessary costs and increase their revenues
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Retail.svg" />
+                <img src ="/Photos/Pages/retail/Store.svg" />
                   <h4>Showcase Performance
 
 
@@ -87,7 +87,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/cart-in-phone.png" />
+                <img src ="/Photos/Pages/retail/Cart.svg" />
                   <h4>Optimize Spending
 
 
@@ -103,7 +103,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/space.png" />
+                <img src ="/Photos/Pages/retail/map.svg" />
                   <h4>Space Efficiency
 
 
@@ -124,7 +124,7 @@ identify their unnecessary costs and increase their revenues
 
             <div className={styles.row}>
                 <div className={styles.column}>
-                  <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/manager.png" />
+                  <img src ="/Photos/Pages/retail/Manager.svg" />
                   <h4>Supervision of Associates
 
 </h4>
@@ -133,7 +133,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/campaign-ratio.png" />
+                <img src ="/Photos/Pages/retail/Discount.svg" />
                   <h4>Marketing Success
 
 </h4>
@@ -144,7 +144,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ring.png" />
+                <img src ="/Photos/Pages/retail/Promotion.svg" />
                   <h4>Promotions and Discounts
 
 </h4>

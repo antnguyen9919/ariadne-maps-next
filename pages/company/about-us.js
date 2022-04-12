@@ -5,6 +5,9 @@ import {motion } from "framer-motion"
 import { variant1,transition } from "../../sections/animations"
 import Image from 'next/image'
 import Head from 'next/head'
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
+
 const AboutUs = () => {
   return (
   <>
@@ -18,7 +21,17 @@ const AboutUs = () => {
       </Head>
   
   <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
-      
+  <ParallaxProvider>
+       <Parallaximg imgsrc="/Photos/Pages/about.jpg" height="90vh" opacity="1" >
+       <div >
+               
+               
+              
+               </div>
+ 
+       </Parallaximg>
+ 
+    </ParallaxProvider>
       <main className={styles.main} >
            <div>
                <div className='xl:px-10 px-4'>
@@ -54,11 +67,7 @@ const AboutUs = () => {
                <div className={styles.row}>
                    <div className={styles.columnA}>
                    <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Georgios.png" />
-                     <h4>Dipl.-Ing. Georgios Pipelidis
-   
-   
-   
-   </h4>
+                     <h4>Dipl.-Ing. Georgios Pipelidis</h4>
                      <p>CEO and Co-Founder
    
    

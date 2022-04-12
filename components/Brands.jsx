@@ -29,7 +29,7 @@ const Brands = () => {
   return (
     <div className='w-full  mb-10 mt-8 flex justify-center  justify-items-center  content-center items-center'>
 
-        <div className='w-full px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-32 gap-x-4 gap-y-3 content-center items-center'>
+        <div className='w-full xl:px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-32 gap-x-2 gap-y-3 content-center items-center'>
         <div className='xl:w-40 2xl:w-60 w-24'>
         <Image src={s1} alt="" layout = "responsive" />
         </div>

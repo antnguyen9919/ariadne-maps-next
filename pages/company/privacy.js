@@ -1,5 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
+import styles from '../../styles/Industries.module.css'
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../../components/Parallaximg';
 const privacy = () => {
   return (
    <>
@@ -11,8 +14,20 @@ const privacy = () => {
         
        
       </Head>
+      <ParallaxProvider>
+       <Parallaximg imgsrc="/Photos/Pages/Privacy.jpg" height="80vh" opacity=".5" >
+       <div className={styles.banner}>
+               
+               
+               <h1 className="text-left font-6xl font-extrabold ">Privacy Policy</h1>
+            
+               </div>
+ 
+       </Parallaximg>
+ 
+    </ParallaxProvider>
     <div className='p-10'>
-      <h1>Privacy Policy</h1>
+      
 
       <div>
       

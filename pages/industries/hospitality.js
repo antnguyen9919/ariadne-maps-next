@@ -26,12 +26,12 @@ const hospitality = () => {
          <div className={styles.banner} >
                  
                  
-                 <h1 className="text-center font-6xl font-extrabold ">HOSPITALITY</h1>
-               <h3 className='text-center'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
+                 <h1 className="text-left font-6xl font-extrabold ">HOSPITALITY</h1>
+               <h4 className='text-left'>Ariadne Maps helps retailers understand their customers, generate their conversion funnel,
    
    identify their unnecessary costs and increase their revenues
      
-     </h3>
+     </h4>
                  </div>
    
          </Parallaximg>
@@ -42,14 +42,14 @@ const hospitality = () => {
                
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Route.png" />
+                   <img src ="/Photos/Pages/Hospitality/nav.svg" />
                      <h4>Guest Navigation</h4>
                      <p>Ariadne Navigation enables you to offer a better experience to your guests via navigating them to their destinations with great convenience, shorter routes
    
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ring.png" />
+                   <img src ="/Photos/Pages/Hospitality/Promotion.svg" />
                      <h4>Push notifications
    
    </h4>
@@ -58,7 +58,7 @@ const hospitality = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/review.png" />
+                   <img src ="/Photos/Pages/Hospitality/Review.svg" />
                      <h4>Review and Feedback
    
    </h4>
@@ -71,14 +71,14 @@ const hospitality = () => {
                </div>
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png" />
+                   <img src ="/Photos/Pages/Hospitality/Strategies.svg" />
                      <h4>Strategy Optimization
    
    </h4>
                      <p>Identify which of your actions, services or promotions bring you the best return, dwell time and loyalty, and work on the most reasonable one</p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Pool.png" />
+                   <img src ="/Photos/Pages/Hospitality/Hotel.svg" />
                      <h4>Guest Familiarity
    
    </h4>
@@ -89,7 +89,7 @@ const hospitality = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Funnel.png" />
+                   <img src ="/Photos/Pages/Hospitality/Funnel.svg" />
                      <h4>Conversion Funnel
    
    

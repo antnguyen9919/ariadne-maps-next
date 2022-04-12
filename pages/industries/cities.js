@@ -25,12 +25,12 @@ const cities = () => {
       <div className={styles.banner} >
               
               
-              <h1 className="text-center font-6xl font-extrabold ">CITIES</h1>
-            <h3 className='text-center'>Cities and government entities are flooded with people throughout the whole year.
+              <h1 className="text-left font-6xl font-extrabold ">CITIES</h1>
+            <h4 className='text-left'>Cities and government entities are flooded with people throughout the whole year.
 
 Ariadne Maps helps them better serve their residents and improve their experience
   
-  </h3>
+  </h4>
               </div>
 
       </Parallaximg>
@@ -41,14 +41,14 @@ Ariadne Maps helps them better serve their residents and improve their experienc
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Retail.svg" />
+                <img src ="/Photos/Pages/Cities/Store.svg" />
                   <h4>Shopping Streets
 
 </h4>
                   <p>How many people visit a shopping street, how much time they spend, which stores they visit and much more data is provided by Ariadne Maps solutions </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/public.png" />
+                <img src ="/Photos/Pages/Cities/Gov.svg" />
                   <h4>Service Buildings</h4>
                   <p>Let your visitors have a better experience in your entities with faster processing and minimum queue time, e.g., in foreigners office, by using our indoor analytics 
 
@@ -57,7 +57,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ad.png" />
+                <img src ="/Photos/Pages/Cities/rev.svg" />
                   <h4>Public Advertising
 
 </h4>
@@ -70,7 +70,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/personas.png" />
+                <img src ="/Photos/Pages/Cities/peoplesearch.svg" />
                   <h4>Identify Personas
 
 </h4>
@@ -79,7 +79,7 @@ Ariadne Maps helps them better serve their residents and improve their experienc
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/contract.png" />
+                <img src ="/Photos/Pages/Cities/Contract.svg" />
                   <h4>Rent Prices
 
 </h4>

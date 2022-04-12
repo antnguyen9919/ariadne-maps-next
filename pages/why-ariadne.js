@@ -4,6 +4,8 @@ import styles from '../styles/Industries.module.css'
 import {motion } from "framer-motion"
 import { variant1,transition } from "../sections/animations"
 import Head from 'next/head'
+import {ParallaxProvider} from 'react-scroll-parallax'
+import Parallaximg from '../components/Parallaximg';
 
 const WhyAriadne = () => {
   return (
@@ -21,20 +23,27 @@ const WhyAriadne = () => {
       
       <main>
            <div>
-               <div>
-               <h1 className="text-center">Why
+           <ParallaxProvider>
+         <Parallaximg imgsrc="/Photos/Pages/whyariadne.png" height="110vh" opacity=".5" >
+         <div className={styles.banner} >
+                 
+                 
+                 <h1 className="text-left font-6xl font-extrabold ">Why
    
    Ariadne Maps</h1>
-             <p className='text-center'>Not only localization, but a lot more we have for you! Discover the advantages of using 
+               <h4 className='text-left'>Not only localization, but a lot more we have for you! Discover the advantages of using our devices and benefits for your business!
+     
+     </h4>
+                 </div>
    
-   our devices and benefits for your business!
+         </Parallaximg>
    
-   </p>
-               </div>
+      </ParallaxProvider>
+               
                
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/wifi-no.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/WiFi.svg" />
                      <h4>No Network Connection
    
    
@@ -47,7 +56,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/app-no-1.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Phone.svg"  />
                      <h4>No Application Installation
    
    
@@ -62,7 +71,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/gdpr.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/GDPR.svg"  />
                      <h4>GDPR Compliance
    
    
@@ -78,7 +87,7 @@ const WhyAriadne = () => {
                </div>
                <div className={styles.row}>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/technology.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Patent.svg" />
                      <h4>Patented Technology
    
    
@@ -94,7 +103,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chart.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Side.svg"  />
                      <h4>Vertical Differentiation
    
    
@@ -114,7 +123,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/precise.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Target.svg"  />
                      <h4>Great Localization Accuracy
    
    
@@ -139,7 +148,7 @@ const WhyAriadne = () => {
    
                <div className={styles.row}>
                    <div className={styles.column}>
-                     <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/plug.png" />
+                     <img alt ='sth' src ="/Photos/Pages/whyA/Plug.svg"  />
                      <h4>Easy and Quick Installation
    
    
@@ -152,7 +161,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/people.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Half.svg"  />
                      <h4>Expert Team
    
    
@@ -167,7 +176,7 @@ const WhyAriadne = () => {
    </p>
                    </div>
                    <div className={styles.column}>
-                   <img alt ='sth' src ="https://ariadnemaps.com/wp-content/uploads/2021/04/inexpensive.png" />
+                   <img alt ='sth' src ="/Photos/Pages/whyA/Check.svg"  />
                      <h4>Inexpensive Solution
    
    

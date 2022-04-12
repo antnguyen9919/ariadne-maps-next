@@ -32,10 +32,10 @@ const Shopping = () => {
       <div className={styles.banner} >
               
               
-              <h1 className="text-center font-6xl font-extrabold ">SHOPPING CENTERS</h1>
-            <h3 className='text-center'>Ariadne Maps works with the leading mall management companies worldwide and enables them to take data-based, strategic decisions
+              <h1 className="text-left font-6xl font-extrabold ">SHOPPING CENTERS</h1>
+            <h4 className='text-left'>Ariadne Maps works with the leading mall management companies worldwide and enables them to take data-based, strategic decisions
   
-  </h3>
+  </h4>
               </div>
 
       </Parallaximg>
@@ -46,14 +46,14 @@ const Shopping = () => {
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Analytics.svg" />
+                <img src ="/Photos/Pages/Malls/Analytics.svg" />
                   <h4>Get Ready  </h4>
                   <p>Be prepared for your prime times! You can know your peak times in advance, get well prepared and make the most out of your busiest periods!
 
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/bell.png" />
+                <img src ="/Photos/Pages/Malls/Bel.svg" />
                   <h4>No Surprises
 </h4>
                   <p>Don&rsquo;t encounter with surprises! You can advise your tenants when to expect mass of customers, weekly or daily, and maintain the customer satisfaction.
@@ -63,7 +63,7 @@ const Shopping = () => {
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/space.png" />
+                <img src ="/Photos/Pages/Malls/Map.svg" />
                   <h4>Data-Driven Plan
 </h4>
                   <p>Layout of shopping centers, marketing campaigns and tenant mix can be optimally designed with the detailed and precise data that we offer.
@@ -75,7 +75,7 @@ const Shopping = () => {
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/handshake.png" />
+                <img src ="/Photos/Pages/Malls/Handshake.svg" />
                   <h4>Tenant Relations
 </h4>
 <p>Do business with accurate and detailed data! Traffic data over time can be provided to tenants, allowing you to justify your investments in the mall and charge your tenants accordingly.
@@ -83,7 +83,7 @@ const Shopping = () => {
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/contract.png" />
+                <img src ="/Photos/Pages/Malls/Contract.svg" />
                   <h4>Leasing Space
 </h4>
 <p>Potential retail tenants can be attracted by delivering reliable traffic data in the mall, instead of intuition or rough estimates. Longer lease terms would also be desired with this data.
@@ -94,7 +94,7 @@ const Shopping = () => {
 
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/Updates.png" />
+                <img src ="/Photos/Pages/Malls/Branding.svg" />
                   <h4>Mall Upgrades
 
 </h4>
@@ -111,7 +111,7 @@ const Shopping = () => {
 
             <div className={styles.row}>
                 <div className={styles.column}>
-                  <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/cart-in-phone.png" />
+                  <img src ="/Photos/Pages/Malls/Cart.svg" />
                   <h4>In-Premises Marketing
 </h4>
                   <p>Traffic trends can help businesses to offer targeted marketing and adjust it to customers in the store. It is also advantageous to identify your return on marketing.
@@ -119,7 +119,7 @@ const Shopping = () => {
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png" />
+                <img src ="/Photos/Pages/Malls/Strategies.svg" />
                   <h4>Accurate Strategies
 </h4>
                   <p>If a mall has few visitors, then the marketing should be focused on obtaining more traffic. If the traffic is high, but conversion is low, product lines, pricing or staffing should be enhanced.
@@ -129,7 +129,7 @@ const Shopping = () => {
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/more.png" />
+                <img src ="/Photos/Pages/Malls/More.svg" />
                   <h4>More </h4>
                   <p>
                   Hour by hour traffic data and trends, comparison of visitor averages by time, unique visits compared to repeating, bounce rate, high demand products, strategy performance…

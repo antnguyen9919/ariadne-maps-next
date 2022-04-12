@@ -32,12 +32,12 @@ const transportation = () => {
       <div className={styles.banner} >
               
               
-              <h1 className="text-center font-6xl font-extrabold ">TRANSPORTATION</h1>
-            <h3 className='text-center'>Ariadne Maps helps leading transportation companies, including bus and railway 
+              <h1 className="text-left font-6xl font-extrabold ">TRANSPORTATION</h1>
+            <h4 className='text-left'>Ariadne Maps helps leading transportation companies, including bus and railway 
 
 operators, become more data-driven, understand their passengers and abandon costly strategies
   
-  </h3>
+  </h4>
               </div>
 
       </Parallaximg>
@@ -48,7 +48,7 @@ operators, become more data-driven, understand their passengers and abandon cost
             
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/ticket.png" />
+                <img src ="/Photos/Pages/Transportation/Tickets.svg"  />
                   <h4>Ticket Pricing
 
 
@@ -59,7 +59,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/share.png" />
+                <img src ="/Photos/Pages/Transportation/Share.svg"  />
                   <h4>Revenue Sharing
 
 
@@ -73,7 +73,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/train.png" />
+                <img src ="/Photos/Pages/Transportation/Train.svg"  />
                   <h4>Train Scheduling
 
 
@@ -89,7 +89,7 @@ operators, become more data-driven, understand their passengers and abandon cost
             </div>
             <div className={styles.row}>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/03/Mall.svg" />
+                <img src ="/Photos/Pages/Transportation/Bag.svg"  />
                   <h4>Retail Hubs
 
 
@@ -101,7 +101,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/chess.png" />
+                <img src ="/Photos/Pages/Transportation/Strategies.svg"  />
                   <h4>Leverages
 
 
@@ -117,7 +117,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="https://ariadnemaps.com/wp-content/uploads/2021/04/more.png" />
+                <img src ="/Photos/Pages/Transportation/More.svg"  />
                   <h4>More
 
 </h4>

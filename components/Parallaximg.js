@@ -6,6 +6,7 @@ const Parallaximg = (props) => {
         justifyContent:'center',
         alignItems:'center',
         height:'100%',
+        // objectFit:'cover',
         color: '#ffffff',
         backgroundColor:'rgba(0,0,0,0.4)',
         WebkitFilter:'blur(0px) saturate(2)'
@@ -13,7 +14,8 @@ const Parallaximg = (props) => {
   return (
     <ParallaxBanner 
     layers={[{image:props.imgsrc ,speed: -30, amount:0.6 }]}
-    style={{height:props.height, objectFit:'fill'}}
+    style={{height:props.height }}
+    expanded
     >
             <div  style={contentStyle} >
                 {props.children}

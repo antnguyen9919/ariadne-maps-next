@@ -2,15 +2,17 @@
 
 .banner {
     position:absolute;
-    padding: 0 2vw;
+    padding: 0 6vw;
     
 }
-.banner h1, .banner h3{
+.banner h1, .banner h4{
 
     text-shadow: 2px 2px #222;
 }
 .banner h1{
-    font-size:3.5vw;
+    font-size:4.5vw;
+    margin-bottom: 20px;
+
 }
 .column img{
     width: 7vw;
@@ -18,9 +20,6 @@
     margin-bottom: 10px;
    
 
-}
-.main{
-    font-family: Oswald;
 }
 
 
@@ -30,6 +29,9 @@
     margin-bottom: 10px;
    
 
+}
+.columnA h4{
+    font-size: 20px;
 }
 .all .head{
     /* padding: 0 30px; */
@@ -42,15 +44,16 @@
     
 }
 .row{
-    
+    padding: 0 7vw;
     margin: 60px 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content:flex-start;
+    gap:3vw;
 }
 .column{
-    width:25vw;
+    width:30vw;
     
     display: flex;
     flex-direction: column;
@@ -62,6 +65,11 @@
 }
 .column h4{
     margin-bottom: 10px;
+    font-weight:600;
+}
+.column p{
+    /* margin-bottom: 10px; */
+    font-weight:300;
 }
 
 .columnA{
@@ -79,6 +87,20 @@
 }
 
 @media screen and (max-width: 786px){
+    .banner {
+        position:absolute;
+        padding: 0 6vw;
+        
+    }
+    .banner h1, .banner h4{
+    
+        text-shadow: 2px 2px #222;
+    }
+    .banner h1{
+        font-size:40px;
+        margin-bottom: 20px;
+    
+    }
 
     .column img{
         width: 30vw;

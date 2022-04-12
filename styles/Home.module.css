@@ -83,11 +83,12 @@
 
 
 .section2{
+    /* background-color: red; */
    
-    height:90vh;
+    height:100vh;
     margin-top: 3vh;
     
-    padding: 7vh 7vw;
+    padding: 10vh 7vw;
 }
 .section2 h1{
     padding-bottom: 1vh;
@@ -101,12 +102,12 @@
 }
 
 .gifbox{
-    padding: 0 7vw;
+    padding: 60px 5vw;
     min-height:30vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 60px 0;
+    /* padding: 60px 0; */
 }
 .giftext{
     width: 38vw;
@@ -135,11 +136,15 @@
 }
 
 .section5{
+    
     min-height: 120vh;
-    padding: 50px 0;
-    margin-top: 40px;
-    padding: 0 7vw;
+    
+    /* padding: 70px 0; */
+    /* margin-top: 40px; */
+    /* padding-top: 40px; */
+    padding: 50px 7vw;
     font-weight: 300;
+    /* background-color: red; */
 }
 .section5 h1{
     margin-bottom: 40px;
@@ -159,8 +164,8 @@
 
 
 .section6{
-  
-    min-height: 100vh;
+    /* background-color: red; */
+    min-height: 120vh;
     padding: 40px 0px;
     padding: 0 7vw;
     padding-top: 50px;
@@ -198,6 +203,19 @@
             padding-top:10vh;
             min-height: 70vh;
         }
+
+        .gifbox{
+            /* background-color: red; */
+            padding: 60px 5vw;
+            min-height:30vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* padding: 60px 0; */
+        }
+
+
+
         .section3{
             
 
@@ -205,20 +223,23 @@
         .section4{
             
             min-height: 100vh;
-            padding: 50px 11vw;
+            padding: 80px 11vw;
             /* padding-top: 80px; */
             
         }
         .section5{
-           
-            padding-top: 13vh;
+          
+            padding-top: 17vh;
         }
         .section6{
            
+            /* background-color: red; */
             /* max-height: 300px; */
-            padding-top: 13vh;
+            min-height: 90vh;
+            padding-top: 3vh;
         }
         .section7{
+        
             height:1000px;
         }
 
@@ -402,9 +423,9 @@
         height: 1000px;
     }
     .section1{
-        padding:0 2vw;
+        padding:0 1vw;
         padding-top: 50px;
-        min-height: 130vh;
+        height: 130vh;
         
 
         /* background: #000; */
@@ -412,26 +433,34 @@
     }
     .section2{
 
-        padding: 3vh 2vw;
+        padding: 3vh 1vw;
         /* min-height: 100vh; */
-        min-height: 500px;
+        height: 500px;
     }
     .section3{
         overflow: hidden;
-        padding: 0 2vw;
+        /* padding: 0 1vw; */
     }
 .section4{
     width:100%;
     overflow-x: hidden;
-    padding-left:2vw;
-    padding-right: 2vw;
+    /* padding-left:1vw;
+    padding-right: 1vw; */
+    /* padding: 0 1vw; */
+    padding: 50px 0;
 }
 .section5{
+    /* padding: 0 1vw; */
 
+}
+.section6{
+    padding: 50px 0;
+    height: 700px;
 }
     .section7{
         overflow-x: hidden;
         /* height: 10vh; */
+        height: 200vh;
         width:95%;
     }
 
