@@ -347,7 +347,7 @@ variants = {variants} animate = {controls2}>
 
               </motion.div>
 
-          <div className={`${styles.gifbox}`} ref = {element3}>
+          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element3}>
             <motion.div className = {styles.giftext}
              transition={{duration: 0.5, type: 'easeInOut'}} 
              initial="hidden"  exit="exit"
@@ -388,7 +388,7 @@ variants = {variants} animate = {controls2}>
             </motion.div>
           </div>
 
-          <div className={styles.gifbox} ref = {element5}>
+          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element5}>
             <motion.div className = {styles.giftext}
             transition={{duration: 0.5, type: 'easeInOut'}} 
             initial="hidden"  exit="exit"
@@ -455,36 +455,14 @@ variants = {variants} animate = {controls2}>
         </div>
 
         
-        <div className={styles.section6} ref ={element8}>
-          <motion.div
-          
-          transition={{duration: 0.4, type: 'easeInOut'}} 
-initial="hidden"  exit="exit"
-variants = {variants} animate = {controls8}>
-
-          <h1 className="text-center ">Spotlight</h1>
-
-
-          </motion.div>
-
-          <motion.div className={styles.blogCarousel}
-          transition={{duration: 0.5, type: 'easeInOut'}} 
-          initial="hidden"  exit="exit"
-          variants = {variants} animate = {controls8}
-  
-          
-          >
-          <HomeBlogPosts/>
-
-          </motion.div>
-        </div>
+       
         
 
-        <div className={styles.section5} ref = {element9} >
+        <div className={styles.section5} ref = {element8} >
         <motion.div
            transition={{duration: 0.5, type: 'easeInOut'}} 
            initial="hidden"  exit="exit"
-           variants = {DUvariants} animate = {controls9}
+           variants = {DUvariants} animate = {controls8}
         >
         <h1 className='text-center'>Get Started</h1>
         <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in 
@@ -495,7 +473,7 @@ and  requires no additional infrastructure.</p>
           <motion.div className = {styles.product}
           transition={{duration: 0.5, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
-          variants = {DUvariants} animate = {controls9}
+          variants = {DUvariants} animate = {controls8}
           
           >
           <div className={styles.productImg}>
@@ -512,7 +490,7 @@ and  requires no additional infrastructure.</p>
           <motion.div className = {styles.product}
           transition={{duration: 0.6, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
-          variants = {DUvariants} animate = {controls9}>
+          variants = {DUvariants} animate = {controls8}>
             <div className={styles.productImg}>
           <Image
           alt='device'
@@ -526,7 +504,7 @@ and  requires no additional infrastructure.</p>
           <motion.div className = {styles.product}
           transition={{duration: 0.9, type: 'easeInOut'}} 
           initial="hidden"  exit="exit"
-          variants = {DUvariants} animate = {controls9}
+          variants = {DUvariants} animate = {controls8}
           >
           <div className={styles.productImg}>
           <Image
@@ -543,6 +521,30 @@ and  requires no additional infrastructure.</p>
           </div>
 
 
+        </div>
+
+        <div className={styles.section6} ref ={element9}>
+          <motion.div
+          
+          transition={{duration: 0.4, type: 'easeInOut'}} 
+initial="hidden"  exit="exit"
+variants = {variants} animate = {controls9}>
+
+          <h1 className="text-center ">Spotlight</h1>
+
+
+          </motion.div>
+
+          <motion.div className={styles.blogCarousel}
+          transition={{duration: 0.5, type: 'easeInOut'}} 
+          initial="hidden"  exit="exit"
+          variants = {variants} animate = {controls9}
+  
+          
+          >
+          <HomeBlogPosts/>
+
+          </motion.div>
         </div>
 
           

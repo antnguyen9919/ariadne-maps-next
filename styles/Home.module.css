@@ -97,10 +97,11 @@
 
 .section3{
     overflow: hidden;
-    padding: 0 7vw;
+    
 }
 
 .gifbox{
+    padding: 0 7vw;
     min-height:30vh;
     display: flex;
     justify-content: space-around;
