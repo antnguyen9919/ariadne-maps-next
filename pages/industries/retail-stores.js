@@ -103,7 +103,7 @@ identify their unnecessary costs and increase their revenues
 </p>
                 </div>
                 <div className={styles.column}>
-                <img src ="/Photos/Pages/retail/map.svg" />
+                <img src ="/Photos/Pages/retail/Map.svg" />
                   <h4>Space Efficiency
 
 
