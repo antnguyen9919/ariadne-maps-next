@@ -349,18 +349,7 @@ const AboutUs = () => {
    
    </p>
                    </div>
-                   <div className={styles.columnA}>
-                   <img src ="
-   https://ariadnemaps.com/wp-content/uploads/2022/01/Karolina.png                " />
-                     <h4>
-                     Karolina Piekarz
-   
-   </h4>
-                     <p>
-                     Administrative Assistant
-   
-   </p>
-                   </div>
+                   
    
                    </div>
    
