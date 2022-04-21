@@ -33,8 +33,7 @@ const company=[
   {title:"About Us",href:"/company/about-us"},
   {title:"Blog",href:"/blog"},
   {title:"Careers",href:"/company/careers"},
-  {title:"Contact",href:"/company/contact"},
-  {title:"Privacy",href:"/company/privacy"}
+  {title:"Contact",href:"/company/contact"}
   // {title:"Hospitality",icon:BsInfoSquare, descriptions:"hospitality",href:"#"},
   
 ]

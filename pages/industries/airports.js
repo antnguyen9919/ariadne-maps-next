@@ -22,7 +22,7 @@ function Airport() {
 <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
     
 
-    <main >
+    <main>
     <ParallaxProvider>
        <Parallaximg imgsrc="/Photos/Pages/airport.jpg" height="90vh" opacity=".5" >
        <div className={styles.banner} >

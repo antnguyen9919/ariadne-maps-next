@@ -165,19 +165,19 @@ export default function Home() {
             </div>
             </div>
 
-            <div className={`${styles.heroScreen} brightness-100`} >
-            {/* <video className={styles.bgVid} 
+            <div className={`${styles.heroScreen}`} >
+            <motion.video className={styles.bgVid} 
             poster = "/Photos/smallScreen.png"
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
             src ="/Videos/Hero2vid.mp4" 
-            type="videos/mp4" autoPlay playsInline muted loop  /> */}
-            <Image
+            type="videos/mp4" autoPlay playsInline muted loop  />
+            {/* <Image
             
             layout="responsive"
             alt='homepageScreen'
             priority
-            src = {smallScreen} />
+            src = {smallScreen} /> */}
             </div>
 
           </div>
@@ -347,7 +347,7 @@ variants = {variants} animate = {controls2}>
 
               </motion.div>
 
-          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element3}>
+          <div className={`${styles.gifbox}   ` } ref = {element3}>
             <motion.div className = {styles.giftext}
              transition={{duration: 0.5, type: 'easeInOut'}} 
              initial="hidden"  exit="exit"
@@ -367,7 +367,7 @@ variants = {variants} animate = {controls2}>
 
           </div>
 
-          <div className={styles.gifbox} ref = {element4}>
+          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element4}>
             <motion.div className = {styles.giftext}
             transition={{duration: 0.5, type: 'easeInOut'}} 
             initial="hidden"  exit="exit"
@@ -388,7 +388,7 @@ variants = {variants} animate = {controls2}>
             </motion.div>
           </div>
 
-          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element5}>
+          <div className={`${styles.gifbox}   ` } ref = {element5}>
             <motion.div className = {styles.giftext}
             transition={{duration: 0.5, type: 'easeInOut'}} 
             initial="hidden"  exit="exit"
@@ -407,7 +407,7 @@ variants = {variants} animate = {controls2}>
             </motion.div>
           </div>
 
-          <div className={styles.gifbox} ref = {element6}>
+          <div className={`${styles.gifbox}  bg-gradient-to-b from-slate-50 to-slate-200  ` } ref = {element6}>
             <motion.div className = {styles.giftext}
             transition={{duration: 0.5, type: 'easeInOut'}} 
             initial="hidden"  exit="exit"

@@ -18,7 +18,7 @@ const cities = () => {
        
       </Head>
     
-    <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
+      <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
       <main>
       <ParallaxProvider>
       <Parallaximg imgsrc="/Photos/Pages/cities.jpg" height="110vh" opacity=".5" >
