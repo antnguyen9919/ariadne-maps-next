@@ -166,18 +166,18 @@ export default function Home() {
             </div>
 
             <div className={`${styles.heroScreen}`} >
-            <motion.video className={styles.bgVid} 
+            {/* <motion.video className={styles.bgVid} 
             poster = "/Photos/smallScreen.png"
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
             src ="/Videos/Hero2vid.mp4" 
-            type="videos/mp4" autoPlay playsInline muted loop  />
-            {/* <Image
+            type="videos/mp4" autoPlay playsInline muted loop  /> */}
+            <Image
             
             layout="responsive"
             alt='homepageScreen'
             priority
-            src = {smallScreen} /> */}
+            src = {smallScreen} />
             </div>
 
           </div>
