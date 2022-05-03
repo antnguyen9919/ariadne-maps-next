@@ -67,7 +67,7 @@ const AboutUs = () => {
        </Parallaximg>
  
     </ParallaxProvider>
-      <main className={styles.main} >
+      {/* <main className={styles.main} >
            <div>
                <div className='xl:px-10 px-4 mt-20'>
                <h1 className='text-center mb-10'>
@@ -425,7 +425,7 @@ const AboutUs = () => {
 
 
    
-      </main>
+      </main> */}
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
         <h1 className='text-center text-white' style={{fontWeight:"300"}} >Join our team</h1>
