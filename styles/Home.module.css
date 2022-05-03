@@ -85,7 +85,7 @@
 .section2{
     /* background-color: red; */
    
-    height:100vh;
+    height:800px;
     margin-top: 3vh;
     
     padding: 10vh 7vw;
@@ -137,7 +137,7 @@
 
 .section5{
     
-    min-height: 120vh;
+    height: 1000px;
     
     /* padding: 70px 0; */
     /* margin-top: 40px; */
@@ -190,11 +190,12 @@
     height: 120vh;
 }
 
- @media only screen and (min-width:1535px){
+ @media only screen and (min-width:1540px){
         
         .section1{
             margin-top: 80px;
-            
+            /* background-color: red; */
+            /* height: 700px; */
         }
 
 
@@ -309,7 +310,125 @@
 
       
 } 
+@media only screen and (min-width: 1530px) and (max-width:1539px){
+      
+    .section1{
+        margin-top: 80px;
+        
+    }
 
+
+    .section2{
+       
+        padding-top:10vh;
+        min-height: 70vh;
+    }
+
+    .gifbox{
+        /* background-color: red; */
+        padding: 60px 5vw;
+        min-height:30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 60px 0; */
+    }
+
+
+
+    .section3{
+        
+
+    }
+    .section4{
+        
+        min-height: 100vh;
+        padding: 80px 11vw;
+        /* padding-top: 80px; */
+        
+    }
+    .section5{
+      
+        padding-top: 17vh;
+    }
+    .section6{
+       
+        /* background-color: red; */
+        /* max-height: 300px; */
+        min-height: 90vh;
+        padding-top: 3vh;
+    }
+    .section7{
+    
+        height:1000px;
+    }
+
+
+
+    .hero{
+
+        background-color: hsl(240, 12%, 21%);
+        height: 700px;
+        color:#fff;
+        
+    }
+    .heroContainer{
+        display: flex;
+        justify-content: center;
+        height: 700px;
+       
+        
+        
+        
+    }
+    .heroScreen Image{
+        /* width: 55%; */
+    }
+    .heroTextContainer{
+     
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        flex-wrap: wrap;
+        width:55vw;
+    }
+    .heroText{
+       /* border:2px solid red; */
+        min-height: 50%;
+        width:35vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    .heroScreen{
+        width:73vw;
+        padding-right: 20px;
+        
+     
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-content: flex-end;
+        height: 700px;
+    }
+    
+#calendly{
+    min-width:320px; 
+    min-height: 90vh;
+}
+
+
+
+.intro{
+    width: 28vw;
+}
+#list {
+    margin-top: 1.2vw;
+}
+
+}
 @media only screen and (max-width:1024px){
     .main{
         padding-left:8px;
