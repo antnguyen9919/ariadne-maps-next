@@ -53,10 +53,10 @@
 }
 
 .section1{
-    min-height:100vh;
+    height:100vh;
     padding-top:40px;
     padding: 5vh 7vw;
-    ;
+    
     
 }
 
@@ -195,7 +195,7 @@
         .section1{
             margin-top: 80px;
             /* background-color: red; */
-            /* height: 700px; */
+            height: 800px;
         }
 
 
@@ -313,7 +313,9 @@
 @media only screen and (min-width: 1530px) and (max-width:1539px){
       
     .section1{
-        margin-top: 80px;
+        margin-top: 0px;
+        /* background-color: red; */
+        height:700px;
         
     }
 
@@ -348,7 +350,7 @@
         
     }
     .section5{
-      
+        height: 900px;
         padding-top: 17vh;
     }
     .section6{
