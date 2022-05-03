@@ -15,25 +15,25 @@ import {AiOutlineShopping} from 'react-icons/ai'
 
 
 const solutions=[
-  {title:"Ariadne Analytics",icon:DiGoogleAnalytics, descriptions:"analytics",href:"/solutions/ariadne-analytics"},
-{title:"Ariadne Navigation",icon:BiNavigation, descriptions:"navigation",href:"/solutions/ariadne-navigation"},
-  {title:"Ariadne Engagement",icon:BiNotification, descriptions:"engagement",href:"/solutions/ariadne-engagement"},
+  {title:"Ariadne Analytics",icon:DiGoogleAnalytics,href:"/solutions/ariadne-analytics"},
+{title:"Ariadne Navigation",icon:BiNavigation, href:"/solutions/ariadne-navigation"},
+  {title:"Ariadne Engagement",icon:BiNotification, href:"/solutions/ariadne-engagement"},
   
 ]
 const industries=[
-  {title:"Retail stores",icon:MdStoreMallDirectory, descriptions:"retail",href:"/industries/retail-stores"},
-  {title:"Shopping centers",icon:AiOutlineShopping, descriptions:"malls",href:"/industries/shopping-centers"},
-  {title:"Airports",icon:MdLocalAirport, descriptions:"airports",href:"/industries/airports"},
-  {title:"Transportation",icon:MdEmojiTransportation, descriptions:"transports",href:"/industries/transportation"},
-  {title:"Cities",icon:MdLocationCity, descriptions:"cities",href:"/industries/cities"},
-  {title:"Hospitality",icon:MdRoomService, descriptions:"hospitality",href:"/industries/hospitality"},
+  {title:"Retail stores",icon:MdStoreMallDirectory, href:"/industries/retail-stores"},
+  {title:"Shopping centers",icon:AiOutlineShopping, href:"/industries/shopping-centers"},
+  {title:"Airports",icon:MdLocalAirport, href:"/industries/airports"},
+  {title:"Transportation",icon:MdEmojiTransportation, href:"/industries/transportation"},
+  {title:"Cities",icon:MdLocationCity, href:"/industries/cities"},
+  {title:"Hospitality",icon:MdRoomService, href:"/industries/hospitality"},
   
 ]
 const company=[
   {title:"About Us",href:"/company/about-us"},
   {title:"Blog",href:"/blog"},
   {title:"Careers",href:"/company/careers"},
-  {title:"Contact",href:"/company/contact"}
+  {title:"Contact",href:"/company/contact"},
   // {title:"Hospitality",icon:BsInfoSquare, descriptions:"hospitality",href:"#"},
   
 ]
@@ -50,7 +50,7 @@ const  Navbar = () => {
   return (
 
     <div  >
-      <Popover className='fixed top-0 w-full bg-black z-50'>
+      <Popover className='fixed top-0 w-full bg-black z-50' >
       
       <div className="2xl:max-w-7xl max-w-4xl  px-4 mx-auto md:px-6">
       
@@ -231,9 +231,9 @@ const  Navbar = () => {
             
             
             <div className='items-center justify-end hidden md:flex'>
-            <Link href='/letstalk'><a className='transition ease-in hover:text-yellow-600 text-lg 2xl:text-2xl font-light text-white' >Let&rsquo;s talk</a></Link>
+            <Link href='/letstalk'><a className='transition ease-in hover:text-red-600 text-lg 2xl:text-2xl font-light text-white' >Let&rsquo;s talk</a></Link>
             {/* <Link href={!user? '/login':'/dashboard'}></Link> */}
-            <a className=' text-base 2xl:text-2xl' href ='https://demo.ariadne.device-analytics.com' ><FaUserCircle className=' w-6 h-5 2xl:h-9 ml-7 text-white transition ease-in hover:scale-110' /></a>
+            <a className=' text-base 2xl:text-2xl' href ='https://app.seulet.com' ><FaUserCircle className=' w-6 h-5 2xl:h-9 ml-7 text-white transition ease-in hover:scale-110' /></a>
             
             </div>
             

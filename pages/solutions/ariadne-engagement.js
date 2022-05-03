@@ -6,6 +6,11 @@ import styles from '../../styles/Solutions.module.css'
 import {motion} from 'framer-motion'
 import home from '../../styles/Home.module.css'
 import phonewp from '../../public/Photos/Pages/Engagement/phonewp.png'
+import { typographyClasses } from '@mui/material'
+
+import scan from "../../public/Photos/Pages/Engagement/scan.png"
+import somescreen from "../../public/Photos/Pages/Engagement/somescreen.png"
+import phone2 from "../../public/Photos/Pages/Engagement/phone2.jpg"
 
 const variants = {
   hidden:{opacity: 0, x:0, y:20},
@@ -40,7 +45,7 @@ const AriadneEngagement = () => {
 
             <div className = {styles.heroTextContainer}>
             <div className={styles.heroText}>
-            <motion.h1 initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3}} >Ariadne
+            <motion.h1 initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3}} >Ariadne <br/>
 Engagement</motion.h1>
               <motion.p initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.2, type: 'easeInOut'}}>Engage with your visitors at the right time and the right place. Develop strategies targeted to specific clusters of customers</motion.p>
               
@@ -60,7 +65,7 @@ Engagement</motion.h1>
         </motion.div>
 
       <main>
-      <div className={`${styles.gifbox}`} >
+      <div className={`${styles.gifbox}  bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#f9f9f9]  ` }>
             <div className = {styles.giftext}>
               
               <p>The relationship between the business and its customers is elevated through engagement.</p>
@@ -72,7 +77,7 @@ Engagement</motion.h1>
           </div>
 
 
-          <div className={styles.sectionE1}>
+          <div className={`${styles.sectionE1}  bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#f9f9f9]  ` }>
             <div >
               <img src = "/Photos/Pages/Engagement/Phone.jpg"/>
             </div>
@@ -135,14 +140,14 @@ Engagement</motion.h1>
               </div>
             </div>
 
-            <div className={`${styles.products}  mt-10 mb-16`}>
+            <div className={`${styles.products}  mt-20 mb-16`}>
         <h1 className='text-center'>Get Started</h1>
         
           <div className={home.products}>
 
           <div className = {home.product}>
           <div className={`${home.productImg} ${styles.productImg}`}>
-          <Image src="/Photos/Pages/Engagement/scan.png" height={240} width={350}/>
+          <Image src={scan} alt=""/>
 
             </div>
           
@@ -152,7 +157,7 @@ Engagement</motion.h1>
 
           <div className = {home.product}>
             <div className={`${home.productImg} ${styles.productImg}`}>
-          <Image src="/Photos/Pages/Engagement/somescreen.png" height={240} width={350} />
+            <Image src={somescreen} alt=""/>
 
             </div>
                   
@@ -161,7 +166,7 @@ Engagement</motion.h1>
 
           <div className = {home.product}>
           <div className={`${home.productImg} ${styles.productImg}`}>
-          <Image src="/Photos/Pages/Engagement/phone2.jpg" height={240} width={350}/>
+          <Image src={phone2} alt=""/>
 
             </div>
           
@@ -177,8 +182,8 @@ Engagement</motion.h1>
       </main>
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
-        <h1 className='text-center text-white'>Work together?</h1>
-      <Link href ="/letstalk"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+        <h1 className='text-center text-white' style={{fontWeight:"300"}} >Work together?</h1>
+      <Link href ="/letstalk"><a><button className=' bg-white text-black hover:bg-slate-200 py-2 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
       </div>
         </div>
     </div>

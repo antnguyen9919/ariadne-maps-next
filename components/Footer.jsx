@@ -26,13 +26,18 @@ function Footer() {
     <div className={styles.footerLinkItems}>
     <Link  href='/' ><a ><img src="/Photos/Asset16.png" alt="Ariadne Logo" width="140x"/></a></Link>
     </div>
+  </div>
+  <div className={styles.footerLinkWrapper}>
 
     <div className={styles.footerLinkItems}>
-      <h3 className='text-2xl'>Solutions</h3>
+      <h3 className='text-2xl'>Technology</h3>
       {/* <Link href='/solutions/ariadne-mapping'>Ariadne Mapping</Link> */}
       <Link href='/solutions/ariadne-navigation'>Ariadne Navigation</Link>
       <Link href='/solutions/ariadne-analytics'>Ariadne Analytics</Link>
       <Link href='/solutions/ariadne-engagement'>Ariadne Engagement</Link>
+      <Link href='/solutions/industries'>Industries</Link>
+      <Link href='/solutions/data-lifecycle'>Data Lifecycle</Link>
+
       
     </div>
   </div>
@@ -43,17 +48,18 @@ function Footer() {
       <h3 className='text-2xl' >Company</h3>
       <Link href='/company/about-us'>About Us</Link>
       <Link href='/why-ariadne'>Why Ariadne</Link>
-      
+      <Link href='/resources'>Resources</Link>
       <Link href='/blog'>Blog</Link>
       <Link href='/company/careers'>Careers</Link>
     </div>
-
+    </div>
+  <div className={styles.footerLinkWrapper}>
     <div className={styles.footerLinkItems}>
+      
+    
+    
+      <h3 className='text-2xl'>Contact Us</h3>
       <div>
-    
-    
-      <h3 className='text-2xl'>Solutions</h3>
-
       </div>
       <div className={styles.para}>
 

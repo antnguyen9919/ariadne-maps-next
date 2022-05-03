@@ -6,6 +6,8 @@ import { variant1,transition } from '../../sections/animations';
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../components/Parallaximg';
 import Head from 'next/head'
+import Link from 'next/link'
+
 const variants = {
   hidden:{opacity: 0, x:0, y:20},
   enter:{opacity:1, x:0, y:0},
@@ -24,18 +26,18 @@ const transportation = () => {
       </Head>
    
    
-      <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
+   <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}  >
       
       <main>
       <ParallaxProvider>
-      <Parallaximg imgsrc="/Photos/Pages/transport.jpg" height="110vh" opacity=".5" >
+      <Parallaximg imgsrc="/Photos/Pages/transport.jpg" height="80vh" opacity=".5" >
       <div className={styles.banner} >
               
               
-              <h1 className="text-left font-6xl font-extrabold ">TRANSPORTATION</h1>
+              <h1 className="text-left">Transportation</h1>
             <h4 className='text-left'>Ariadne Maps helps leading transportation companies, including bus and railway 
 
-operators, become more data-driven, understand their passengers and abandon costly strategies
+operators, become more data-driven, understand their passengers and abandon costly strategies.
   
   </h4>
               </div>
@@ -87,7 +89,7 @@ operators, become more data-driven, understand their passengers and abandon cost
 </p>
                 </div>
             </div>
-            <div className={styles.row}>
+            <div className={styles.row} style={{marginBottom:"10em"}}>
                 <div className={styles.column}>
                 <img src ="/Photos/Pages/Transportation/Bag.svg"  />
                   <h4>Retail Hubs
@@ -134,7 +136,12 @@ operators, become more data-driven, understand their passengers and abandon cost
                 </div>
             </div>
 
-            
+            <div className={styles.blackCTA}>
+        <div className={styles.innerCTA}>
+        <h1 className='text-center text-white' style={{fontWeight:"300"}} >Work together?</h1>
+      <Link href ="/letstalk"><a><button className=' bg-white text-black hover:bg-slate-200 py-2 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+      </div>
+        </div>
         </div>
 
 

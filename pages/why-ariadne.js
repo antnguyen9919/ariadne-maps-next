@@ -6,6 +6,8 @@ import { variant1,transition } from "../sections/animations"
 import Head from 'next/head'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../components/Parallaximg';
+import Link from 'next/link'
+
 
 const WhyAriadne = () => {
   return (
@@ -24,13 +26,13 @@ const WhyAriadne = () => {
       <main>
            <div>
            <ParallaxProvider>
-         <Parallaximg imgsrc="/Photos/Pages/whyariadne.png" height="110vh" opacity=".5" >
+         <Parallaximg imgsrc="/Photos/Pages/whyariadne.png" height="80vh" opacity=".5" >
          <div className={styles.banner} >
                  
                  
-                 <h1 className="text-left font-6xl font-extrabold ">Why
+                 <h1 className="text-left">Why
    
-   Ariadne Maps</h1>
+   Ariadne</h1>
                <h4 className='text-left'>Not only localization, but a lot more we have for you! Discover the advantages of using our devices and benefits for your business!
      
      </h4>
@@ -146,7 +148,7 @@ const WhyAriadne = () => {
                    </div>
                </div>
    
-               <div className={styles.row}>
+               <div className={styles.row}  style={{marginBottom:"10em"}}>
                    <div className={styles.column}>
                      <img alt ='sth' src ="/Photos/Pages/whyA/Plug.svg"  />
                      <h4>Easy and Quick Installation
@@ -193,7 +195,12 @@ const WhyAriadne = () => {
    </p>
                    </div>
                </div>
-   
+               <div className={styles.blackCTA}>
+        <div className={styles.innerCTA}>
+        <h1 className='text-center text-white' style={{fontWeight:"300"}} >Work together?</h1>
+      <Link href ="/letstalk"><a><button className=' bg-white text-black hover:bg-slate-200 py-2 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+      </div>
+        </div>
            </div>
    
    

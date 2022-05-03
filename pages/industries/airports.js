@@ -6,6 +6,7 @@ import {motion } from "framer-motion"
 import Image from 'next/image';
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../components/Parallaximg';
+import Link from 'next/link'
 
 function Airport() {
   return<>
@@ -22,13 +23,13 @@ function Airport() {
 <motion.div initial="hidden" animate="enter" exit="exit" variants={variant1} transition={transition}    className ={styles.all}>
     
 
-    <main>
+    <main >
     <ParallaxProvider>
-       <Parallaximg imgsrc="/Photos/Pages/airport.jpg" height="90vh" opacity=".5" >
+       <Parallaximg imgsrc="/Photos/Pages/airport.jpg" height="80vh" opacity=".5" >
        <div className={styles.banner} >
                
                
-               <h1 className="text-left font-6xl font-extrabold ">AIRPORTS</h1>
+               <h1 className="text-left">Airports</h1>
              <h4 className='text-left'>Ariadne Maps helps airports understand and serve their passengers better, provide useful services, and do more targeted marketing campaigns
    
    </h4>
@@ -90,7 +91,7 @@ function Airport() {
                  </div>
              </div>
  
-             <div className={styles.row}>
+             <div className={styles.row} style={{marginBottom:"10em"}}>
                  <div className={styles.column}>
                    <img src ="/Photos/Pages/Airport/Analytics.svg"  />
                    <h4>Data-Driven Growth</h4>
@@ -113,7 +114,12 @@ function Airport() {
  </p>
                  </div>
              </div>
- 
+             <div className={styles.blackCTA} style={{marginBottom:"-1.5em"}}>
+        <div className={styles.innerCTA}>
+        <h1 className='text-center text-white' style={{fontWeight:"300"}} >Work together?</h1>
+      <Link href ="/letstalk"><a><button className=' bg-white text-black hover:bg-slate-200 py-2 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+      </div>
+        </div>
          </div>
  
  

@@ -82,9 +82,8 @@ const contact = () => {
   <ParallaxProvider>
        <Parallaximg imgsrc="/Photos/Pages/Contact.jpg" height="80vh" opacity=".5" >
        <div className={styles.banner}>
-               
-               
-               {/* <h1 className="text-left font-6xl font-extrabold ">Privacy Policy</h1> */}
+                   
+       <h1 className="text-left">Contact Us</h1>
             
                </div>
  
@@ -92,11 +91,11 @@ const contact = () => {
  
     </ParallaxProvider>
     
-    <div className='h-full p-8'>
+    <div className='h-full px-32'>
             <div className='h-1/2 ' >
-              <h3>Contact Us</h3>
-              <h4>Ariadne Maps GmbH</h4>
-              <p>
+              <h3 className='mt-32 mb-6'>Contact Us</h3>
+              <h4 className='mb-4'>Ariadne Maps GmbH</h4>
+              <p className='mb-24'>
               Brecherspitzstraße 8<br/>
 
 81541 München<br/>

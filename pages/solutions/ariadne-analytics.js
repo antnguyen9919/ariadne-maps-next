@@ -42,8 +42,8 @@ const AriadneAnalytics = () => {
             <div className = {styles.heroTextContainer}>
             <div className={styles.heroText}>
             <motion.h1 initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.5, type: 'spring', bounce: 0.3}} >Ariadne
-Analytics</motion.h1>
-              <motion.p initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.2, type: 'easeInOut'}}>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it</motion.p>
+<br/>Analytics</motion.h1>
+              <motion.p initial="hidden" animate="enter" exit="exit" variants={herovariants} transition={{duration: 0.2, type: 'easeInOut'}}>Discover the potential of Ariadne Analytics for your business. Get to know your customers and explore the value behind it.</motion.p>
               
             </div>
             </div>
@@ -60,7 +60,7 @@ Analytics</motion.h1>
 
       <main>
         
-      <div className={styles.gifbox} >
+      <div className={`${styles.gifbox}  bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#f9f9f9]  ` } >
             <div className = {styles.giftext}>
               
               <p>Ariadne Analytics is the heart of the Ariadne Platform, and it can be used for people counting, determine retail conversion rates , reduce dwell timesand other useful customer success metrics. We place a high importance on privacy and employ anonymous tracking systems.</p>
@@ -162,7 +162,7 @@ Analytics</motion.h1>
           </div>
         <p>Study your store&rsquo;s customer flow patterns and concentrate on them to improve your customers Journey and boost your profits.</p>
 
-        <div className={styles.duoContainer} >
+        <div className={`${styles.duoContainer}  mb-32 ` }>
             <div className={styles.singleSnap}>
             <img className = "hover:scale-105 transition ease-in-out  " src="/Photos/Pages/Analytics/AdvancedAnalytics/h14.png" alt="st" />
             </div>
@@ -180,8 +180,8 @@ Analytics</motion.h1>
       </main>
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
-        <h1 className='text-center text-white'>Work together?</h1>
-      <Link href ="/letstalk"><a><button className=' bg-red-600 text-white hover:bg-red-700 py-1 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+        <h1 className='text-center text-white' style={{fontWeight:"300"}} >Work together?</h1>
+      <Link href ="/letstalk"><a><button className=' bg-white text-black hover:bg-slate-200 py-2 mt-8 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
       </div>
         </div>
     </div>

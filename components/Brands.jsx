@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import s1 from "../public/Photos/brands/s1.png"
 import s2 from "../public/Photos/brands/s2.png"
-import s3 from "../public/Photos/brands/s3.png"
 import s4 from "../public/Photos/brands/s4.png"
 import s5 from "../public/Photos/brands/s5.png"
 import s6 from "../public/Photos/brands/s6.png"
@@ -27,18 +26,15 @@ import s20 from "../public/Photos/brands/s20.png"
 
 const Brands = () => {
   return (
-    <div className='w-full  mb-10 mt-8 flex justify-center  justify-items-center  content-center items-center'>
+    <div className='w-full  mb-10 mt-8 flex justify-center  justify-items-center  content-center items-center' style = {{paddingRight:"20px", paddingLeft: "20px"}}>
 
-        <div className='w-full xl:px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-32 gap-x-2 gap-y-3 content-center items-center'>
-        <div className='xl:w-40 2xl:w-60 w-24'>
-        <Image src={s1} alt="" layout = "responsive" />
-        </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='w-full xl:px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-20 gap-x-2 gap-y-3 content-center items-center'>
+       
+        <div className='xl:w-40 2xl:w-40 w-24'>
         <Image src={s2} alt="" layout = "responsive" />
         </div>
-
         <div className='xl:w-40 2xl:w-60 w-24'>
-        <Image src={s3} alt="" layout = "responsive"/>
+        <Image src={s1} alt="" layout = "responsive" />
         </div>
         <div className='xl:w-40 2xl:w-60 w-24'>
         <Image src={s4} alt="" layout = "responsive"/>
@@ -46,26 +42,26 @@ const Brands = () => {
         <div className='xl:w-40 2xl:w-60 w-24'>
         <Image src={s5} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-40 w-24'>
         <Image src={s6} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-50 w-24'>
         <Image src={s7} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-55 w-24'>
         <Image src={s8} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-70 w-24'>
         <Image src={s9} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
-        <Image src={s10} alt="" layout = "responsive"/>
+        <div className='xl:w-40 2xl:w-55 w-24'>
+        <Image src={s12} alt="" layout = "responsive"/>
         </div>
         <div className='xl:w-40 2xl:w-60 w-24'>
         <Image src={s11} alt="" layout = "responsive"/>
         </div>
         <div className='xl:w-40 2xl:w-60 w-24'>
-        <Image src={s12} alt="" layout = "responsive"/>
+        <Image src={s10} alt="" layout = "responsive"/>
         </div>
         <div className='xl:w-40 2xl:w-60 w-24'>
         <Image src={s13} alt="" layout = "responsive"/>
