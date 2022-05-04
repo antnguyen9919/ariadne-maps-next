@@ -160,7 +160,7 @@ export default function Home() {
             <div className = {styles.heroTextContainer}>
             <div className={styles.heroText}>
             <h1  >People Flow To Actionable Insights</h1>
-              <p>Turn your existing customer traffic into an additional source of revenue</p>
+              <p>Identify the moment when your visitors become your customers</p>
               <Link href ="/letstalk"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg'>Let&rsquo;s Talk</button></a></Link>
             </div>
             </div>
@@ -191,7 +191,7 @@ export default function Home() {
         <div className='block h-96 xl:hidden 2xl:hidden flex flex-row justify-center bg-gradient-to-b from-slate-700 to-slate-800 text-white'>
         <div className=' my-auto mx-auto w-5/6' >
             <h1  >People Flow To Actionable Insights</h1>
-              <p>Turn your existing customer traffic into an additional source of revenue</p>
+              <p>Identify the moment when your visitors become your customers</p>
               <Link href ="/letstalk"><a ><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg mt-4'>Let&rsquo;s Talk</button></a></Link>
             </div>
         </div>
@@ -439,8 +439,8 @@ variants = {variants} animate = {controls2}>
             variants = {LRvariants} animate = {controls6}
             
             >
-              <h3>Ariadne Mapping</h3>
-              <p>Transform your physical business into a digital landscape!</p>
+              <h3>Ariadne Journey Mapping</h3>
+              <p>Present promotions in your map to engage your visitors.</p>
               <p>Ariadne boosts your efficiency by enabling you to map and localize your products.</p>
             </motion.div>
             <motion.div className = {styles.gif}
@@ -490,8 +490,7 @@ variants = {variants} animate = {controls2}>
            variants = {DUvariants} animate = {controls8}
         >
         <h1 className='text-center'>Get Started</h1>
-        <p className='text-center'>Ariadne solution can be deployed on the premises just by plugging the devices in 
-and  requires no additional infrastructure.</p>
+        <p className='text-center'>Ariadne is a plug-n-play solution that does not require ethernet connection or complicated installations.</p>
         </motion.div>
           <div className={styles.products}>
 
@@ -509,7 +508,7 @@ and  requires no additional infrastructure.</p>
             </div>
           
                   <h4 className='my-3'>Configuration</h4>
-                  <p>Let our team design a project based on your floor plan and industry.</p>
+                  <p>Design your own floorplan with our state of the art mapping solutions.</p>
           </motion.div>
 
           <motion.div className = {styles.product}
