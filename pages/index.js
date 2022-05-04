@@ -67,8 +67,8 @@ import screen from "../public/Photos/screen.png"
 
 
 
-// import { loadStripe } from '@stripe/stripe-js';
-// import axios from 'axios';
+import { loadStripe } from '@stripe/stripe-js';
+import axios from 'axios';
 import { useRouter } from 'next/router';
 
 
@@ -106,8 +106,9 @@ const RLvariants ={
 
 export default function Home() {
 
- 
 
+  
+  
   const [element,controls] = useScroll();
  
   const [element2,controls2] = useScroll();
@@ -182,7 +183,7 @@ export default function Home() {
 
       <div >
       <Head>
-        <title>Ariadne Maps </title>
+        <title>Ariadne Maps</title>
         <meta name="description" content="Ariadne Maps GmbH" />
         <link rel="icon" href="/ariadneicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>

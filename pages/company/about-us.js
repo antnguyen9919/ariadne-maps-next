@@ -8,29 +8,29 @@ import Head from 'next/head'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Parallaximg from '../../components/Parallaximg';
 
-// import Georgios from "/public/Photos/team/Georgios.png"
-// import Nikos from "/public/Photos/team/Nikos.png"
-// import Athanasions from "/public/Photos/team/Athanasios.png"
-// import Elli from "/public/Photos/team/Elli.png"
-// import Hasim from "/public/Photos/team/Hasim.png"
-// import Karolina from "/public/Photos/team/Karolina.png"
-// import KostasK from "/public/Photos/team/KostasK.png"
-// import KostasZ from "/public/Photos/team/KostasZ.png"
-// import Mahade from "/public/Photos/team/Mahade.png"
-// import Mustafa from "/public/Photos/team/Mustafa.png"
-// import Najeeb from "/public/Photos/team/Najeeb.png"
-// import Nam from "/public/Photos/team/Nam.png"
-// import Precious from "/public/Photos/team/Precious.png"
-// import Roman from "/public/Photos/team/Roman.png"
-// import Shahab from "/public/Photos/team/Shahab.png"
-// import Wasiq from "/public/Photos/team/Wasiq.png"
-// import Kostas from "/public/Photos/team/Kostas.png"
-// import Ted from "/public/Photos/team/Ted.png"
-// import Victoria from "/public/Photos/team/Victoria.png"
-// import Francesco from "/public/Photos/team/Francesco.png"
-// import Pati from "/public/Photos/team/Pati.png"
-// import eu from "/public/Photos/team/eu.png"
-// import eit from "/public/Photos/team/eit.png"
+import Georgios from "/public/Photos/team/Georgios.png"
+import Nikos from "/public/Photos/team/Nikos.png"
+import Athanasions from "/public/Photos/team/Athanasios.png"
+import Elli from "/public/Photos/team/Elli.png"
+import Hasim from "/public/Photos/team/Hasim.png"
+import Karolina from "/public/Photos/team/Karolina.png"
+import KostasK from "/public/Photos/team/KostasK.png"
+import KostasZ from "/public/Photos/team/KostasZ.png"
+import Mahade from "/public/Photos/team/Mahade.png"
+import Mustafa from "/public/Photos/team/Mustafa.png"
+import Najeeb from "/public/Photos/team/Najeeb.png"
+import Nam from "/public/Photos/team/Nam.png"
+import Precious from "/public/Photos/team/Precious.png"
+import Roman from "/public/Photos/team/Roman.png"
+import Shahab from "/public/Photos/team/Shahab.png"
+import Wasiq from "/public/Photos/team/Wasiq.png"
+import Kostas from "/public/Photos/team/Kostas.png"
+import Ted from "/public/Photos/team/Ted.png"
+import Victoria from "/public/Photos/team/Victoria.png"
+import Francesco from "/public/Photos/team/Francesco.png"
+import Pati from "/public/Photos/team/Pati.png"
+import eu from "/public/Photos/team/eu.png"
+import eit from "/public/Photos/team/eit.png"
 
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
@@ -67,7 +67,7 @@ const AboutUs = () => {
        </Parallaximg>
  
     </ParallaxProvider>
-      {/* <main className={styles.main} >
+      <main className={styles.main} >
            <div>
                <div className='xl:px-10 px-4 mt-20'>
                <h1 className='text-center mb-10'>
@@ -425,7 +425,7 @@ const AboutUs = () => {
 
 
    
-      </main> */}
+      </main>
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
         <h1 className='text-center text-white' style={{fontWeight:"300"}} >Join our team</h1>
