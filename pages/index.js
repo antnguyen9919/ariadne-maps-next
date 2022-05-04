@@ -159,7 +159,7 @@ export default function Home() {
 
             <div className = {styles.heroTextContainer}>
             <div className={styles.heroText}>
-            <h1  >People Flow To Actionable Insights</h1>
+            <h1  >From People Flow To Actionable Insights</h1>
               <p>Identify the moment when your visitors become your customers</p>
               <Link href ="/letstalk"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg'>Let&rsquo;s Talk</button></a></Link>
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
         </div>
         <div className='block h-96 xl:hidden 2xl:hidden flex flex-row justify-center bg-gradient-to-b from-slate-700 to-slate-800 text-white'>
         <div className=' my-auto mx-auto w-5/6' >
-            <h1  >People Flow To Actionable Insights</h1>
+            <h1  >From People Flow To Actionable Insights</h1>
               <p>Identify the moment when your visitors become your customers</p>
               <Link href ="/letstalk"><a ><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 2xl:text-lg mt-4'>Let&rsquo;s Talk</button></a></Link>
             </div>
