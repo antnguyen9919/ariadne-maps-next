@@ -17,13 +17,14 @@
 .heroScreen Image{
     /* width: 55%; */
 }
+
 .heroTextContainer{
     /* border:2px solid blue; */
     display: flex;
     align-items: center;
     justify-content:flex-end;
     flex-wrap: wrap;
-    width:55vw;
+    width:40vw;
 }
 .heroText{
    /* border:2px solid red; */
@@ -36,13 +37,13 @@
     padding-top: 0;
 }
 .heroScreen{
-    width:75vw;
+    width:50vw;
     padding-right: 20px;
     
  
     display: flex;
     flex-direction:column;
-    justify-content:flex-end;
+    justify-content:center;
     align-content: flex-end;
     height: 530px;
 }
@@ -52,13 +53,6 @@
     overflow: hidden;
 }
 
-.section1{
-    height:100vh;
-    padding-top:40px;
-    padding: 5vh 7vw;
-    
-    
-}
 
 
 
@@ -79,6 +73,17 @@
 .intro{
     width: 30vw;
 }
+.section2 h1{
+    padding-bottom: 1vh;
+}
+
+.section1{
+    height:100vh;
+    padding-top:40px;
+    padding: 5vh 6vw;
+    
+    
+}
 
 
 
@@ -90,14 +95,44 @@
     
     padding: 10vh 7vw;
 }
-.section2 h1{
-    padding-bottom: 1vh;
-}
+
 
 /* ariadne platform  */
 
 .section3{
     overflow: hidden;
+    
+}
+.section4{
+    min-height: 100vh;
+    padding: 50px 9vw;
+    /* padding-top: 80px; */
+    
+}
+.section5{
+    
+    height: 1000px;
+    
+    /* padding: 70px 0; */
+    /* margin-top: 40px; */
+    /* padding-top: 40px; */
+    padding: 50px 7vw;
+    font-weight: 300;
+    /* background-color: red; */
+}
+.section6{
+    /* background-color: red; */
+    min-height: 120vh;
+    padding: 40px 0px;
+    padding: 0 7vw;
+    padding-top: 50px;
+    
+   
+    
+}
+.section7{
+    
+    min-height: 100vh;
     
 }
 
@@ -125,27 +160,12 @@
     border-radius: 10px;
     /* border: 1px solid rgb(231, 231, 231); */
 }
-.section4{
-    min-height: 100vh;
-    padding: 50px 9vw;
-    /* padding-top: 80px; */
-    
-}
+
 .section4 h1{
     margin-bottom: 50px;
 }
 
-.section5{
-    
-    height: 1000px;
-    
-    /* padding: 70px 0; */
-    /* margin-top: 40px; */
-    /* padding-top: 40px; */
-    padding: 50px 7vw;
-    font-weight: 300;
-    /* background-color: red; */
-}
+
 .section5 h1{
     margin-bottom: 40px;
 }
@@ -163,16 +183,7 @@
 }
 
 
-.section6{
-    /* background-color: red; */
-    min-height: 120vh;
-    padding: 40px 0px;
-    padding: 0 7vw;
-    padding-top: 50px;
-    
-   
-    
-}
+
 .blogCarousel{
     margin-top: 15vh;
     
@@ -180,11 +191,7 @@
     
 }
 
-.section7{
-    
-    min-height: 100vh;
-    
-}
+
 #calendly{
     min-width:320px; 
     height: 120vh;
@@ -195,14 +202,15 @@
         .section1{
             margin-top: 80px;
             /* background-color: red; */
-            height: 800px;
+            height: 900px;
+            padding: 5vh 5vw;
         }
 
 
         .section2{
            
             padding-top:10vh;
-            min-height: 70vh;
+            height: 100vh;
         }
 
         .gifbox{
@@ -244,6 +252,7 @@
             height:1000px;
         }
 
+        
 
 
         .hero{
@@ -270,7 +279,7 @@
             align-items: center;
             justify-content:flex-end;
             flex-wrap: wrap;
-            width:55vw;
+            width:40vw;
         }
         .heroText{
            /* border:2px solid red; */
@@ -283,13 +292,13 @@
             padding-top: 0;
         }
         .heroScreen{
-            width:73vw;
+            width:50vw;
             padding-right: 20px;
             
          
             display: flex;
             flex-direction:column;
-            justify-content:flex-end;
+            justify-content:center;
             align-content: flex-end;
             height: 800px;
         }
@@ -302,7 +311,10 @@
 
 
     .intro{
-        width: 28vw;
+        width: 38vw;
+        font-weight: 400;
+        text-align:justify;
+       
     }
     #list {
         margin-top: 1.2vw;
@@ -315,7 +327,7 @@
     .section1{
         margin-top: 0px;
         /* background-color: red; */
-        height:700px;
+        height:740px;
         
     }
 
@@ -323,7 +335,7 @@
     .section2{
        
         padding-top:10vh;
-        min-height: 70vh;
+        height: 80vh;
     }
 
     .gifbox{
@@ -392,12 +404,12 @@
         align-items: center;
         justify-content:flex-end;
         flex-wrap: wrap;
-        width:55vw;
+        width:36vw;
     }
     .heroText{
        /* border:2px solid red; */
         min-height: 50%;
-        width:35vw;
+        width:33vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -405,13 +417,13 @@
         padding-top: 0;
     }
     .heroScreen{
-        width:73vw;
+        width:50vw;
         padding-right: 20px;
         
      
         display: flex;
         flex-direction:column;
-        justify-content:flex-end;
+        justify-content:center;
         align-content: flex-end;
         height: 700px;
     }
@@ -431,6 +443,80 @@
 }
 
 }
+
+@media only screen and (min-width: 1025px) and (max-width:1529px){
+      
+    .section1{
+        margin-top: 0px;
+        
+        height:600px;
+        
+    }
+
+
+    .section2{
+     
+        padding-top:10vh;
+        height: 600px;
+    }
+
+    .gifbox{
+        /* background-color: red; */
+        padding: 60px 5vw;
+        min-height:30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* padding: 60px 0; */
+    }
+
+
+
+    .section3{
+        
+
+    }
+    .section4{
+          /* background-color: red; */
+        /* min-height: 100vh;
+        padding: 80px 11vw; */
+        /* padding-top: 80px; */
+        
+    }
+    .section5{
+        height: 900px;
+        padding-top: 17vh;
+    }
+    .section6{
+       
+        /* background-color: red; */
+        /* max-height: 300px; */
+        min-height: 90vh;
+        padding-top: 3vh;
+    }
+    .section7{
+    
+        height:1000px;
+    }
+
+
+#calendly{
+    min-width:320px; 
+    min-height: 90vh;
+}
+
+
+
+.intro{
+    width: 28vw;
+}
+#list {
+    margin-top: 1.2vw;
+}
+
+}
+
+
 @media only screen and (max-width:1024px){
     .main{
         padding-left:8px;
@@ -546,7 +632,7 @@
     .section1{
         padding:0 1vw;
         padding-top: 50px;
-        height: 130vh;
+        height: 100vh;
         
 
         /* background: #000; */
@@ -572,6 +658,7 @@
 }
 .section5{
     /* padding: 0 1vw; */
+    height:1600px;
 
 }
 .section6{
@@ -581,7 +668,7 @@
     .section7{
         overflow-x: hidden;
         /* height: 10vh; */
-        height: 200vh;
+        height: 120vh;
         width:95%;
     }
 

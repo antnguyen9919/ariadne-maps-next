@@ -172,12 +172,18 @@ export default function Home() {
             
             src ="/Videos/Hero2vid.mp4" 
             type="videos/mp4" autoPlay playsInline muted loop  /> */}
-            <Image
+            <motion.video className={styles.bgVid} 
+            poster = "/Photos/smallScreen.png"
+            initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
+            
+            src ="/Videos/Onscreen.mov" 
+            type="videos/mov" autoPlay playsInline muted loop  />
+            {/* <Image
             
             layout="responsive"
             alt='homepageScreen'
             priority
-            src = {smallScreen} />
+            src = {smallScreen} /> */}
             </div>
 
           </div>
@@ -197,14 +203,25 @@ export default function Home() {
        
 
         >
-         
+          
           <motion.div
            transition={{duration: 0.4, type: 'easeInOut'}} 
            initial="hidden"  exit="exit"
            variants = {variants} animate = {controls}
           >
-          <div className='flex flex-row justify-center' >
-          <h1 className='text-center  w-3/4 '>Unlock the value of your data and multiply your returns!</h1>
+          <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:gap-36 xl:gap-28 gap-x-10 gap-y-3' >
+         <div>
+            <img src="/Photos/z1.png" alt="people-served" />
+         </div>
+         <div>
+            <img src="/Photos/z2.png"alt="locations-deployed" />
+         </div>
+         <div>
+            <img src="/Photos/z3.png" alt="countries-active" />
+         </div>
+         <div>
+            <img src="/Photos/z4.png" alt="cost savings" />
+         </div>
           </div>
           </motion.div>
           
@@ -299,17 +316,20 @@ export default function Home() {
               initial="hidden"  exit="exit"
               variants = {RLvariants} animate = {controls}
               >
-                <p className= ' 2xl:leading-loose '>
-                Ariadne is considered to be the Google Analytics of the physical world. Ariadne helps you to analyze your visitors&rsquo; behavior, it consults you on strategies, and provides you with recommendations for the future.
+                <p className= ' 2xl:leading-10 '>
+                <b>Responsible, Precise, Intuitive</b> <br/>
+                Ariadne is the operating system of commercial real estates that provides advanced, 
+                real-time customer analytics enabled with award winning accuracy and certified privacy 
+                compliance. <br/> Track your customer journey with Ariadne&rsquo;s low-cost, plug-and-play solution - no app, no network connection, no cameras!
                 </p>
 
-                <p id={styles.list} className= 'leading-10 2xl:leading-loose'>
+                <p id={styles.list} className= 'leading-10 2xl:leading-10'>
 
-      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Footfall (Total and by area)<br/>
-      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Dwell Time(Total and by area)<br/>
-      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Heatmap (2D and 3D)<br/>
-      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Transitions between areas<br/>
-      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;ERP, BI, POS Integration
+      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Footfall, Dwell Time, Heatmap, Transitions Between Areas, ERP/BI/POS Integration...<br/>
+      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Workforce Management<br/>
+      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Asset Tracking<br/>
+      <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Navigation<br/>
+   
 
       </p>
               </motion.div>

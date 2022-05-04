@@ -29,66 +29,66 @@ const Brands = () => {
   return (
     <div className='w-full  mb-10 mt-8 flex justify-center  justify-items-center  content-center items-center'>
 
-        <div className='w-full xl:px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-32 gap-x-2 gap-y-3 content-center items-center'>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='w-full xl:px-7  flex justify-around flex-wrap justify-items-center xl:gap-x-16 2xl:gap-x-32 gap-x-6 gap-y-3 content-center items-center'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s1} alt="" layout = "responsive" />
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s2} alt="" layout = "responsive" />
         </div>
 
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s3} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s4} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s5} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s6} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s7} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s8} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s9} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s10} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s11} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s12} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s13} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s14} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s15} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s16} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s17} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s18} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s19} alt="" layout = "responsive"/>
         </div>
-        <div className='xl:w-40 2xl:w-60 w-24'>
+        <div className='xl:w-40 2xl:w-56 w-24'>
         <Image src={s20} alt="" layout = "responsive"/>
         </div>
         
