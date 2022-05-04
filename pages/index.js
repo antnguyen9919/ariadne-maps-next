@@ -67,8 +67,7 @@ import screen from "../public/Photos/screen.png"
 
 
 
-import { loadStripe } from '@stripe/stripe-js';
-import axios from 'axios';
+
 import { useRouter } from 'next/router';
 
 
