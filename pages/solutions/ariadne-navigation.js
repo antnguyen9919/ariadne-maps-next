@@ -6,9 +6,9 @@ import {motion} from 'framer-motion'
 import styles from '../../styles/Solutions.module.css'
 import {variant1} from '../../sections/animations'
 
-import nagivate from  "../../public/Photos/Pages/Navigation/navigate.png"
-import munichoffice from  "../../public/Photos/Pages/Navigation/MunichOffice.png"
-import phone3 from  "../../public/Photos/Pages/Navigation/phone3.png"
+// import nagivate from  "../../public/Photos/Pages/Navigation/navigate.png"
+// import munichoffice from  "../../public/Photos/Pages/Navigation/MunichOffice.png"
+// import phone3 from  "../../public/Photos/Pages/Navigation/phone3.png"
 
 const herovariants = {
   hidden:{opacity: 0, x:0, y:0},
@@ -140,91 +140,91 @@ We enable and lead you to hyperlocal marketing.
             </div>
 
 
-            <div className={`${styles.useCasesWithTitle} bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#f9f9f9]`}>
-        <div>
-        <h1 className='text-center'>Discover use cases</h1>
+//             <div className={`${styles.useCasesWithTitle} bg-gradient-to-b from-[#ffffff] via-[#ffffff] to-[#f9f9f9]`}>
+//         <div>
+//         <h1 className='text-center'>Discover use cases</h1>
 
-        </div>
-        <div className={styles.useCases}>
-          <div className={styles.caseContainer}>
+//         </div>
+//         <div className={styles.useCases}>
+//           <div className={styles.caseContainer}>
 
-          <div className = {styles.caseBox} >
-          <div className = {styles.caseBox1}>
-          <Link href="/industries/retail-stores">
-
-
-               <h4 className='my-3 pt-20 pr-4'>Retail</h4>
-          </Link>
-          </div>
-          </div>
-          </div>
-
-          <div className={styles.caseContainer}>
-          <div className = {styles.caseBox}>
-          <div className = {styles.caseBox2}>
-          <Link href="/industries/shopping-centers">
+//           <div className = {styles.caseBox} >
+//           <div className = {styles.caseBox1}>
+//           <Link href="/industries/retail-stores">
 
 
-               <h4 className='my-3 pt-20 pr-4'>Malls</h4>
-          </Link>
-          </div>
-          </div>
-          </div>
+//                <h4 className='my-3 pt-20 pr-4'>Retail</h4>
+//           </Link>
+//           </div>
+//           </div>
+//           </div>
 
-          <div className={styles.caseContainer}>
-          <div className = {styles.caseBox}>
-          <div className = {styles.caseBox3}>
-          <Link href="/industries/airports">
-
-
-               <h4 className='my-3 pt-20 pr-4'>Airports</h4>
-          </Link>
-          </div>
-          </div>
-
-          </div>
-
-          <div className={styles.caseContainer}>
-          <div className = {styles.caseBox}>
-          <div className = {styles.caseBox4}>
-          <Link href="/industries/transportation">
+//           <div className={styles.caseContainer}>
+//           <div className = {styles.caseBox}>
+//           <div className = {styles.caseBox2}>
+//           <Link href="/industries/shopping-centers">
 
 
-               <h4 className='my-3 pt-20 pr-4'>Trasportation</h4>
-          </Link>
-          </div>
-          </div>
+//                <h4 className='my-3 pt-20 pr-4'>Malls</h4>
+//           </Link>
+//           </div>
+//           </div>
+//           </div>
 
-          </div>
-
-          <div className={styles.caseContainer}>
-          <div className = {styles.caseBox}>
-          <div className = {styles.caseBox5}>
-          <Link href="/industries/cities">
-
-
-               <h4 className='my-3 pt-20 pr-4'>Cities</h4>
-          </Link>
-          </div>
-          </div>
-
-          </div>
+//           <div className={styles.caseContainer}>
+//           <div className = {styles.caseBox}>
+//           <div className = {styles.caseBox3}>
+//           <Link href="/industries/airports">
 
 
-          <div className={styles.caseContainer}>
-          <div className = {styles.caseBox}>
-          <div className = {styles.caseBox6}>
-          <Link href="/industries/hospitality">
+//                <h4 className='my-3 pt-20 pr-4'>Airports</h4>
+//           </Link>
+//           </div>
+//           </div>
+
+//           </div>
+
+//           <div className={styles.caseContainer}>
+//           <div className = {styles.caseBox}>
+//           <div className = {styles.caseBox4}>
+//           <Link href="/industries/transportation">
+
+
+//                <h4 className='my-3 pt-20 pr-4'>Trasportation</h4>
+//           </Link>
+//           </div>
+//           </div>
+
+//           </div>
+
+//           <div className={styles.caseContainer}>
+//           <div className = {styles.caseBox}>
+//           <div className = {styles.caseBox5}>
+//           <Link href="/industries/cities">
+
+
+//                <h4 className='my-3 pt-20 pr-4'>Cities</h4>
+//           </Link>
+//           </div>
+//           </div>
+
+//           </div>
+
+
+//           <div className={styles.caseContainer}>
+//           <div className = {styles.caseBox}>
+//           <div className = {styles.caseBox6}>
+//           <Link href="/industries/hospitality">
 
 
 
-               <h4 className='my-3 pt-20 pr-4'>Hospitality</h4>
-          </Link>
-          </div>
-          </div>
-          </div>
-          </div>
-        </div>
+//                <h4 className='my-3 pt-20 pr-4'>Hospitality</h4>
+//           </Link>
+//           </div>
+//           </div>
+//           </div>
+//           </div>
+//         </div>
 
        
 
