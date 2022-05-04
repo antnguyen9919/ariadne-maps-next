@@ -178,7 +178,7 @@ Engagement</motion.h1>
       <div className={styles.blackCTA}>
         <div className={styles.innerCTA}>
         <h1 className='text-center text-white'>Work together?</h1>
-      <Link href ="/letstalk"><a><button className=' bg-red-600 hover:bg-red-700 py-1 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
+      <Link href ="/letstalk"><a><button className=' bg-white hover:bg-red-700 py-1 px-3 text-lg mt-5'>Let&rsquo;s Talk</button></a></Link>
       </div>
         </div>
     </div>
