@@ -209,7 +209,7 @@ export default function Home() {
            initial="hidden"  exit="exit"
            variants = {variants} animate = {controls}
           >
-          <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:gap-36 xl:gap-28 gap-x-10 gap-y-3' >
+          <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 2xl:gap-36 xl:gap-28 gap-x-10 gap-y-3 mb-6' >
          <div>
             <img src="/Photos/z1.png" alt="people-served" />
          </div>
@@ -343,7 +343,7 @@ transition={{duration: 0.4, type: 'easeInOut'}}
 initial="hidden"  exit="exit"
 variants = {variants} animate = {controls2}>
 
-<div className='flex flex-row justify-center' >
+<div className='flex flex-row justify-center mb-6' >
 <h1 className='text-center xl:w-3/4 sm:w-full xs:w-full '>See how our customers are succeeding with Ariadne</h1>
           </div>
 

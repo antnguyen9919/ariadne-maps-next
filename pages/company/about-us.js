@@ -34,8 +34,8 @@ const AboutUs = () => {
     </ParallaxProvider>
       <main className={styles.main} >
            <div>
-               <div className='xl:px-10 px-4'>
-               <h1 className="text-center">
+               <div className='xl:px-10 2xl:px-36  px-4'>
+               <h1 className="text-center mt-8 mb-6">
    
    Ariadne Maps</h1>
              <p >Ariadne Maps is a high tech company that provides detailed indoor analytics and customer analytics with its cutting edge artificial intelligence approach. With this approach, it enables indoor and outdoor localization in many industries such as transportation, malls as well as retailers and airports. We make use of advanced artificial intelligence algorithms for precise and anonymous tracking of passengers and customers, to help companies optimize their infrastructure for e.g., minimizing congestion, having a better targeted advertising and marketing while maximizing satisfaction and experience of consumers. <br/> <br/>
@@ -43,7 +43,7 @@ const AboutUs = () => {
    
    </p>
                </div>
-               <div className="xl:px-10 mt-8 px-4 py-8">
+               <div className="xl:px-10 2xl:px-36  mt-8 px-4 py-8">
    
                  <h3 className='text-center xl:text-left mb-4' >European Union</h3>
                  <div className="flex mb-8 xl:flex-row md:flex-row flex-col justify-between  items-center" >
@@ -51,7 +51,7 @@ const AboutUs = () => {
                      <img src = "https://ariadnemaps.com/wp-content/uploads/2021/03/European-Union.png" alt = "EU"  width={"100%"} />
                    </div>
    
-                   <div className="xl:w-2/3 w-100 xl:text-left text-center">Ariadne Maps is a European company, proudly supported by European Union.</div>
+                   <div className="xl:w-2/3 w-100 xl:text-left text-center"><p>Ariadne Maps is a European company, proudly supported by European Union.</p></div>
                  </div>
                  <h3 className='text-center xl:text-left mb-4'>EIT Digital</h3>
                  <div className="flex xl:flex-row md:flex-row flex-col justify-between   items-center" >
@@ -59,10 +59,10 @@ const AboutUs = () => {
                      <img src = "https://ariadnemaps.com/wp-content/uploads/2020/05/logo-eitdigital.jpg" alt = "EU"  width={"100%"} />
                    </div>
    
-                   <div className="xl:w-2/3 w-100  xl:text-left text-center ">This activity has received funding from the European Institute of Innovation and Technology (EIT). This body of the European Union receives support from the European Unions Horizon 2020 research and innovation programme.</div>
+                   <div className="xl:w-2/3 w-100  xl:text-left text-center "><p>This activity has received funding from the European Institute of Innovation and Technology (EIT). This body of the European Union receives support from the European Unions Horizon 2020 research and innovation programme.</p></div>
                  </div>
                </div>
-                   <h1 className='text-center' >Ariadne Team</h1>
+                   <h1 className='text-center mt-8' >Ariadne Team</h1>
    
                <div className={styles.row}>
                    <div className={styles.columnA}>
