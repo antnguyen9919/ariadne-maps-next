@@ -173,7 +173,7 @@ export default function Home() {
             src ="/Videos/Hero2vid.mp4" 
             type="videos/mp4" autoPlay playsInline muted loop  /> */}
             <motion.video className={styles.bgVid} 
-            poster = "/Photos/smallScreen.png"
+            
             initial="hidden" animate="enter" exit="exit" variants={Vvariants} transition={{duration: 2, type: 'easeInOut'}} 
             
             src ="/Videos/Onscreen.mov" 
@@ -323,7 +323,7 @@ export default function Home() {
                 compliance. <br/> Track your customer journey with Ariadne&rsquo;s low-cost, plug-and-play solution - no app, no network connection, no cameras!
                 </p>
 
-                <p id={styles.list} className= 'leading-10 2xl:leading-10'>
+                <p id={styles.list} className= 'leading-8 2xl:leading-10'>
 
       <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Footfall, Dwell Time, Heatmap, Transitions Between Areas, ERP/BI/POS Integration...<br/>
       <span><CheckIcon /></span>&nbsp; &nbsp; &nbsp;Workforce Management<br/>
@@ -357,7 +357,12 @@ variants = {variants} animate = {controls2}>
           >
           <VideoCarousel/>
           </motion.div>
+          <div >
+
+</div>
         </div>
+       
+
         <div className={styles.section3} >
               <motion.div
               transition={{duration: 0.4, type: 'easeInOut'}} 

@@ -328,7 +328,7 @@
         margin-top: 0px;
         /* background-color: red; */
         height:740px;
-        
+        padding: 5vh 4vw;
     }
 
 
@@ -357,7 +357,7 @@
     .section4{
         
         min-height: 100vh;
-        padding: 80px 11vw;
+        padding: 80px 8vw;
         /* padding-top: 80px; */
         
     }
@@ -436,7 +436,8 @@
 
 
 .intro{
-    width: 28vw;
+    width: 38vw;
+    text-align: justify;
 }
 #list {
     margin-top: 1.2vw;
@@ -448,8 +449,8 @@
       
     .section1{
         margin-top: 0px;
-        
-        height:600px;
+        padding: 5vh 5vw;
+        height:650px;
         
     }
 
@@ -484,14 +485,14 @@
         
     }
     .section5{
-        height: 900px;
+        height: 800px;
         padding-top: 17vh;
     }
     .section6{
        
         /* background-color: red; */
         /* max-height: 300px; */
-        min-height: 90vh;
+        min-height: 110vh;
         padding-top: 3vh;
     }
     .section7{
@@ -508,7 +509,7 @@
 
 
 .intro{
-    width: 28vw;
+    width: 37vw;
 }
 #list {
     margin-top: 1.2vw;

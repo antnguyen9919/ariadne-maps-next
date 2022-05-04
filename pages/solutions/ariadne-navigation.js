@@ -133,8 +133,46 @@ We enable and lead you to hyperlocal marketing.
                   <div className='xl:w-1/3 2xl:w-1/4'><h5>Multi Storey Differentiation</h5></div>
                 </div>
             </div>
-            <div>
-              
+            <div className="my-8 mx-4">
+              <h1 className='text-center my-4'>Discover use cases</h1>
+                <div className="grid 2xl:grid-cols-6 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6 xl:gap-x-20">
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%" 
+                  src="/Photos/Pages/retail2.jpg" alt="" />
+                  <Link href="/industries/retail-stores"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Retail</p></a></Link>
+                  
+                </div>
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%" 
+                  src="/Photos/Pages/mall.jpg" alt="" />
+                     <Link href="/industries/shopping-centers"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Malls</p></a></Link>
+                     
+                </div>
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%" 
+                  src="https://raw.githubusercontent.com/antnguyen9919/ariadne-maps-next/hasim/public/Photos/Pages/Navigation/Airport.png" alt="" />
+                   <Link href="/industries/airports"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Airports</p></a></Link>
+                  
+                </div>
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%" 
+                  src="/Photos/Pages/transport.jpg" alt="" />
+                   <Link href="/industries/transportation"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Transportation</p></a></Link>
+             
+                </div>
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%"
+                  src="/Photos/Pages/cities.jpg" alt="" />
+                   <Link href="/industries/cities"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Cities</p></a></Link>
+                
+                </div>
+                <div className="w-full relative"  >
+                  <img className="object-cover relative brightness-50 rounded-md"  width="100%" height="100%"
+                  src="/Photos/Pages/hospitality2.jpg" alt="" />
+                   <Link href="/industries/hospitality"><a><p className="inline-block absolute bottom-3 right-7 z-40 text-white hover:text-yellow-400">Hospitality</p></a></Link>
+                    
+                </div>
+                </div>
             </div>
 
       <div className={styles.blackCTA}>
